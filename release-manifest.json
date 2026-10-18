@@ -2237,12 +2237,12 @@
     {
       "path": "play/game.js",
       "bytes": 3074,
-      "sha256": "522fb1cdc8ba469a7fc1546b62ac51862dfce78db6f0608c563cfd36480fe11b"
+      "sha256": "c5bb9b871556f194362a17e983bad2074b62f0f87659e05fc3f455d669915071"
     },
     {
       "path": "play/index.html",
       "bytes": 3972,
-      "sha256": "d7fcb6940485ac2e8a5d523e7fff6f6f0708c49ecb6af81e08ab7aad674c426a"
+      "sha256": "b1f4811be37d9a687548f2cbba667d1319f444dc1fad58cf8d69c39ae6cd2312"
     },
     {
       "path": "play/mac-controls.js",
@@ -2301,9 +2301,9 @@
     },
     {
       "path": "play/urban-ui.js",
-      "bytes": 24759,
-      "sha256": "4bd25da35720c3aa2dd19cd04706bc78ce18d7a886997e971fb267baf9b97784"
+      "bytes": 24639,
+      "sha256": "e7f5a6f7717b9db4c104659b28967f49e1c49f077ffd7805070c4862e61b978c"
     }
   ],
-  "totalBytes": 124882494
+  "totalBytes": 124882374
 }

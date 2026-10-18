@@ -18,7 +18,7 @@
         flf_config = JSON.parse(flf_config);
         requirejs.config({
             baseUrl: flf_config.root || '',
-            urlArgs: 'ui=20261018-public-brand-2',
+            urlArgs: 'ui=20261018-public-brand-3',
             // First visits fetch the full local data package over the network.
             waitSeconds: 120,
             paths: { game: '../play' },
