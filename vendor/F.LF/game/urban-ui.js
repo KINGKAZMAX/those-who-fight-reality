@@ -118,7 +118,7 @@ define(['LF/util', 'game/urban-hud', 'game/chapter-ui'], function (util, attachH
     credits.hidden = true
     credits.setAttribute('role', 'dialog')
     credits.setAttribute('aria-label', '關於這段旅程')
-    credits.innerHTML = '<span class="urban-eyebrow">THOSE WHO FIGHT THE MONSTER CALLED REALITY</span><h2>與名為現實的<br>怪物戰鬥的人們</h2><p>中式荒誕 × 魔幻現實主義<br>從小學到大學畢業的同屏合作格鬥遊戲。</p><p>課本、考試、排名與選擇，成了橫在眼前的怪物。<br>我們一次次倒下，再拉著彼此站起來。</p><p>目前可玩：第一章「不要掉隊」、雙人援護與檢查點；自由對戰含 ' + heroes.length + ' 位夥伴、' + stages.length + ' 處場景、' + monsters.length + ' 種怪物與混合編隊。後續章節仍在製作。</p><p>校園角色、場景與特效由 AI 協助製作。<br>完整開源與素材授權說明隨專案一併提供。</p>'
+    credits.innerHTML = '<span class="urban-eyebrow">THOSE WHO FIGHT THE MONSTER CALLED REALITY</span><h2>與名為現實的<br>怪物戰鬥的人們</h2><p>中式荒誕 × 魔幻現實主義<br>從小學到大學畢業的同屏合作格鬥遊戲。</p><p>課本、考試、排名與選擇，成了橫在眼前的怪物。<br>我們一次次倒下，再拉著彼此站起來。</p><p>目前可玩：第一章「不要掉隊」、雙人援護與檢查點；自由對戰含 ' + heroes.length + ' 位夥伴、' + stages.length + ' 處場景、' + monsters.length + ' 種怪物與混合編隊。後續章節仍在製作。</p>'
     credits.appendChild(button('返回主選單', 'urban-primary', function () { credits.hidden = true }))
     home.appendChild(credits)
     function showCredits() { credits.hidden = false }
