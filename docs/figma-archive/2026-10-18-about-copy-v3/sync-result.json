@@ -1,0 +1,50 @@
+{
+  "status": "completed and verified",
+  "page": {
+    "pageId": "81:2",
+    "overviewId": "81:3",
+    "createdNodeIds": [
+      "81:2",
+      "81:3",
+      "81:4",
+      "81:5",
+      "81:6",
+      "81:7",
+      "81:8"
+    ]
+  },
+  "live": {
+    "cardId": "82:2",
+    "imageNodeId": "82:7",
+    "imagePath": "docs/figma-archive/2026-10-18-about-copy-v3/verification/docs/verification/about-copy-v3/about.png",
+    "reportFrameId": "82:9",
+    "reportTextId": "82:11",
+    "reportExact": true,
+    "createdNodeIds": [
+      "82:2",
+      "82:3",
+      "82:4",
+      "82:5",
+      "82:6",
+      "82:7",
+      "82:8",
+      "82:9",
+      "82:10",
+      "82:11"
+    ]
+  },
+  "deployment": {
+    "sourceCommit": "b9c7a0cfb119b9f9fff89a5271e644fc7d3c5084",
+    "publishCommit": "51a637ea5414fe8733e3800c9fa237ef661f4cd3",
+    "pagesStatus": "built",
+    "playUrl": "https://kingkazmax.github.io/those-who-fight-reality/"
+  },
+  "sourceFiles": 6,
+  "sourceTextParts": 12,
+  "reportTextParts": 1,
+  "images": 1,
+  "allTextExact": true,
+  "allPreviousPagesRetained": true,
+  "visualReview": "Figma screenshot inspected: removed paragraph absent, remaining content readable, no clipping",
+  "pending": []
+}

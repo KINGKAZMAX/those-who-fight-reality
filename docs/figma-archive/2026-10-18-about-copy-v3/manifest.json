@@ -1,0 +1,84 @@
+{
+  "version": "2026-10-18-about-copy-v3",
+  "recordedAt": "2026-10-18T10:11:19.358745+00:00",
+  "status": "before and after source snapshotted; exact requested removal verified; build passed; live validation pending",
+  "userRequest": "刪除「校園角色、場景與特效由 AI 協助製作。完整開源與素材授權說明隨專案一併提供。」這兩句介面文案。",
+  "reason": "Apply the requested About-screen copy removal; update cache tags so the deployed page loads the revised copy",
+  "scope": "About UI paragraph and entry/cache version; preserve actual license files, historical source snapshots and prior Figma pages",
+  "records": [
+    {
+      "id": "BEFORE-001",
+      "path": "vendor/F.LF/game/urban-ui.js",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/urban-ui.js",
+      "readFrom": ".publish/source/vendor/F.LF/game/urban-ui.js",
+      "sha256": "c46c4910470fd047d989310c005499cf31cf0b5f8bb3cb2a9ed8967b0b78064f",
+      "bytes": 24683,
+      "encoding": "utf-8",
+      "status": "previous released source; preserved unchanged",
+      "parts": 4
+    },
+    {
+      "id": "BEFORE-002",
+      "path": "vendor/F.LF/game/game.js",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/game.js",
+      "readFrom": ".publish/source/vendor/F.LF/game/game.js",
+      "sha256": "32986b9a007cd571e318032bdbe805349550a0e002b1f6f5dbd32b038ab6e481",
+      "bytes": 3057,
+      "encoding": "utf-8",
+      "status": "previous released source; preserved unchanged",
+      "parts": 1
+    },
+    {
+      "id": "BEFORE-003",
+      "path": "vendor/F.LF/game/game.html",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/game.html",
+      "readFrom": ".publish/source/vendor/F.LF/game/game.html",
+      "sha256": "da2640daf4b8070a20e0e235befccb6b9a342c41c31782f8092c497d18a2f8d1",
+      "bytes": 3914,
+      "encoding": "utf-8",
+      "status": "previous released source; preserved unchanged",
+      "parts": 1
+    },
+    {
+      "id": "AFTER-001",
+      "path": "vendor/F.LF/game/urban-ui.js",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/after/vendor/F.LF/game/urban-ui.js",
+      "sha256": "df9565db98e87b8d594303b4dd55e1b5aad87c59300156b2df79150f0dcd2317",
+      "bytes": 24563,
+      "encoding": "utf-8",
+      "previousSha256": "c46c4910470fd047d989310c005499cf31cf0b5f8bb3cb2a9ed8967b0b78064f",
+      "status": "updated source; built successfully, live verification pending",
+      "parts": 4
+    },
+    {
+      "id": "AFTER-002",
+      "path": "vendor/F.LF/game/game.js",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/after/vendor/F.LF/game/game.js",
+      "sha256": "44cc2a377e17a1c41b8a63d917133915a350bfa0c70ee207907d7e62776c038c",
+      "bytes": 3057,
+      "encoding": "utf-8",
+      "previousSha256": "32986b9a007cd571e318032bdbe805349550a0e002b1f6f5dbd32b038ab6e481",
+      "status": "updated source; built successfully, live verification pending",
+      "parts": 1
+    },
+    {
+      "id": "AFTER-003",
+      "path": "vendor/F.LF/game/game.html",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/after/vendor/F.LF/game/game.html",
+      "sha256": "38f077ebf8722b7904a7ac5d72c6a94b7198c55c831eca46d527a13c56ebe862",
+      "bytes": 3914,
+      "encoding": "utf-8",
+      "previousSha256": "da2640daf4b8070a20e0e235befccb6b9a342c41c31782f8092c497d18a2f8d1",
+      "status": "updated source; built successfully, live verification pending",
+      "parts": 1
+    }
+  ],
+  "sourceChecks": {
+    "onlyRequestedParagraphRemoved": true,
+    "beforeContainsParagraph": true,
+    "afterLacksBothSentences": true,
+    "gameJsBrand3": true,
+    "gameHtmlBrand3": true
+  },
+  "codeChunks": 12
+}

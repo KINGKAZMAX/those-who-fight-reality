@@ -1,0 +1,122 @@
+[
+  {
+    "fileId": "BEFORE-001",
+    "path": "vendor/F.LF/game/urban-ui.js",
+    "part": 1,
+    "frameId": "81:118",
+    "headerId": "81:119",
+    "textId": "81:120",
+    "exactText": true,
+    "characters": 5981
+  },
+  {
+    "fileId": "BEFORE-001",
+    "path": "vendor/F.LF/game/urban-ui.js",
+    "part": 2,
+    "frameId": "81:121",
+    "headerId": "81:122",
+    "textId": "81:123",
+    "exactText": true,
+    "characters": 5956
+  },
+  {
+    "fileId": "BEFORE-001",
+    "path": "vendor/F.LF/game/urban-ui.js",
+    "part": 3,
+    "frameId": "81:124",
+    "headerId": "81:125",
+    "textId": "81:126",
+    "exactText": true,
+    "characters": 5998
+  },
+  {
+    "fileId": "BEFORE-001",
+    "path": "vendor/F.LF/game/urban-ui.js",
+    "part": 4,
+    "frameId": "81:127",
+    "headerId": "81:128",
+    "textId": "81:129",
+    "exactText": true,
+    "characters": 5261
+  },
+  {
+    "fileId": "BEFORE-002",
+    "path": "vendor/F.LF/game/game.js",
+    "part": 1,
+    "frameId": "81:130",
+    "headerId": "81:131",
+    "textId": "81:132",
+    "exactText": true,
+    "characters": 2985
+  },
+  {
+    "fileId": "BEFORE-003",
+    "path": "vendor/F.LF/game/game.html",
+    "part": 1,
+    "frameId": "81:133",
+    "headerId": "81:134",
+    "textId": "81:135",
+    "exactText": true,
+    "characters": 3695
+  },
+  {
+    "fileId": "AFTER-001",
+    "path": "vendor/F.LF/game/urban-ui.js",
+    "part": 1,
+    "frameId": "81:136",
+    "headerId": "81:137",
+    "textId": "81:138",
+    "exactText": true,
+    "characters": 5981
+  },
+  {
+    "fileId": "AFTER-001",
+    "path": "vendor/F.LF/game/urban-ui.js",
+    "part": 2,
+    "frameId": "81:139",
+    "headerId": "81:140",
+    "textId": "81:141",
+    "exactText": true,
+    "characters": 5906
+  },
+  {
+    "fileId": "AFTER-001",
+    "path": "vendor/F.LF/game/urban-ui.js",
+    "part": 3,
+    "frameId": "81:142",
+    "headerId": "81:143",
+    "textId": "81:144",
+    "exactText": true,
+    "characters": 5998
+  },
+  {
+    "fileId": "AFTER-001",
+    "path": "vendor/F.LF/game/urban-ui.js",
+    "part": 4,
+    "frameId": "81:145",
+    "headerId": "81:146",
+    "textId": "81:147",
+    "exactText": true,
+    "characters": 5261
+  },
+  {
+    "fileId": "AFTER-002",
+    "path": "vendor/F.LF/game/game.js",
+    "part": 1,
+    "frameId": "81:148",
+    "headerId": "81:149",
+    "textId": "81:150",
+    "exactText": true,
+    "characters": 2985
+  },
+  {
+    "fileId": "AFTER-003",
+    "path": "vendor/F.LF/game/game.html",
+    "part": 1,
+    "frameId": "81:151",
+    "headerId": "81:152",
+    "textId": "81:153",
+    "exactText": true,
+    "characters": 3695
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "count": 8,
+  "allSame": true,
+  "files": [
+    {
+      "id": "BEFORE-001",
+      "path": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/urban-ui.js",
+      "same": true
+    },
+    {
+      "id": "BEFORE-002",
+      "path": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/game.js",
+      "same": true
+    },
+    {
+      "id": "BEFORE-003",
+      "path": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/game.html",
+      "same": true
+    },
+    {
+      "id": "AFTER-001",
+      "path": "docs/figma-archive/2026-10-18-about-copy-v3/after/vendor/F.LF/game/urban-ui.js",
+      "same": true
+    },
+    {
+      "id": "AFTER-002",
+      "path": "docs/figma-archive/2026-10-18-about-copy-v3/after/vendor/F.LF/game/game.js",
+      "same": true
+    },
+    {
+      "id": "AFTER-003",
+      "path": "docs/figma-archive/2026-10-18-about-copy-v3/after/vendor/F.LF/game/game.html",
+      "same": true
+    },
+    {
+      "id": "LIVE-001",
+      "path": "docs/figma-archive/2026-10-18-about-copy-v3/verification/docs/verification/about-copy-v3/about.png",
+      "same": true
+    },
+    {
+      "id": "LIVE-002",
+      "path": "docs/figma-archive/2026-10-18-about-copy-v3/verification/docs/verification/about-copy-v3/report.json",
+      "same": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "texts": [
+    {
+      "textId": "81:120",
+      "characters": 5981,
+      "hash": "8f1b6c39",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:123",
+      "characters": 5956,
+      "hash": "ab3edd2e",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:126",
+      "characters": 5998,
+      "hash": "e7884d3b",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:129",
+      "characters": 5261,
+      "hash": "92ea4451",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:132",
+      "characters": 2985,
+      "hash": "8d00716e",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:135",
+      "characters": 3695,
+      "hash": "90bafc6",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:138",
+      "characters": 5981,
+      "hash": "8f1b6c39",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:141",
+      "characters": 5906,
+      "hash": "40e3b61",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:144",
+      "characters": 5998,
+      "hash": "e7884d3b",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:147",
+      "characters": 5261,
+      "hash": "92ea4451",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:150",
+      "characters": 2985,
+      "hash": "a1071fa1",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "81:153",
+      "characters": 3695,
+      "hash": "37d31631",
+      "same": true,
+      "autoResize": "HEIGHT"
+    },
+    {
+      "textId": "82:11",
+      "characters": 479,
+      "hash": "a89376c2",
+      "same": true,
+      "autoResize": "HEIGHT"
+    }
+  ],
+  "allExact": true,
+  "allAutoHeight": true,
+  "imageHash": "beb68df54b332b3261717e327ba49ffd2214657d",
+  "oldPagesRetained": true,
+  "oldPageCount": 26,
+  "frames": 15,
+  "overlaps": [],
+  "overflow": []
+}

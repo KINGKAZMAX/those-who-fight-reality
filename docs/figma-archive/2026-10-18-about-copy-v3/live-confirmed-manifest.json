@@ -1,0 +1,32 @@
+{
+  "version": "2026-10-18-about-copy-v3-confirmed",
+  "sourceCommit": "b9c7a0cfb119b9f9fff89a5271e644fc7d3c5084",
+  "publishCommit": "51a637ea5414fe8733e3800c9fa237ef661f4cd3",
+  "pagesStatus": "built",
+  "playUrl": "https://kingkazmax.github.io/those-who-fight-reality/",
+  "passed": true,
+  "rootVisualReview": "passed; requested two sentences absent; description, current playable content and Back button retained",
+  "records": [
+    {
+      "id": "LIVE-001",
+      "path": "docs/verification/about-copy-v3/about.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/verification/docs/verification/about-copy-v3/about.png",
+      "sha256": "d872e8b30d16208023b55cdb7ac74efce2fad92191e782e40e46ee1e9d2993a6",
+      "bytes": 314817,
+      "source": "Actual deployed brand-3 About page verification",
+      "encoding": "png",
+      "width": 1280,
+      "height": 920
+    },
+    {
+      "id": "LIVE-002",
+      "path": "docs/verification/about-copy-v3/report.json",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/verification/docs/verification/about-copy-v3/report.json",
+      "sha256": "3f73d6e72186de6918be69fa5214dabdb6b0479a7c28d91f0490f2d7024faa32",
+      "bytes": 760,
+      "source": "Actual deployed brand-3 About page verification",
+      "encoding": "utf-8",
+      "text": "{\n  \"url\": \"https://kingkazmax.github.io/those-who-fight-reality/\",\n  \"passed\": true,\n  \"pageErrors\": [],\n  \"consoleErrors\": [],\n  \"failedResources\": [],\n  \"main\": \"game.js?v=20261018-public-brand-3\",\n  \"aboutText\": \"THOSE WHO FIGHT THE MONSTER CALLED REALITY\\n與名為現實的\\n怪物戰鬥的人們\\n\\n中式荒誕 × 魔幻現實主義\\n從小學到大學畢業的同屏合作格鬥遊戲。\\n\\n課本、考試、排名與選擇，成了橫在眼前的怪物。\\n我們一次次倒下，再拉著彼此站起來。\\n\\n目前可玩：第一章「不要掉隊」、雙人援護與檢查點；自由對戰含 6 位夥伴、5 處場景、3 種怪物與混合編隊。後續章節仍在製作。\\n\\n返回主選單\",\n  \"checkedAt\": \"2026-10-18T10:14:23.685Z\"\n}"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": "2026-10-18-about-copy-v3",
+  "recordedAt": "2026-10-18T10:11:19.358745+00:00",
+  "status": "before snapshot saved; awaiting updated source and about-screen evidence",
+  "userRequest": "刪除「校園角色、場景與特效由 AI 協助製作。完整開源與素材授權說明隨專案一併提供。」這兩句介面文案。",
+  "reason": "Apply the requested About-screen copy removal; update cache tags so the deployed page loads the revised copy",
+  "scope": "About UI paragraph and entry/cache version; preserve actual license files, historical source snapshots and prior Figma pages",
+  "records": [
+    {
+      "id": "BEFORE-001",
+      "path": "vendor/F.LF/game/urban-ui.js",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/urban-ui.js",
+      "readFrom": ".publish/source/vendor/F.LF/game/urban-ui.js",
+      "sha256": "c46c4910470fd047d989310c005499cf31cf0b5f8bb3cb2a9ed8967b0b78064f",
+      "bytes": 24683,
+      "encoding": "utf-8",
+      "status": "previous released source; preserved unchanged"
+    },
+    {
+      "id": "BEFORE-002",
+      "path": "vendor/F.LF/game/game.js",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/game.js",
+      "readFrom": ".publish/source/vendor/F.LF/game/game.js",
+      "sha256": "32986b9a007cd571e318032bdbe805349550a0e002b1f6f5dbd32b038ab6e481",
+      "bytes": 3057,
+      "encoding": "utf-8",
+      "status": "previous released source; preserved unchanged"
+    },
+    {
+      "id": "BEFORE-003",
+      "path": "vendor/F.LF/game/game.html",
+      "snapshotPath": "docs/figma-archive/2026-10-18-about-copy-v3/before/vendor/F.LF/game/game.html",
+      "readFrom": ".publish/source/vendor/F.LF/game/game.html",
+      "sha256": "da2640daf4b8070a20e0e235befccb6b9a342c41c31782f8092c497d18a2f8d1",
+      "bytes": 3914,
+      "encoding": "utf-8",
+      "status": "previous released source; preserved unchanged"
+    }
+  ]
+}
