@@ -1,0 +1,65 @@
+{
+  "errors": [],
+  "failedResources": [],
+  "checks": [
+    {
+      "name": "story entry, modal keyboard handling, real AI performance sample",
+      "details": {
+        "fps": [
+          "30 FPS",
+          "30 FPS",
+          "30 FPS",
+          "30 FPS",
+          "30 FPS",
+          "30 FPS"
+        ],
+        "enemies": 2
+      }
+    },
+    {
+      "name": "held defence revives teammate; pause freezes progress; revived player moves",
+      "details": {
+        "progress": 0.4444444444444444,
+        "hp": 181,
+        "rescues": 1
+      }
+    },
+    {
+      "name": "real hits clear encounter; modal blocks pause; exit cleans match; reload resumes checkpoint 1",
+      "details": {
+        "checkpoint": 1,
+        "enemies": 3
+      }
+    },
+    {
+      "name": "team failure retains checkpoint; retry restores both players",
+      "details": {
+        "checkpoint": 1,
+        "hp": [
+          500,
+          500
+        ]
+      }
+    },
+    {
+      "name": "photo persists, 700×600 dialog fits, free battle and Escape still work",
+      "details": {
+        "mementos": [
+          "第一张合照"
+        ]
+      }
+    },
+    {
+      "name": "direct next encounter keeps layout in viewport and native combos usable",
+      "details": {
+        "layout": {
+          "top": 28,
+          "bottom": 760,
+          "height": 900
+        },
+        "skillMP": 40
+      }
+    }
+  ],
+  "passed": true
+}

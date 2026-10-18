@@ -1,0 +1,122 @@
+[
+  {
+    "id": 4,
+    "pic": 114,
+    "file": "animation/chenye-1.png",
+    "native": "sprite/henry_1.png",
+    "row": 5,
+    "column": 5
+  },
+  {
+    "id": 213,
+    "pic": 32,
+    "file": "animation/object-213-0.png",
+    "native": "sprite/weapon7.png",
+    "row": 4,
+    "column": 3
+  },
+  {
+    "id": 213,
+    "pic": 33,
+    "file": "animation/object-213-0.png",
+    "native": "sprite/weapon7.png",
+    "row": 4,
+    "column": 4
+  },
+  {
+    "id": 213,
+    "pic": 34,
+    "file": "animation/object-213-0.png",
+    "native": "sprite/weapon7.png",
+    "row": 4,
+    "column": 5
+  },
+  {
+    "id": 213,
+    "pic": 35,
+    "file": "animation/object-213-0.png",
+    "native": "sprite/weapon7.png",
+    "row": 4,
+    "column": 6
+  },
+  {
+    "id": 320,
+    "pic": 93,
+    "file": "animation/object-320-0.png",
+    "native": "sprite/broken.png",
+    "row": 10,
+    "column": 4
+  },
+  {
+    "id": 320,
+    "pic": 94,
+    "file": "animation/object-320-0.png",
+    "native": "sprite/broken.png",
+    "row": 10,
+    "column": 5
+  },
+  {
+    "id": 320,
+    "pic": 95,
+    "file": "animation/object-320-0.png",
+    "native": "sprite/broken.png",
+    "row": 10,
+    "column": 6
+  },
+  {
+    "id": 320,
+    "pic": 96,
+    "file": "animation/object-320-0.png",
+    "native": "sprite/broken.png",
+    "row": 10,
+    "column": 7
+  },
+  {
+    "id": 320,
+    "pic": 97,
+    "file": "animation/object-320-0.png",
+    "native": "sprite/broken.png",
+    "row": 10,
+    "column": 8
+  },
+  {
+    "id": 320,
+    "pic": 120,
+    "file": "animation/object-320-100.png",
+    "native": "sprite/broken2.png",
+    "row": 3,
+    "column": 1
+  },
+  {
+    "id": 320,
+    "pic": 121,
+    "file": "animation/object-320-100.png",
+    "native": "sprite/broken2.png",
+    "row": 3,
+    "column": 2
+  },
+  {
+    "id": 320,
+    "pic": 122,
+    "file": "animation/object-320-100.png",
+    "native": "sprite/broken2.png",
+    "row": 3,
+    "column": 3
+  },
+  {
+    "id": 320,
+    "pic": 123,
+    "file": "animation/object-320-100.png",
+    "native": "sprite/broken2.png",
+    "row": 3,
+    "column": 4
+  },
+  {
+    "id": 214,
+    "pic": 11,
+    "file": "animation/object-214-0.png",
+    "native": "sprite/john_biscuit.png",
+    "row": 3,
+    "column": 4
+  }
+]

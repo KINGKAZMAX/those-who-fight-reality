@@ -1,0 +1,66 @@
+{
+  "rootDescendantCount": 190,
+  "rootNodeTypeCounts": {
+    "FRAME": 32,
+    "TEXT": 127,
+    "RECTANGLE": 6,
+    "INSTANCE": 21,
+    "VECTOR": 4
+  },
+  "boards": [
+    {
+      "id": "2:57",
+      "name": "01 概览｜世界观与决策",
+      "width": 1440,
+      "height": 1160,
+      "childCount": 8
+    },
+    {
+      "id": "2:74",
+      "name": "02 角色｜近远程搭档",
+      "width": 1440,
+      "height": 1160,
+      "childCount": 4
+    },
+    {
+      "id": "2:100",
+      "name": "03 玩法｜三分钟关卡提案",
+      "width": 1440,
+      "height": 1160,
+      "childCount": 5
+    },
+    {
+      "id": "2:133",
+      "name": "04 资产｜台账与渐进替换",
+      "width": 1440,
+      "height": 1160,
+      "childCount": 11
+    },
+    {
+      "id": "2:183",
+      "name": "05 UI v0.2｜黑白荧光黄与斜切卡片",
+      "width": 1440,
+      "height": 1160,
+      "childCount": 8
+    },
+    {
+      "id": "2:227",
+      "name": "06 交付｜Tripo 路线与本机试玩",
+      "width": 1440,
+      "height": 1160,
+      "childCount": 4
+    },
+    {
+      "id": "8:78",
+      "name": "07 UI v0.2｜已实施界面与组件",
+      "width": 1440,
+      "height": 1280,
+      "childCount": 10
+    }
+  ],
+  "fontFamilies": [
+    "Noto Sans SC",
+    "Inter"
+  ],
+  "imageNodes": []
+}

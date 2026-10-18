@@ -1,0 +1,891 @@
+{
+  "errors": [],
+  "resources": [],
+  "canceledMedia": [],
+  "skills": [
+    {
+      "hero": "小一",
+      "skill": "草稿冲击",
+      "id": "xiaoyi-draft",
+      "shortcut": "Q",
+      "frames": [
+        0,
+        240,
+        241,
+        242,
+        243,
+        244,
+        246,
+        266,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        11,
+        30,
+        150,
+        101,
+        207
+      ],
+      "minEnemyHP": 470,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 40,
+      "hp": [
+        500,
+        500,
+        477
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "草稿冲击：已输入。",
+        "skillId": "xiaoyi-draft",
+        "time": 1792226122135
+      }
+    },
+    {
+      "hero": "小一",
+      "skill": "不服输连拳",
+      "id": "xiaoyi-punches",
+      "shortcut": "E",
+      "frames": [
+        0,
+        1,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        2,
+        3
+      ],
+      "objects": [
+        11,
+        30
+      ],
+      "minEnemyHP": 401,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 75,
+      "hp": [
+        500,
+        500,
+        407
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "不服输连拳：已输入。",
+        "skillId": "xiaoyi-punches",
+        "time": 1792226127292
+      }
+    },
+    {
+      "hero": "小一",
+      "skill": "向上一步",
+      "id": "xiaoyi-step",
+      "shortcut": "R",
+      "frames": [
+        0,
+        1,
+        2,
+        290,
+        291,
+        292,
+        219,
+        3
+      ],
+      "objects": [
+        11,
+        30,
+        100,
+        151,
+        101
+      ],
+      "minEnemyHP": 500,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 25,
+      "hp": [
+        500,
+        500,
+        500
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "向上一步：已输入。",
+        "skillId": "xiaoyi-step",
+        "time": 1792226135917
+      }
+    },
+    {
+      "hero": "小一",
+      "skill": "破题升龙",
+      "id": "xiaoyi-breakthrough",
+      "shortcut": "T",
+      "frames": [
+        0,
+        1,
+        300,
+        301,
+        302,
+        180,
+        181,
+        182,
+        183,
+        185,
+        230,
+        219,
+        2,
+        3
+      ],
+      "objects": [
+        11,
+        30
+      ],
+      "minEnemyHP": 386,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 470,
+      "initialHP": 500,
+      "mpUsed": 225,
+      "hp": [
+        478,
+        477,
+        393
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "破题升龙：已输入。",
+        "skillId": "xiaoyi-breakthrough",
+        "time": 1792226156225
+      }
+    },
+    {
+      "hero": "林夏",
+      "skill": "纸飞机",
+      "id": "linxia-plane",
+      "shortcut": "Q",
+      "frames": [
+        0,
+        235,
+        236,
+        237,
+        240,
+        241,
+        242,
+        243,
+        180,
+        181,
+        182,
+        183,
+        230,
+        219,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        101,
+        150,
+        200
+      ],
+      "minEnemyHP": 445,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 470,
+      "initialHP": 500,
+      "mpUsed": 75,
+      "hp": [
+        476,
+        476,
+        452
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "纸飞机：已输入。",
+        "skillId": "linxia-plane",
+        "time": 1792226160820
+      }
+    },
+    {
+      "hero": "林夏",
+      "skill": "回旋批注",
+      "id": "linxia-notes",
+      "shortcut": "E",
+      "frames": [
+        0,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        151,
+        100,
+        214
+      ],
+      "minEnemyHP": 450,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 250,
+      "hp": [
+        500,
+        500,
+        455
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "回旋批注：已输入。",
+        "skillId": "linxia-notes",
+        "time": 1792226165994
+      }
+    },
+    {
+      "hero": "林夏",
+      "skill": "课桌结界",
+      "id": "linxia-desk",
+      "shortcut": "R",
+      "frames": [
+        0,
+        270,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        180,
+        181,
+        182,
+        183,
+        230,
+        219,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        101,
+        151,
+        150,
+        200
+      ],
+      "minEnemyHP": 441,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 470,
+      "initialHP": 500,
+      "mpUsed": 100,
+      "hp": [
+        477,
+        477,
+        448
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "课桌结界：已输入。",
+        "skillId": "linxia-desk",
+        "time": 1792226170011
+      }
+    },
+    {
+      "hero": "林夏",
+      "skill": "同桌补给",
+      "id": "linxia-friend",
+      "shortcut": "T",
+      "frames": [
+        0,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        100,
+        151,
+        200
+      ],
+      "minEnemyHP": 250,
+      "allyY": 0,
+      "minAllyHP": 250,
+      "initialHP": 500,
+      "mpUsed": 350,
+      "hp": [
+        500,
+        369,
+        250
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "同桌补给：已输入。",
+        "skillId": "linxia-friend",
+        "time": 1792226174927
+      }
+    },
+    {
+      "hero": "林夏",
+      "skill": "深呼吸",
+      "id": "linxia-breathe",
+      "shortcut": "Y",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        151,
+        101,
+        100,
+        200
+      ],
+      "minEnemyHP": 250,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 350,
+      "hp": [
+        369,
+        500,
+        250
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "深呼吸：已输入。",
+        "skillId": "linxia-breathe",
+        "time": 1792226192393
+      }
+    },
+    {
+      "hero": "周齐",
+      "skill": "冷静一下",
+      "id": "zhouqi-calm",
+      "shortcut": "Q",
+      "frames": [
+        0,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        1,
+        2,
+        3,
+        180,
+        181,
+        182,
+        183,
+        230,
+        219
+      ],
+      "objects": [
+        8,
+        11,
+        30,
+        151,
+        100,
+        150,
+        101,
+        209
+      ],
+      "minEnemyHP": 455,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 470,
+      "initialHP": 500,
+      "mpUsed": 100,
+      "hp": [
+        478,
+        478,
+        472
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "冷静一下：已输入。",
+        "skillId": "zhouqi-calm",
+        "time": 1792226211031
+      }
+    },
+    {
+      "hero": "周齐",
+      "skill": "划定边界",
+      "id": "zhouqi-boundary",
+      "shortcut": "E",
+      "frames": [
+        0,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        8,
+        11,
+        30,
+        150,
+        101,
+        151,
+        212
+      ],
+      "minEnemyHP": 440,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 150,
+      "hp": [
+        500,
+        500,
+        453
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "划定边界：已输入。",
+        "skillId": "zhouqi-boundary",
+        "time": 1792226219216
+      }
+    },
+    {
+      "hero": "周齐",
+      "skill": "公式风暴",
+      "id": "zhouqi-formula",
+      "shortcut": "R",
+      "frames": [
+        0,
+        1,
+        2,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        3
+      ],
+      "objects": [
+        8,
+        11,
+        30,
+        150,
+        151,
+        101,
+        100,
+        212
+      ],
+      "minEnemyHP": 425,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 300,
+      "hp": [
+        500,
+        500,
+        435
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "公式风暴：已输入。",
+        "skillId": "zhouqi-formula",
+        "time": 1792226236237
+      }
+    },
+    {
+      "hero": "周齐",
+      "skill": "纪律尺",
+      "id": "zhouqi-ruler",
+      "shortcut": "T",
+      "frames": [
+        0,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        8,
+        11,
+        30,
+        100,
+        151,
+        150,
+        213
+      ],
+      "minEnemyHP": 500,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 150,
+      "hp": [
+        500,
+        500,
+        500
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": 213,
+      "status": {
+        "ok": true,
+        "message": "纪律尺：已输入。",
+        "skillId": "zhouqi-ruler",
+        "time": 1792226250379
+      }
+    },
+    {
+      "hero": "陈野",
+      "skill": "下课冲击",
+      "id": "chenye-bell",
+      "shortcut": "Q",
+      "frames": [
+        0,
+        1,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        2,
+        3
+      ],
+      "objects": [
+        4,
+        11,
+        30,
+        101,
+        150,
+        100,
+        151,
+        204
+      ],
+      "minEnemyHP": 420,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 150,
+      "hp": [
+        500,
+        500,
+        428
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "下课冲击：已输入。",
+        "skillId": "chenye-bell",
+        "time": 1792226259779
+      }
+    },
+    {
+      "hero": "陈野",
+      "skill": "穿堂纸箭",
+      "id": "chenye-arrow",
+      "shortcut": "E",
+      "frames": [
+        0,
+        270,
+        271,
+        272,
+        273,
+        274,
+        277,
+        278,
+        279,
+        180,
+        181,
+        182,
+        183,
+        230,
+        219,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        4,
+        11,
+        30,
+        151,
+        101,
+        100,
+        150,
+        208
+      ],
+      "minEnemyHP": 450,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 470,
+      "initialHP": 500,
+      "mpUsed": 200,
+      "hp": [
+        478,
+        478,
+        458
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "穿堂纸箭：已输入。",
+        "skillId": "chenye-arrow",
+        "time": 1792226266273
+      }
+    },
+    {
+      "hero": "陈野",
+      "skill": "午后笛声",
+      "id": "chenye-flute",
+      "shortcut": "R",
+      "frames": [
+        0,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        1
+      ],
+      "objects": [
+        4,
+        11,
+        30,
+        150,
+        151,
+        101
+      ],
+      "minEnemyHP": 410,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 350,
+      "hp": [
+        500,
+        500,
+        411
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "午后笛声：已输入。",
+        "skillId": "chenye-flute",
+        "time": 1792226271930
+      }
+    },
+    {
+      "hero": "陈野",
+      "skill": "五向纸鸢",
+      "id": "chenye-kites",
+      "shortcut": "T",
+      "frames": [
+        0,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        4,
+        11,
+        30,
+        150,
+        101,
+        100,
+        151,
+        201
+      ],
+      "minEnemyHP": 375,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 150,
+      "hp": [
+        500,
+        500,
+        381
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "status": {
+        "ok": true,
+        "message": "五向纸鸢：已输入。",
+        "skillId": "chenye-kites",
+        "time": 1792226276979
+      }
+    }
+  ],
+  "extra": [
+    {
+      "name": "two players cast the same frame",
+      "mpUsed": [
+        40,
+        40
+      ]
+    },
+    {
+      "name": "native combo and follow-up projectile",
+      "mpUsed": 80
+    }
+  ],
+  "passed": true
+}

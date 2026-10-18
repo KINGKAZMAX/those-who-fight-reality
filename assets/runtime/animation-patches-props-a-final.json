@@ -1,0 +1,137 @@
+{
+  "generator": "built-in image_gen",
+  "reviewed": false,
+  "notes": "Native exactcrop references used. Nine fragment phases and final broken elliptical ring supplied; sourceRects isolate generated shapes, fit each to native source geometry and native FX alpha/energy mask.",
+  "patches": [
+    {
+      "objectId": 320,
+      "pic": 93,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 320,
+      "pic": 94,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 310,
+        "y": 0,
+        "w": 210,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 320,
+      "pic": 95,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 520,
+        "y": 0,
+        "w": 265,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 320,
+      "pic": 96,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 785,
+        "y": 0,
+        "w": 225,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 320,
+      "pic": 97,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 1010,
+        "y": 0,
+        "w": 230,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 320,
+      "pic": 120,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 1240,
+        "y": 0,
+        "w": 240,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 320,
+      "pic": 121,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 1480,
+        "y": 0,
+        "w": 230,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 320,
+      "pic": 122,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 1710,
+        "y": 0,
+        "w": 220,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 320,
+      "pic": 123,
+      "file": "animation/object-320-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-8902636c-9169-45fc-9b7d-36db2fe2a9ef.png",
+      "sourceRect": {
+        "x": 1930,
+        "y": 0,
+        "w": 242,
+        "h": 724
+      },
+      "reviewed": false
+    },
+    {
+      "objectId": 214,
+      "pic": 11,
+      "file": "animation/object-214-missing-patches.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-21f26c18-8278-4354-8963-5dea558359c1.png",
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "w": 2167,
+        "h": 726
+      },
+      "reviewed": false
+    }
+  ]
+}

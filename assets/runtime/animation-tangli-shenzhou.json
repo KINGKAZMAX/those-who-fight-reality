@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tangli",
+    "nativeSource": "sprite/dennis_0.png",
+    "replacement": "animation/tangli-0.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-38fca216-29e1-4040-b528-33099a5c37e0.png",
+    "columns": 10,
+    "rows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "tangli",
+    "nativeSource": "sprite/dennis_1.png",
+    "replacement": "animation/tangli-1.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-fa6228da-b276-48e2-bf42-74d6a93cbbe3.png",
+    "columns": 10,
+    "rows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "tangli",
+    "nativeSource": "sprite/dennis_2.png",
+    "replacement": "animation/tangli-2.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-a0cc24e7-8304-403f-ac9b-5ff616fb027b.png",
+    "columns": 10,
+    "rows": 5,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "shenzhou",
+    "nativeSource": "sprite/woody_0.png",
+    "replacement": "animation/shenzhou-0.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-1952c518-367f-4534-a2d7-35fca8c55e29.png",
+    "columns": 10,
+    "rows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "shenzhou",
+    "nativeSource": "sprite/woody_1.png",
+    "replacement": "animation/shenzhou-1.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-7b4602d4-3583-47bd-82d5-e7877408736f.png",
+    "columns": 10,
+    "rows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "shenzhou",
+    "nativeSource": "sprite/woody_2.png",
+    "replacement": "animation/shenzhou-2.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-7db05cf5-f13e-4eb5-a4a3-dce0e8c438c9.png",
+    "columns": 10,
+    "rows": 5,
+    "declaredRows": 7,
+    "reviewed": false
+  }
+]

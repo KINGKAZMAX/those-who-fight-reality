@@ -1,0 +1,26 @@
+[
+  {
+    "id": 31,
+    "nativeId": 4,
+    "nativeSource": "sprite/henry_1.png",
+    "replacement": "animation/stapler-monster-1.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14996-1a1a-7510-91d2-743aa65dd907/exec-3281a786-9264-4ac2-8b6d-562d9fc2c1a5.png",
+    "columns": 10,
+    "rows": 7,
+    "sourceRows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": 31,
+    "nativeId": 4,
+    "nativeSource": "sprite/henry_2.png",
+    "replacement": "animation/stapler-monster-2.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14996-1a1a-7510-91d2-743aa65dd907/exec-a8c5e90d-aa01-4598-b756-949940a40d93.png",
+    "columns": 10,
+    "rows": 2,
+    "sourceRows": 2,
+    "declaredRows": 7,
+    "reviewed": false
+  }
+]

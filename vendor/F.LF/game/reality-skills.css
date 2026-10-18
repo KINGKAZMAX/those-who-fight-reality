@@ -1,0 +1,83 @@
+/* The guide lives above the game; the read-only combo tray stays outside the arena. */
+.reality-skills-dialog {
+  position: fixed; inset: 50% auto auto 50%; transform: translate(-50%, -50%);
+  width: min(750px, calc(100vw - 30px)); max-width: none; height: min(680px, calc(100dvh - 30px));
+  max-height: calc(100dvh - 30px); margin: 0; padding: 0; overflow: hidden;
+  color: #fff3d4; background: #102d60; border: 3px solid #e0e6db;
+  box-shadow: 6px 6px 0 #041429; font: 12px/1.5 "Courier New", "PingFang SC", "Microsoft YaHei", monospace;
+}
+.reality-skills-dialog[open] { display: flex; flex-direction: column; }
+.reality-skills-dialog::backdrop { background: #041127dc; }
+.reality-skills-dialog * { box-sizing: border-box; }
+.reality-skills-dialog button { font: inherit; cursor: pointer; border-radius: 0; }
+.reality-skills-head { flex: 0 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 20px 12px; background: #1e4a94; border-bottom: 3px solid #bdcfe3; }
+.reality-skills-kicker { color: #bfd0e8; font-size: 10px; letter-spacing: 1px; }
+.reality-skills-head h2 { margin: 3px 0 0; font-size: 24px; letter-spacing: 2px; }
+.reality-skills-close { color: #fff3d4; background: #13336a; padding: 8px 12px; border: 1px solid #adc1da !important; white-space: nowrap; }
+.reality-skills-players { flex: 0 0 auto; display: flex; gap: 7px; padding: 13px 20px 10px; }
+.reality-skills-player { padding: 6px 15px; background: #183f7c; border: 1px solid #6e91c0 !important; color: #cfddf0; font-size: 11px !important; }
+.reality-skills-player.is-current { background: #e4e8df; color: #183768; border-color: #fff3d4 !important; }
+.reality-skills-heroes { display: grid; grid-template-columns: repeat(var(--reality-hero-columns, 4), minmax(0, 1fr)); gap: 8px; padding: 0 20px; flex: 0 0 auto; }
+.reality-skills-hero { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 45px; padding: 4px 8px; color: #c9d9ee; background: #14386f; border: 2px solid #6387b8 !important; font-weight: 700 !important; }
+.reality-skills-hero img { width: 31px; height: 31px; image-rendering: pixelated; object-fit: cover; }
+.reality-skills-hero.is-current { border-color: #fff3d4 !important; color: #fff3d4; background: #295a9e; box-shadow: inset 0 -3px #123873; }
+.reality-skills-context { flex: 0 0 auto; padding: 8px 20px; margin: 0; font-size: 10px; color: #bdcfe8; }
+.reality-skills-body { min-height: 0; flex: 1 1 auto; overflow: auto; overscroll-behavior: contain; padding: 0 20px 15px; scrollbar-color: #8eaed4 #0b234a; scrollbar-width: thin; }
+.reality-skills-list { display: grid; gap: 8px; }
+.reality-skill-card { padding: 10px 12px; background: #15396f; border: 1px solid #698dbb; border-left: 3px solid #a9c6e9; }
+.reality-skill-card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.reality-skill-card-head h3 { margin: 0; font-size: 14px; color: #ffedc6; }
+.reality-skill-mp { font-size: 10px; color: #a9d3ff; font-weight: 700; }
+.reality-skill-description { margin: 4px 0 8px; color: #cfdbeb; font-size: 11px; }
+.reality-skill-inputs { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 5px 12px; }
+.reality-skill-combo { display: flex; align-items: center; gap: 5px; font-size: 10px; color: #a9c2e4; }
+.reality-skills-dialog kbd { background: #e0e7e6; color: #12305c; border-bottom: 2px solid #8babc9; font: bold 10px/1.1 "Courier New", monospace; min-width: 23px; padding: 4px 6px; text-align: center; }
+.reality-skill-then { color: #ffdfa5; font-size: 14px; }
+.reality-skill-followup { margin: 7px 0 0; color: #eed1a0; font-size: 10px; }
+.reality-skills-notes { margin-top: 12px; padding: 10px 12px; background: #0e2854; border-left: 3px solid #e8c789; }
+.reality-skills-notes h3 { margin: 0 0 6px; font-size: 12px; color: #f1d6a8; }
+.reality-skills-notes p { margin: 6px 0; color: #c9d8ea; font-size: 10px; line-height: 1.7; }
+.reality-skills-basics { margin-top: 16px; border-top: 2px solid #688bb7; padding-top: 11px; }
+.reality-skills-basics h3 { margin: 0 0 7px; font-size: 12px; color: #fff3d4; }
+.reality-skills-basic-text p { margin: 7px 0; display: flex; gap: 14px; font-size: 10px; color: #b8cce6; }
+.reality-skills-basic-text b { flex: 0 0 116px; color: #e8e6d6; }
+.reality-skills-foot { display: grid; gap: 3px; padding: 9px 20px; flex: 0 0 auto; color: #b7c9e0; background: #0b2450; border-top: 2px solid #6e92bd; font-size: 9px; }
+.reality-skills-foot > span:first-child { color: #ffdfad; }
+.reality-skills-dialog button:focus-visible { outline: 2px solid #fff3d4; outline-offset: 3px; }
+.reality-skills-dialog button:hover { filter: brightness(1.18); }
+.reality-skills-home-entry { color: #ffe2af; }
+.urban-theme.reality-skills-expanded .urban-frame,
+.urban-theme.reality-skills-expanded > .extra_UI { top: calc(50% - 56px) !important; }
+.reality-skills-tray { position: absolute; z-index: 22; height: 103px; color: #e4ecf4; font: 10px/1.3 "Courier New", "PingFang SC", "Microsoft YaHei", monospace; }
+.reality-skills-tray[hidden] { display: none; }
+.reality-skills-tray-heading { display: flex; justify-content: space-between; align-items: center; padding: 0 1px 5px; color: #abc0de; font-size: 9px; }
+.reality-skills-tray-guide { padding: 0; background: transparent; color: #efddb6; font: inherit !important; text-decoration: underline; }
+.reality-skills-tray-rows { display: grid; gap: 5px; }
+.reality-skills-row { display: flex; align-items: center; gap: 5px; min-width: 0; }
+.reality-skills-row-player { flex: 0 0 72px; font-size: 10px; color: #d8e4f2; }
+.reality-skill-hint { min-width: 0; flex: 1 1 0; height: 34px; padding: 3px 6px; background: #183b6e; color: #f5eddb; border: 1px solid #6185b1; }
+.reality-skill-hint-head { display: flex; align-items: center; gap: 4px; min-width: 0; }
+.reality-skill-hint-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 9px; }
+.reality-skill-hint-mp { margin-left: auto; color: #b6d7fb; font-size: 8px; white-space: nowrap; }
+.reality-skill-hint-combo { display: flex; align-items: center; gap: 4px; margin-top: 2px; white-space: nowrap; }
+.reality-skill-hint kbd { flex: 0 0 auto; min-width: 16px; margin: 0; padding: 1px 3px; background: #dde6e9; color: #17365e; border-bottom: 1px solid #8aa7c6; font: bold 9px/1.1 "Courier New", monospace; text-align: center; }
+.reality-skill-hint .reality-skill-then { font-size: 11px; line-height: 1; }
+.reality-skill-hint.is-unavailable { border-color: #486b98; }
+.reality-skill-hint.is-unavailable .reality-skill-hint-mp { color: #c4b8a5; }
+.reality-skills-feedback { min-height: 15px; padding-top: 4px; color: #b8d3ed; font-size: 9px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 600px) {
+  .reality-skills-heroes { grid-template-columns: repeat(var(--reality-hero-mobile-columns, 3), minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .reality-skills-head { padding: 12px; }
+  .reality-skills-head h2 { font-size: 20px; }
+  .reality-skills-players { padding: 10px 12px; }
+  .reality-skills-heroes { padding: 0 12px; gap: 4px; }
+  .reality-skills-hero { gap: 3px; padding: 4px; font-size: 10px !important; }
+  .reality-skills-hero img { width: 24px; height: 28px; }
+  .reality-skills-context, .reality-skills-foot { padding-left: 12px; padding-right: 12px; }
+  .reality-skills-body { padding-left: 12px; padding-right: 12px; }
+  .reality-skill-inputs { align-items: flex-start; flex-direction: column; }
+  .reality-skills-basic-text p { display: block; }
+  .reality-skills-basic-text b { display: block; margin-bottom: 3px; }
+}

@@ -1,0 +1,1310 @@
+{
+  "errors": [],
+  "resources": [],
+  "canceledMedia": [],
+  "skills": [
+    {
+      "hero": "小一",
+      "skill": "草稿冲击",
+      "id": "xiaoyi-draft",
+      "combo": "h › d › f",
+      "frames": [
+        0,
+        110,
+        240,
+        241,
+        242,
+        243,
+        244,
+        246,
+        266,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        11,
+        30,
+        150,
+        101,
+        207
+      ],
+      "minEnemyHP": 470,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 40,
+      "hp": [
+        500,
+        500,
+        477
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "小一",
+      "skill": "不服输连拳",
+      "id": "xiaoyi-punches",
+      "combo": "h › s › f",
+      "frames": [
+        0,
+        110,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        180,
+        181,
+        182,
+        183,
+        230,
+        219
+      ],
+      "objects": [
+        11,
+        30,
+        100,
+        150,
+        101
+      ],
+      "minEnemyHP": 401,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 371,
+      "initialHP": 500,
+      "mpUsed": 75,
+      "hp": [
+        474,
+        376,
+        405
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "小一",
+      "skill": "向上一步",
+      "id": "xiaoyi-step",
+      "combo": "h › w › g",
+      "frames": [
+        0,
+        110,
+        290,
+        291,
+        292,
+        219,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        11,
+        30,
+        100,
+        151,
+        101
+      ],
+      "minEnemyHP": 500,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 25,
+      "hp": [
+        500,
+        500,
+        500
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "小一",
+      "skill": "破题升龙",
+      "id": "xiaoyi-breakthrough",
+      "combo": "h › w › f",
+      "frames": [
+        0,
+        110,
+        300,
+        301,
+        302,
+        180,
+        181,
+        182,
+        183,
+        185,
+        230,
+        219,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        11,
+        30,
+        151,
+        101,
+        150,
+        100
+      ],
+      "minEnemyHP": 385,
+      "allyY": -51.8,
+      "minAllyHP": 386,
+      "initialHP": 500,
+      "mpUsed": 225,
+      "hp": [
+        477,
+        392,
+        392
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "林夏",
+      "skill": "纸飞机",
+      "id": "linxia-plane",
+      "combo": "h › d › f",
+      "frames": [
+        0,
+        110,
+        235,
+        236,
+        237,
+        240,
+        241,
+        242,
+        243,
+        180,
+        181,
+        182,
+        183,
+        230,
+        219,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        101,
+        150,
+        200
+      ],
+      "minEnemyHP": 445,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 470,
+      "initialHP": 500,
+      "mpUsed": 75,
+      "hp": [
+        476,
+        476,
+        451
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "林夏",
+      "skill": "回旋批注",
+      "id": "linxia-notes",
+      "combo": "h › w › f",
+      "frames": [
+        0,
+        110,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        151,
+        100,
+        214
+      ],
+      "minEnemyHP": 450,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 250,
+      "hp": [
+        500,
+        500,
+        455
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "林夏",
+      "skill": "课桌结界",
+      "id": "linxia-desk",
+      "combo": "h › d › g",
+      "frames": [
+        0,
+        110,
+        270,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        101,
+        151,
+        150,
+        200
+      ],
+      "minEnemyHP": 500,
+      "allyY": 0,
+      "minAllyHP": 461,
+      "initialHP": 500,
+      "mpUsed": 100,
+      "hp": [
+        500,
+        467,
+        500
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "林夏",
+      "skill": "同桌补给",
+      "id": "linxia-friend",
+      "combo": "h › w › g",
+      "frames": [
+        0,
+        110,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        100,
+        151,
+        200
+      ],
+      "minEnemyHP": 250,
+      "allyY": 0,
+      "minAllyHP": 250,
+      "initialHP": 500,
+      "mpUsed": 350,
+      "hp": [
+        500,
+        366,
+        250
+      ],
+      "healing": [
+        0,
+        -4,
+        -4
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "林夏",
+      "skill": "深呼吸",
+      "id": "linxia-breathe",
+      "combo": "h › s › g",
+      "frames": [
+        0,
+        110,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        2,
+        11,
+        30,
+        151,
+        101,
+        100,
+        200
+      ],
+      "minEnemyHP": 250,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 350,
+      "hp": [
+        366,
+        500,
+        250
+      ],
+      "healing": [
+        -4,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "周齐",
+      "skill": "冷静一下",
+      "id": "zhouqi-calm",
+      "combo": "h › d › f",
+      "frames": [
+        0,
+        110,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        8,
+        11,
+        30,
+        151,
+        100,
+        150,
+        101,
+        209
+      ],
+      "minEnemyHP": 455,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 100,
+      "hp": [
+        500,
+        500,
+        462
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "周齐",
+      "skill": "划定边界",
+      "id": "zhouqi-boundary",
+      "combo": "h › d › g",
+      "frames": [
+        0,
+        110,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        8,
+        11,
+        30,
+        150,
+        101,
+        151,
+        212
+      ],
+      "minEnemyHP": 440,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 150,
+      "hp": [
+        500,
+        500,
+        446
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "周齐",
+      "skill": "公式风暴",
+      "id": "zhouqi-formula",
+      "combo": "h › w › g",
+      "frames": [
+        0,
+        110,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        8,
+        11,
+        30,
+        150,
+        151,
+        101,
+        100,
+        212
+      ],
+      "minEnemyHP": 425,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 300,
+      "hp": [
+        500,
+        500,
+        431
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "周齐",
+      "skill": "纪律尺",
+      "id": "zhouqi-ruler",
+      "combo": "h › s › g",
+      "frames": [
+        0,
+        110,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        8,
+        11,
+        30,
+        100,
+        151,
+        150,
+        213
+      ],
+      "minEnemyHP": 500,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 150,
+      "hp": [
+        500,
+        500,
+        500
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": 213,
+      "direction": "right"
+    },
+    {
+      "hero": "陈野",
+      "skill": "下课冲击",
+      "id": "chenye-bell",
+      "combo": "h › d › f",
+      "frames": [
+        0,
+        110,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        4,
+        11,
+        30,
+        101,
+        150,
+        100,
+        151,
+        204
+      ],
+      "minEnemyHP": 420,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 150,
+      "hp": [
+        500,
+        500,
+        426
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "陈野",
+      "skill": "穿堂纸箭",
+      "id": "chenye-arrow",
+      "combo": "h › d › g",
+      "frames": [
+        0,
+        110,
+        270,
+        271,
+        272,
+        273,
+        274,
+        277,
+        278,
+        279,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        4,
+        11,
+        30,
+        151,
+        101,
+        100,
+        150,
+        208
+      ],
+      "minEnemyHP": 450,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 200,
+      "hp": [
+        500,
+        500,
+        456
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "陈野",
+      "skill": "午后笛声",
+      "id": "chenye-flute",
+      "combo": "h › w › g",
+      "frames": [
+        0,
+        110,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "objects": [
+        4,
+        11,
+        30,
+        150,
+        151,
+        101
+      ],
+      "minEnemyHP": 433,
+      "allyY": -160,
+      "minAllyHP": 433,
+      "initialHP": 500,
+      "mpUsed": 350,
+      "hp": [
+        500,
+        433,
+        433
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "陈野",
+      "skill": "五向纸鸢",
+      "id": "chenye-kites",
+      "combo": "h › g › f",
+      "frames": [
+        0,
+        110,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        4,
+        11,
+        30,
+        150,
+        101,
+        100,
+        151,
+        201
+      ],
+      "minEnemyHP": 375,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 150,
+      "hp": [
+        500,
+        500,
+        381
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "唐梨",
+      "skill": "粉筆連彈",
+      "id": "tangli-chalk",
+      "combo": "h › d › f",
+      "frames": [
+        0,
+        110,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        9,
+        11,
+        30,
+        151,
+        101,
+        205
+      ],
+      "minEnemyHP": 470,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 40,
+      "hp": [
+        500,
+        500,
+        477
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "唐梨",
+      "skill": "課間連踢",
+      "id": "tangli-recess",
+      "combo": "h › s › f",
+      "frames": [
+        0,
+        110,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        180,
+        181,
+        182,
+        183,
+        230,
+        219,
+        1
+      ],
+      "objects": [
+        9,
+        11,
+        30,
+        150,
+        100,
+        101
+      ],
+      "minEnemyHP": 364,
+      "allyY": -7.6499999999999995,
+      "minAllyHP": 394,
+      "initialHP": 500,
+      "mpUsed": 75,
+      "hp": [
+        475,
+        399,
+        369
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "唐梨",
+      "skill": "放學旋風",
+      "id": "tangli-whirl",
+      "combo": "h › d › g",
+      "frames": [
+        0,
+        110,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287
+      ],
+      "objects": [
+        9,
+        11,
+        30,
+        151,
+        100
+      ],
+      "minEnemyHP": 327,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 363,
+      "initialHP": 500,
+      "mpUsed": 313,
+      "hp": [
+        500,
+        367,
+        330
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "唐梨",
+      "skill": "追問光點",
+      "id": "tangli-question",
+      "combo": "h › w › f",
+      "frames": [
+        0,
+        110,
+        295,
+        296,
+        297,
+        298,
+        299,
+        180,
+        181,
+        182,
+        183,
+        230,
+        219,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        9,
+        11,
+        30,
+        151,
+        101,
+        100,
+        150,
+        215
+      ],
+      "minEnemyHP": 435,
+      "allyY": -22.500000000000004,
+      "minAllyHP": 470,
+      "initialHP": 500,
+      "mpUsed": 100,
+      "hp": [
+        476,
+        476,
+        442
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "沈舟",
+      "skill": "雙頁推進",
+      "id": "shenzhou-pages",
+      "combo": "h › d › f",
+      "frames": [
+        0,
+        110,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        10,
+        11,
+        30,
+        101,
+        151,
+        100,
+        150,
+        206
+      ],
+      "minEnemyHP": 410,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 125,
+      "hp": [
+        500,
+        500,
+        415
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "沈舟",
+      "skill": "逆風起身",
+      "id": "shenzhou-rise",
+      "combo": "h › w › f",
+      "frames": [
+        0,
+        110,
+        70,
+        71,
+        72,
+        73,
+        74,
+        215,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        10,
+        11,
+        30,
+        100,
+        151
+      ],
+      "minEnemyHP": 500,
+      "allyY": -61.40000000000001,
+      "minAllyHP": 430,
+      "initialHP": 500,
+      "mpUsed": 0,
+      "hp": [
+        500,
+        437,
+        500
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "沈舟",
+      "skill": "橫越題海",
+      "id": "shenzhou-crossing",
+      "combo": "h › s › f",
+      "frames": [
+        0,
+        110,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        180,
+        181,
+        182,
+        183,
+        230
+      ],
+      "objects": [
+        10,
+        11,
+        30,
+        150,
+        101,
+        151
+      ],
+      "minEnemyHP": 412,
+      "allyY": -35.99999999999999,
+      "minAllyHP": 412,
+      "initialHP": 500,
+      "mpUsed": 50,
+      "hp": [
+        474,
+        416,
+        416
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "沈舟",
+      "skill": "越線飛踢",
+      "id": "shenzhou-leap",
+      "combo": "h › d › g",
+      "frames": [
+        0,
+        110,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        212,
+        215,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        10,
+        11,
+        30,
+        151,
+        101,
+        150,
+        204
+      ],
+      "minEnemyHP": 386,
+      "allyY": -18,
+      "minAllyHP": 415,
+      "initialHP": 500,
+      "mpUsed": 200,
+      "hp": [
+        500,
+        422,
+        392
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "沈舟",
+      "skill": "直面現實",
+      "id": "shenzhou-face",
+      "combo": "h › w › g",
+      "frames": [
+        0,
+        110,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        10,
+        11,
+        30,
+        150,
+        100,
+        101
+      ],
+      "minEnemyHP": 500,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 50,
+      "hp": [
+        500,
+        500,
+        500
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    },
+    {
+      "hero": "沈舟",
+      "skill": "回到同伴",
+      "id": "shenzhou-return",
+      "combo": "h › s › g",
+      "frames": [
+        0,
+        110,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        1,
+        2,
+        3
+      ],
+      "objects": [
+        10,
+        11,
+        30,
+        150,
+        151,
+        101
+      ],
+      "minEnemyHP": 500,
+      "allyY": 0,
+      "minAllyHP": 500,
+      "initialHP": 500,
+      "mpUsed": 50,
+      "hp": [
+        500,
+        500,
+        500
+      ],
+      "healing": [
+        0,
+        0,
+        0
+      ],
+      "hold": null,
+      "direction": "right"
+    }
+  ],
+  "extra": [
+    {
+      "name": "two players enter native combos together",
+      "mpUsed": [
+        40,
+        40
+      ]
+    },
+    {
+      "name": "native combo and follow-up projectile",
+      "mpUsed": 80
+    },
+    {
+      "name": "former shortcut keys no longer cast",
+      "mpUsed": 0
+    },
+    {
+      "name": "left-direction combo turns and casts from right-facing stance",
+      "mpUsed": 40
+    }
+  ],
+  "passed": true
+}

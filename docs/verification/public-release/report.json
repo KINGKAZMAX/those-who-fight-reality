@@ -1,0 +1,588 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:18766/those-who-fight-reality/",
+  "startedAt": "2026-10-18T08:44:31.363Z",
+  "checks": [
+    {
+      "name": "bilingual title and both bundled display fonts load",
+      "details": {
+        "title": "與名為現實的怪物戰鬥的人們 | THOSE WHO FIGHT THE MONSTER CALLED REALITY",
+        "finalURL": "http://127.0.0.1:18766/those-who-fight-reality/play/",
+        "fonts": {
+          "loaded": [
+            {
+              "family": "Reality Display TC",
+              "status": "loaded",
+              "weight": "900",
+              "style": "normal"
+            },
+            {
+              "family": "Reality Fight",
+              "status": "loaded",
+              "weight": "900",
+              "style": "italic"
+            }
+          ],
+          "chinese": "\"Reality Display TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif",
+          "english": "\"Reality Fight\", \"Arial Narrow\", sans-serif",
+          "resources": []
+        }
+      }
+    },
+    {
+      "name": "six heroes, five arenas, three monsters and 27 skills",
+      "details": {
+        "heroes": [
+          {
+            "id": 11,
+            "name": "小一",
+            "skills": 4
+          },
+          {
+            "id": 2,
+            "name": "林夏",
+            "skills": 5
+          },
+          {
+            "id": 8,
+            "name": "周齐",
+            "skills": 4
+          },
+          {
+            "id": 4,
+            "name": "陈野",
+            "skills": 4
+          },
+          {
+            "id": 9,
+            "name": "唐梨",
+            "skills": 4
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "skills": 6
+          }
+        ],
+        "stages": [
+          {
+            "id": 401,
+            "name": "小学 · 不要掉队"
+          },
+          {
+            "id": 402,
+            "name": "初中 · 名次巨像"
+          },
+          {
+            "id": 403,
+            "name": "大学 · 前途无量"
+          },
+          {
+            "id": 404,
+            "name": "教室 · 名字慢慢寫"
+          },
+          {
+            "id": 405,
+            "name": "高中 · 下一題"
+          }
+        ],
+        "monsters": [
+          {
+            "id": 30,
+            "name": "纸卷怪"
+          },
+          {
+            "id": 31,
+            "name": "訂正獵手"
+          },
+          {
+            "id": 32,
+            "name": "催促鐘怪"
+          }
+        ],
+        "animation": {
+          "mode": "native-picture",
+          "sheets": 57,
+          "pictures": 1930
+        }
+      }
+    },
+    {
+      "name": "visible copy: home",
+      "details": "R\n/\nTHE FIGHT IS OURS\n前程市 · 放學以後\n 持續登入中\n一起戰鬥，一起長大。\n與名為現實的\n怪物戰鬥的人們\nTHOSE WHO FIGHT THE\nMONSTER CALLED REALITY\n\n從小學到畢業，誰也不落下。\n\n開始戰鬥 ▶\n雙人鍵位\n全技能出招表\n關於這段旅程\n第一章 · 不要掉队\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n校園合作格鬥 · 線上體驗版\n6 位夥伴/5 處場景/3 種怪物\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "complete title and home controls fit 1280×920",
+      "details": {
+        "frame": {
+          "x": 16.34906005859375,
+          "y": 28,
+          "width": 1247.3017578125,
+          "height": 864,
+          "right": 1263.6508178710938,
+          "bottom": 892,
+          "text": "\n\t\t\n\t\t\t與名為現實的怪物戰鬥的人們 · 線上體驗版\n\t\t\t\n\t\t\t\t◻\n\t\t\t\t\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t\t\tR/THE FIGHT IS OURS前程市 · 放學以後 持續登入中一起戰鬥，一起長大。與名為現實的怪物戰鬥的人們THOSE WHO FIGHT THEMONSTER CALLED REALITY從小學到畢業，誰也不落下。開始戰鬥 ▶雙人鍵位全技能出招表關於這段旅程第一章 · 不要掉队小一林夏周齐陈野唐梨沈舟校園合作格鬥 · 線上體驗版6 位夥伴/5 處場景/3 種怪物THOSE WHO FIGHT THE MONSTER CALLED REALITY與名為現實的怪物戰鬥的人們中式荒誕 × 魔幻現實主義從小學到大學畢業的同屏合作格鬥遊戲。課本、考試、排名與選擇，成了橫在眼前的怪物。我們一次次倒下，再拉著彼此站起來。目前可玩：第一章「不要掉隊」、雙人援護與檢查點；自由對戰含 6 位夥伴、5 處場景、3 種怪物與混合編隊。後續章節仍在製作。校園角色、場景與特效由 AI 協助製作。完整開源與素材授權說明隨專案一併提供。返回主選單\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t玩家名稱player1player2輸入方式keyboardkeyboard向上W↑向下S↓向左A←向右D→防禦HL跳躍GK攻擊 / 拾取FJ点击键位，再按新键；Esc 取消。两名玩家不能共用同一个按键。ONE MAC · TWO PLAYERS把鍵盤分成兩邊。點擊下表的鍵位，再按想用的鍵。兩位玩家可共用 Mac 鍵盤。恢復推薦雙人鍵位P 暫停 / 繼續　Esc 退出對戰推薦 P1：WASD + F / G / H　P2：方向鍵 + J / K / L儲存並返回\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tProject F Official Lobbythird party server\n\t\t\t\t\tConnect\n\t\t\t\t\tCancel\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tSTILL LOGGED IN這一程，記住了。對戰用時00:00出戰角色擊倒傷害承傷MP 消耗拾取結果所有人，持續登入中。再一起出發 ▶\n\t\t\t\t\n\t\t\tR /前程市 · 持續登入中準備中00:00技能Ⅱ 暫停退出 EscTAKE YOUR TIME歇一會兒按 P 或點擊「繼續」返回對戰01 / 不要掉队\n\t\t\t\n\t\t\tJoin?Join?Join?Join?Join?Join?Join?Join?01234567SELECT YOUR PARTNER選擇並肩作戰的人。全技能出招表修改鍵位← 主選單P1 / 夥伴檔案小一近身 · 书包冲锋总想跟上大家，也会回身接住同伴。P1 / 小一P2 / 林夏小一P1林夏P2周齐選擇陈野選擇唐梨選擇沈舟選擇一起上場單人雙人同屏合作怪物數量123456怪物編隊混合編隊纸卷怪訂正獵手催促鐘怪戰鬥場景小学 · 不要掉队初中 · 名次巨像大学 · 前途无量教室 · 名字慢慢寫高中 · 下一題放学后的校门，今天也要一起过去。兩位夥伴同隊，迎戰 2 隻怪物：纸卷怪、訂正獵手。P1  W A S D 移動  /  F 攻擊  G 跳躍  H 防禦P2  ↑ ← ↓ → 移動  /  J 攻擊  K 跳躍  L 防禦點擊切換玩家與夥伴 · Enter 出發 · P 暫停 · Esc 退出准备好了 · 出发 ▶01 故事 · 不要掉队自由對戰同屏合作 · 5 處場景\n\t\t01小学篇前程市 / 开学第一天\n\t\tTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n\t每一种本领，都能派上用场。全技能出招表关闭 EscP1P2小一林夏周齐陈野唐梨沈舟所有伙伴共用的本领连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放"
+        },
+        "chinese": {
+          "x": 79.02252197265625,
+          "y": 214.20285034179688,
+          "width": 620.0621948242188,
+          "height": 186.22637939453125,
+          "right": 699.084716796875,
+          "bottom": 400.4292297363281,
+          "text": "與名為現實的怪物戰鬥的人們"
+        },
+        "english": {
+          "x": 79.02252197265625,
+          "y": 419.2801208496094,
+          "width": 437.86639404296875,
+          "height": 73.88186645507812,
+          "right": 516.888916015625,
+          "bottom": 493.1619873046875,
+          "text": "THOSE WHO FIGHT THEMONSTER CALLED REALITY"
+        },
+        "action": {
+          "x": 79.02252197265625,
+          "y": 574.3583374023438,
+          "width": 301.61456298828125,
+          "height": 69.1199951171875,
+          "right": 380.6370849609375,
+          "bottom": 643.4783325195312,
+          "text": "開始戰鬥 ▶"
+        },
+        "pageWidth": 1280
+      }
+    },
+    {
+      "name": "complete title and home controls fit 700×600",
+      "details": {
+        "frame": {
+          "x": 14,
+          "y": 67.25439453125,
+          "width": 672,
+          "height": 465.4912109375,
+          "right": 686,
+          "bottom": 532.74560546875,
+          "text": "\n\t\t\n\t\t\t與名為現實的怪物戰鬥的人們 · 線上體驗版\n\t\t\t\n\t\t\t\t◼\n\t\t\t\t\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t\t\tR/THE FIGHT IS OURS前程市 · 放學以後 持續登入中一起戰鬥，一起長大。與名為現實的怪物戰鬥的人們THOSE WHO FIGHT THEMONSTER CALLED REALITY從小學到畢業，誰也不落下。開始戰鬥 ▶雙人鍵位全技能出招表關於這段旅程第一章 · 不要掉队小一林夏周齐陈野唐梨沈舟校園合作格鬥 · 線上體驗版6 位夥伴/5 處場景/3 種怪物THOSE WHO FIGHT THE MONSTER CALLED REALITY與名為現實的怪物戰鬥的人們中式荒誕 × 魔幻現實主義從小學到大學畢業的同屏合作格鬥遊戲。課本、考試、排名與選擇，成了橫在眼前的怪物。我們一次次倒下，再拉著彼此站起來。目前可玩：第一章「不要掉隊」、雙人援護與檢查點；自由對戰含 6 位夥伴、5 處場景、3 種怪物與混合編隊。後續章節仍在製作。校園角色、場景與特效由 AI 協助製作。完整開源與素材授權說明隨專案一併提供。返回主選單\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t玩家名稱player1player2輸入方式keyboardkeyboard向上W↑向下S↓向左A←向右D→防禦HL跳躍GK攻擊 / 拾取FJ点击键位，再按新键；Esc 取消。两名玩家不能共用同一个按键。ONE MAC · TWO PLAYERS把鍵盤分成兩邊。點擊下表的鍵位，再按想用的鍵。兩位玩家可共用 Mac 鍵盤。恢復推薦雙人鍵位P 暫停 / 繼續　Esc 退出對戰推薦 P1：WASD + F / G / H　P2：方向鍵 + J / K / L儲存並返回\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tProject F Official Lobbythird party server\n\t\t\t\t\tConnect\n\t\t\t\t\tCancel\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tSTILL LOGGED IN這一程，記住了。對戰用時00:00出戰角色擊倒傷害承傷MP 消耗拾取結果所有人，持續登入中。再一起出發 ▶\n\t\t\t\t\n\t\t\tR /前程市 · 持續登入中準備中00:00技能Ⅱ 暫停退出 EscTAKE YOUR TIME歇一會兒按 P 或點擊「繼續」返回對戰01 / 不要掉队\n\t\t\t\n\t\t\tJoin?Join?Join?Join?Join?Join?Join?Join?01234567SELECT YOUR PARTNER選擇並肩作戰的人。全技能出招表修改鍵位← 主選單P1 / 夥伴檔案小一近身 · 书包冲锋总想跟上大家，也会回身接住同伴。P1 / 小一P2 / 林夏小一P1林夏P2周齐選擇陈野選擇唐梨選擇沈舟選擇一起上場單人雙人同屏合作怪物數量123456怪物編隊混合編隊纸卷怪訂正獵手催促鐘怪戰鬥場景小学 · 不要掉队初中 · 名次巨像大学 · 前途无量教室 · 名字慢慢寫高中 · 下一題放学后的校门，今天也要一起过去。兩位夥伴同隊，迎戰 2 隻怪物：纸卷怪、訂正獵手。P1  W A S D 移動  /  F 攻擊  G 跳躍  H 防禦P2  ↑ ← ↓ → 移動  /  J 攻擊  K 跳躍  L 防禦點擊切換玩家與夥伴 · Enter 出發 · P 暫停 · Esc 退出准备好了 · 出发 ▶01 故事 · 不要掉队自由對戰同屏合作 · 5 處場景\n\t\t01小学篇前程市 / 开学第一天\n\t\tTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n\t每一种本领，都能派上用场。全技能出招表关闭 EscP1P2小一林夏周齐陈野唐梨沈舟所有伙伴共用的本领连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放"
+        },
+        "chinese": {
+          "x": 47.853904724121094,
+          "y": 167.5465850830078,
+          "width": 334.0665283203125,
+          "height": 100.33186340332031,
+          "right": 381.9204330444336,
+          "bottom": 267.8784484863281,
+          "text": "與名為現實的怪物戰鬥的人們"
+        },
+        "english": {
+          "x": 47.853904724121094,
+          "y": 278.03460693359375,
+          "width": 235.90615844726562,
+          "height": 39.8048095703125,
+          "right": 283.7600631713867,
+          "bottom": 317.83941650390625,
+          "text": "THOSE WHO FIGHT THEMONSTER CALLED REALITY"
+        },
+        "action": {
+          "x": 47.853904724121094,
+          "y": 361.58502197265625,
+          "width": 162.49874877929688,
+          "height": 37.239288330078125,
+          "right": 210.35265350341797,
+          "bottom": 398.8243103027344,
+          "text": "開始戰鬥 ▶"
+        },
+        "pageWidth": 700
+      }
+    },
+    {
+      "name": "complete title and home controls fit 390×844",
+      "details": {
+        "frame": {
+          "x": 14,
+          "y": 296.6221618652344,
+          "width": 362,
+          "height": 250.75564575195312,
+          "right": 376,
+          "bottom": 547.3778076171875,
+          "text": "\n\t\t\n\t\t\t與名為現實的怪物戰鬥的人們 · 線上體驗版\n\t\t\t\n\t\t\t\t◼\n\t\t\t\t\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t\t\tR/THE FIGHT IS OURS前程市 · 放學以後 持續登入中一起戰鬥，一起長大。與名為現實的怪物戰鬥的人們THOSE WHO FIGHT THEMONSTER CALLED REALITY從小學到畢業，誰也不落下。開始戰鬥 ▶雙人鍵位全技能出招表關於這段旅程第一章 · 不要掉队小一林夏周齐陈野唐梨沈舟校園合作格鬥 · 線上體驗版6 位夥伴/5 處場景/3 種怪物THOSE WHO FIGHT THE MONSTER CALLED REALITY與名為現實的怪物戰鬥的人們中式荒誕 × 魔幻現實主義從小學到大學畢業的同屏合作格鬥遊戲。課本、考試、排名與選擇，成了橫在眼前的怪物。我們一次次倒下，再拉著彼此站起來。目前可玩：第一章「不要掉隊」、雙人援護與檢查點；自由對戰含 6 位夥伴、5 處場景、3 種怪物與混合編隊。後續章節仍在製作。校園角色、場景與特效由 AI 協助製作。完整開源與素材授權說明隨專案一併提供。返回主選單\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t玩家名稱player1player2輸入方式keyboardkeyboard向上W↑向下S↓向左A←向右D→防禦HL跳躍GK攻擊 / 拾取FJ点击键位，再按新键；Esc 取消。两名玩家不能共用同一个按键。ONE MAC · TWO PLAYERS把鍵盤分成兩邊。點擊下表的鍵位，再按想用的鍵。兩位玩家可共用 Mac 鍵盤。恢復推薦雙人鍵位P 暫停 / 繼續　Esc 退出對戰推薦 P1：WASD + F / G / H　P2：方向鍵 + J / K / L儲存並返回\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tProject F Official Lobbythird party server\n\t\t\t\t\tConnect\n\t\t\t\t\tCancel\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tSTILL LOGGED IN這一程，記住了。對戰用時00:00出戰角色擊倒傷害承傷MP 消耗拾取結果所有人，持續登入中。再一起出發 ▶\n\t\t\t\t\n\t\t\tR /前程市 · 持續登入中準備中00:00技能Ⅱ 暫停退出 EscTAKE YOUR TIME歇一會兒按 P 或點擊「繼續」返回對戰01 / 不要掉队\n\t\t\t\n\t\t\tJoin?Join?Join?Join?Join?Join?Join?Join?01234567SELECT YOUR PARTNER選擇並肩作戰的人。全技能出招表修改鍵位← 主選單P1 / 夥伴檔案小一近身 · 书包冲锋总想跟上大家，也会回身接住同伴。P1 / 小一P2 / 林夏小一P1林夏P2周齐選擇陈野選擇唐梨選擇沈舟選擇一起上場單人雙人同屏合作怪物數量123456怪物編隊混合編隊纸卷怪訂正獵手催促鐘怪戰鬥場景小学 · 不要掉队初中 · 名次巨像大学 · 前途无量教室 · 名字慢慢寫高中 · 下一題放学后的校门，今天也要一起过去。兩位夥伴同隊，迎戰 2 隻怪物：纸卷怪、訂正獵手。P1  W A S D 移動  /  F 攻擊  G 跳躍  H 防禦P2  ↑ ← ↓ → 移動  /  J 攻擊  K 跳躍  L 防禦點擊切換玩家與夥伴 · Enter 出發 · P 暫停 · Esc 退出准备好了 · 出发 ▶01 故事 · 不要掉队自由對戰同屏合作 · 5 處場景\n\t\t01小学篇前程市 / 开学第一天\n\t\tTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n\t每一种本领，都能派上用场。全技能出招表关闭 EscP1P2小一林夏周齐陈野唐梨沈舟所有伙伴共用的本领连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放"
+        },
+        "chinese": {
+          "x": 32.23677444458008,
+          "y": 350.64862060546875,
+          "width": 179.95846557617188,
+          "height": 54.04779052734375,
+          "right": 212.19524002075195,
+          "bottom": 404.6964111328125,
+          "text": "與名為現實的怪物戰鬥的人們"
+        },
+        "english": {
+          "x": 32.23677444458008,
+          "y": 410.1674499511719,
+          "width": 127.08041381835938,
+          "height": 21.442474365234375,
+          "right": 159.31718826293945,
+          "bottom": 431.60992431640625,
+          "text": "THOSE WHO FIGHT THEMONSTER CALLED REALITY"
+        },
+        "action": {
+          "x": 32.23677444458008,
+          "y": 455.17523193359375,
+          "width": 87.53652954101562,
+          "height": 20.06048583984375,
+          "right": 119.7733039855957,
+          "bottom": 475.2357177734375,
+          "text": "開始戰鬥 ▶"
+        },
+        "pageWidth": 390
+      }
+    },
+    {
+      "name": "visible copy: about",
+      "details": "R\n/\nTHE FIGHT IS OURS\n前程市 · 放學以後\n 持續登入中\n一起戰鬥，一起長大。\n與名為現實的\n怪物戰鬥的人們\nTHOSE WHO FIGHT THE\nMONSTER CALLED REALITY\n\n從小學到畢業，誰也不落下。\n\n開始戰鬥 ▶\n雙人鍵位\n全技能出招表\n關於這段旅程\n第一章 · 不要掉队\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n校園合作格鬥 · 線上體驗版\n6 位夥伴/5 處場景/3 種怪物\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n與名為現實的\n怪物戰鬥的人們\n\n中式荒誕 × 魔幻現實主義\n從小學到大學畢業的同屏合作格鬥遊戲。\n\n課本、考試、排名與選擇，成了橫在眼前的怪物。\n我們一次次倒下，再拉著彼此站起來。\n\n目前可玩：第一章「不要掉隊」、雙人援護與檢查點；自由對戰含 6 位夥伴、5 處場景、3 種怪物與混合編隊。後續章節仍在製作。\n\n校園角色、場景與特效由 AI 協助製作。\n完整開源與素材授權說明隨專案一併提供。\n\n返回主選單\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: controls",
+      "details": "玩家名稱\tPLAYER1\tPLAYER2\n輸入方式\tKEYBOARD\tKEYBOARD\n向上\tW\t↑\n向下\tS\t↓\n向左\tA\t←\n向右\tD\t→\n防禦\tH\tL\n跳躍\tG\tK\n攻擊 / 拾取\tF\tJ\n\n点击键位，再按新键；Esc 取消。两名玩家不能共用同一个按键。\n\nONE MAC · TWO PLAYERS\n把鍵盤分成兩邊。\n\n點擊下表的鍵位，再按想用的鍵。兩位玩家可共用 Mac 鍵盤。\n\n恢復推薦雙人鍵位\nP 暫停 / 繼續　Esc 退出對戰\n推薦 P1：WASD + F / G / H　P2：方向鍵 + J / K / L\n儲存並返回\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: skill guide 小一",
+      "details": "R\n/\nTHE FIGHT IS OURS\n前程市 · 放學以後\n 持續登入中\n一起戰鬥，一起長大。\n與名為現實的\n怪物戰鬥的人們\nTHOSE WHO FIGHT THE\nMONSTER CALLED REALITY\n\n從小學到畢業，誰也不落下。\n\n開始戰鬥 ▶\n雙人鍵位\n全技能出招表\n關於這段旅程\n第一章 · 不要掉队\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n校園合作格鬥 · 線上體驗版\n6 位夥伴/5 處場景/3 種怪物\n每一种本领，都能派上用场。\n全技能出招表\n关闭 Esc\nP1 · 小一\nP2 · 林夏\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n\n小一 · 4 招 ｜ 按 P1 当前键位显示\n\n草稿冲击\n40 MP\n\n向前打出冲击波，打断迎面而来的纸卷怪。\n\n依次按\nH\n›\nA/D\n›\nF\n\n出手后续按攻击 F 可连发，每发另耗 40 MP。\n\n不服输连拳\n75 MP\n\n近身连续出拳，接住被击退的敌人。\n\n依次按\nH\n›\nS\n›\nF\n\n末段输入 H › W › F 可接「破题升龙」（225 MP）；收招时按 G 可接「向上一步」（25 MP）。\n\n向上一步\n25 MP\n\n跃起踢击，跨过前方的阻拦。\n\n依次按\nH\n›\nW\n›\nG\n\n跃起后按攻击 F 追加空中踢击，无额外 MP 消耗。\n\n破题升龙\n225 MP\n\n向上挥拳，把近处的敌人击飞。\n\n依次按\nH\n›\nW\n›\nF\n小一的进阶技巧\n\n近身重击收招时按 G 可接「向上一步」（25 MP），再按 F 追加踢击。\n\n抓住敌人后输入 H › S › F 可接连拳（75 MP）；H › W › F 可接升龙（225 MP）。\n\n跑动攻击中续按 F 可追加一拳；翻滚中仍可用升龙或「向上一步」，按对应招式消耗 MP。\n\n所有伙伴共用的本领\n\n连续依次按\n走动时先松开方向，再重新输入完整组合；按住同一个键不算新的按键输入。\n\nA × 2 / D × 2\n双击左右方向进入跑步；跑动中按攻击或跳跃衔接动作。\n\nG › F\n跳跃后攻击；防御键 H 用于格挡。\n\nF\n靠近地上的道具攻击即可拾取，持物时攻击使用；跑动或空中攻击可投掷。\n\nA / D\n“前方”左右二选一；向左出招按 A，向右出招按 D，无需先转身。\n\n6 位夥伴的 27 項技能均已開放。\n连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: skill guide 林夏",
+      "details": "R\n/\nTHE FIGHT IS OURS\n前程市 · 放學以後\n 持續登入中\n一起戰鬥，一起長大。\n與名為現實的\n怪物戰鬥的人們\nTHOSE WHO FIGHT THE\nMONSTER CALLED REALITY\n\n從小學到畢業，誰也不落下。\n\n開始戰鬥 ▶\n雙人鍵位\n全技能出招表\n關於這段旅程\n第一章 · 不要掉队\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n校園合作格鬥 · 線上體驗版\n6 位夥伴/5 處場景/3 種怪物\n每一种本领，都能派上用场。\n全技能出招表\n关闭 Esc\nP1 · 小一\nP2 · 林夏\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n\n林夏 · 5 招 ｜ 按 P1 当前键位显示；切换到此伙伴后可使用\n\n纸飞机\n75 MP\n\n放出向前飞行的远程弹，牵制远处敌人。\n\n依次按\nH\n›\nA/D\n›\nF\n回旋批注\n250 MP\n\n放出持续追击的回旋弹。\n\n依次按\nH\n›\nW\n›\nF\n课桌结界\n100 MP\n\n在身前留下防护力场，为伙伴争取空间。\n\n依次按\nH\n›\nA/D\n›\nG\n同桌补给\n350 MP\n\n為身前近處的角色逐步恢復生命，敵人也可能接取。\n\n依次按\nH\n›\nW\n›\nG\n\n先靠近需要帮助的伙伴；没有目标也会消耗 MP。\n\n深呼吸\n350 MP\n\n停下來照顧自己，每次恢復 8 HP，直到可恢復生命的上限。\n\n依次按\nH\n›\nS\n›\nG\n林夏的进阶技巧\n\n近身重击收招时按 G，再按 F，可接腾跃追击；这套派生不消耗 MP。\n\n所有伙伴共用的本领\n\n连续依次按\n走动时先松开方向，再重新输入完整组合；按住同一个键不算新的按键输入。\n\nA × 2 / D × 2\n双击左右方向进入跑步；跑动中按攻击或跳跃衔接动作。\n\nG › F\n跳跃后攻击；防御键 H 用于格挡。\n\nF\n靠近地上的道具攻击即可拾取，持物时攻击使用；跑动或空中攻击可投掷。\n\nA / D\n“前方”左右二选一；向左出招按 A，向右出招按 D，无需先转身。\n\n6 位夥伴的 27 項技能均已開放。\n连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: skill guide 周齐",
+      "details": "R\n/\nTHE FIGHT IS OURS\n前程市 · 放學以後\n 持續登入中\n一起戰鬥，一起長大。\n與名為現實的\n怪物戰鬥的人們\nTHOSE WHO FIGHT THE\nMONSTER CALLED REALITY\n\n從小學到畢業，誰也不落下。\n\n開始戰鬥 ▶\n雙人鍵位\n全技能出招表\n關於這段旅程\n第一章 · 不要掉队\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n校園合作格鬥 · 線上體驗版\n6 位夥伴/5 處場景/3 種怪物\n每一种本领，都能派上用场。\n全技能出招表\n关闭 Esc\nP1 · 小一\nP2 · 林夏\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n\n周齐 · 4 招 ｜ 按 P1 当前键位显示；切换到此伙伴后可使用\n\n冷静一下\n100 MP\n\n向前放出冻结弹，暂时定住命中的敌人。\n\n依次按\nH\n›\nA/D\n›\nF\n划定边界\n150 MP\n\n在前方连续立起冰柱，拦住敌人的推进。\n\n依次按\nH\n›\nA/D\n›\nG\n公式风暴\n300 MP\n\n卷起身边的敌人，制造短暂的控制空间。\n\n依次按\nH\n›\nW\n›\nG\n纪律尺\n150 MP\n\n召出一把晶体三角尺，直接握在手中。\n\n依次按\nH\n›\nS\n›\nG\n\n按攻击 F 挥动；丢下后可再次拾取。\n\n周齐的进阶技巧\n\n「纪律尺」召唤后直接持有；普通攻击挥动尺子，掉落后可走近按 F 拾回。\n\n所有伙伴共用的本领\n\n连续依次按\n走动时先松开方向，再重新输入完整组合；按住同一个键不算新的按键输入。\n\nA × 2 / D × 2\n双击左右方向进入跑步；跑动中按攻击或跳跃衔接动作。\n\nG › F\n跳跃后攻击；防御键 H 用于格挡。\n\nF\n靠近地上的道具攻击即可拾取，持物时攻击使用；跑动或空中攻击可投掷。\n\nA / D\n“前方”左右二选一；向左出招按 A，向右出招按 D，无需先转身。\n\n6 位夥伴的 27 項技能均已開放。\n连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: skill guide 陈野",
+      "details": "R\n/\nTHE FIGHT IS OURS\n前程市 · 放學以後\n 持續登入中\n一起戰鬥，一起長大。\n與名為現實的\n怪物戰鬥的人們\nTHOSE WHO FIGHT THE\nMONSTER CALLED REALITY\n\n從小學到畢業，誰也不落下。\n\n開始戰鬥 ▶\n雙人鍵位\n全技能出招表\n關於這段旅程\n第一章 · 不要掉队\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n校園合作格鬥 · 線上體驗版\n6 位夥伴/5 處場景/3 種怪物\n每一种本领，都能派上用场。\n全技能出招表\n关闭 Esc\nP1 · 小一\nP2 · 林夏\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n\n陈野 · 4 招 ｜ 按 P1 当前键位显示；切换到此伙伴后可使用\n\n下课冲击\n150 MP\n\n向前推出一阵劲风，把近处的敌人吹开。\n\n依次按\nH\n›\nA/D\n›\nF\n穿堂纸箭\n200 MP\n\n发射强力直线箭，穿过前方的阻拦。\n\n依次按\nH\n›\nA/D\n›\nG\n午后笛声\n350 MP\n\n用笛聲將周圍角色托起並持續攻擊，同隊夥伴也會受影響。\n\n依次按\nH\n›\nW\n›\nG\n\n演奏时按防御 H 可提前收招。\n\n五向纸鸢\n150 MP\n\n同时发出五支散射箭，覆盖前方多个方向。\n\n依次按\nH\n›\nG\n›\nF\n\n出手后续按攻击 F 可追加一轮，另耗 100 MP。\n\n陈野的进阶技巧\n\n普通射击 F 每箭消耗 12 MP；空中射击每箭消耗 20 MP，空中收招时续按 F 可连射。\n\n所有伙伴共用的本领\n\n连续依次按\n走动时先松开方向，再重新输入完整组合；按住同一个键不算新的按键输入。\n\nA × 2 / D × 2\n双击左右方向进入跑步；跑动中按攻击或跳跃衔接动作。\n\nG › F\n跳跃后攻击；防御键 H 用于格挡。\n\nF\n靠近地上的道具攻击即可拾取，持物时攻击使用；跑动或空中攻击可投掷。\n\nA / D\n“前方”左右二选一；向左出招按 A，向右出招按 D，无需先转身。\n\n6 位夥伴的 27 項技能均已開放。\n连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: skill guide 唐梨",
+      "details": "R\n/\nTHE FIGHT IS OURS\n前程市 · 放學以後\n 持續登入中\n一起戰鬥，一起長大。\n與名為現實的\n怪物戰鬥的人們\nTHOSE WHO FIGHT THE\nMONSTER CALLED REALITY\n\n從小學到畢業，誰也不落下。\n\n開始戰鬥 ▶\n雙人鍵位\n全技能出招表\n關於這段旅程\n第一章 · 不要掉队\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n校園合作格鬥 · 線上體驗版\n6 位夥伴/5 處場景/3 種怪物\n每一种本领，都能派上用场。\n全技能出招表\n关闭 Esc\nP1 · 小一\nP2 · 林夏\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n\n唐梨 · 4 招 ｜ 按 P1 当前键位显示；切换到此伙伴后可使用\n\n粉筆連彈\n40 MP\n\n向前踢出一道粉筆光彈，可逐段追加遠程攻擊。\n\n依次按\nH\n›\nA/D\n›\nF\n\n出手後按 F 追加第二發（40 MP），再按 F 追加兩發（70 MP）；四發收招時再按 F 可銜接下一輪首發，此次銜接不額外耗 MP。\n\n課間連踢\n75 MP\n\n近身連續踢擊，把迎面的阻攔一腳腳踢開。\n\n依次按\nH\n›\nS\n›\nF\n放學旋風\n75 MP\n\n旋轉向前突進並持續踢擊，清出穿行的空間。\n\n依次按\nH\n›\nA/D\n›\nG\n\n75 MP 為起動消耗；旋轉期間每輪另耗 34 MP，MP 用完會收招。按防禦 H 或跳躍 G 可提前停止。\n\n追問光點\n100 MP\n\n放出會追蹤敵人的光彈，追上躲到遠處的目標。\n\n依次按\nH\n›\nW\n›\nF\n唐梨的进阶技巧\n\n跑動攻擊收招時續按 F 可接近身重踢，不額外消耗 MP。\n\n近身重踢、跑動攻擊收招或抓住敵人時，可輸入原組合銜接「課間連踢」（75 MP）、「放學旋風」（75 MP 起動）或「追問光點」（100 MP）。\n\n「粉筆連彈」的續招窗口很短，需在每段收招時按下 F；按住不放不會自動連發。\n\n所有伙伴共用的本领\n\n连续依次按\n走动时先松开方向，再重新输入完整组合；按住同一个键不算新的按键输入。\n\nA × 2 / D × 2\n双击左右方向进入跑步；跑动中按攻击或跳跃衔接动作。\n\nG › F\n跳跃后攻击；防御键 H 用于格挡。\n\nF\n靠近地上的道具攻击即可拾取，持物时攻击使用；跑动或空中攻击可投掷。\n\nA / D\n“前方”左右二选一；向左出招按 A，向右出招按 D，无需先转身。\n\n6 位夥伴的 27 項技能均已開放。\n连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: skill guide 沈舟",
+      "details": "R\n/\nTHE FIGHT IS OURS\n前程市 · 放學以後\n 持續登入中\n一起戰鬥，一起長大。\n與名為現實的\n怪物戰鬥的人們\nTHOSE WHO FIGHT THE\nMONSTER CALLED REALITY\n\n從小學到畢業，誰也不落下。\n\n開始戰鬥 ▶\n雙人鍵位\n全技能出招表\n關於這段旅程\n第一章 · 不要掉队\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n校園合作格鬥 · 線上體驗版\n6 位夥伴/5 處場景/3 種怪物\n每一种本领，都能派上用场。\n全技能出招表\n关闭 Esc\nP1 · 小一\nP2 · 林夏\n小一\n林夏\n周齐\n陈野\n唐梨\n沈舟\n\n沈舟 · 6 招 ｜ 按 P1 当前键位显示；切换到此伙伴后可使用\n\n雙頁推進\n125 MP\n\n接連發出兩道遠程光彈，打開前進的路。\n\n依次按\nH\n›\nA/D\n›\nF\n\n一次完整出招自動發出兩彈，共耗 125 MP。\n\n逆風起身\n0 MP\n\n翻身上挑，把近處的敵人擊向空中。\n\n依次按\nH\n›\nW\n›\nF\n\n落地收招時輸入 H › A / D › G，可接「越線飛踢」（200 MP）。\n\n橫越題海\n50 MP\n\n向前旋身掃踢，同時攻擊身前與身後近處的敵人。\n\n依次按\nH\n›\nS\n›\nF\n\n收招時輸入 H › W › F 可接「逆風起身」（0 MP）；H › A / D › G 可接「越線飛踢」（200 MP）。\n\n越線飛踢\n200 MP\n\n躍起向前突進，用重踢擊退攔路的敵人。\n\n依次按\nH\n›\nA/D\n›\nG\n\n跳躍落地、翻滾起身或部分招式收招時輸入同一組合，可更快接出飛踢；仍耗 200 MP。\n\n直面現實\n50 MP\n\n瞬移到最近的敵人附近，重新調整交戰位置。\n\n依次按\nH\n›\nW\n›\nG\n\n出現在目標同一縱深、身前約 120 距離處，並非直接貼身。沒有敵人也會消耗 MP。\n\n回到同伴\n50 MP\n\n瞬移到最遠的同隊夥伴附近，迅速回到搭檔身邊。\n\n依次按\nH\n›\nS\n›\nG\n\n出現在同伴同一縱深、前方約 60 距離處。沒有同伴時不會移動，仍會消耗 MP。\n\n沈舟的进阶技巧\n\n兩種瞬移可在站定或跳躍中輸入；移動、防禦等動作中不能直接接出。先鬆開方向再輸入完整組合。\n\n瞬移收招時輸入 H › W › F 可接「逆風起身」（0 MP）；H › A / D › G 可接「越線飛踢」（200 MP）。\n\n翻滾中輸入 H › S › F 可接「橫越題海」（50 MP）；跑動攻擊收招時續按 F 可延長近身連擊，不額外消耗 MP。\n\n所有伙伴共用的本领\n\n连续依次按\n走动时先松开方向，再重新输入完整组合；按住同一个键不算新的按键输入。\n\nA × 2 / D × 2\n双击左右方向进入跑步；跑动中按攻击或跳跃衔接动作。\n\nG › F\n跳跃后攻击；防御键 H 用于格挡。\n\nF\n靠近地上的道具攻击即可拾取，持物时攻击使用；跑动或空中攻击可投掷。\n\nA / D\n“前方”左右二选一；向左出招按 A，向右出招按 D，无需先转身。\n\n6 位夥伴的 27 項技能均已開放。\n连续依次按下，不必同时按 · 前方：左右二选一 · MP 不足时无法施放\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "sixth Shenzhou move is fully reachable by scrolling",
+      "details": {
+        "lastCard": {
+          "x": 288,
+          "y": 486,
+          "width": 704,
+          "height": 114.5
+        },
+        "guideBody": {
+          "x": 268,
+          "y": 340.5,
+          "width": 744,
+          "height": 406.5
+        }
+      }
+    },
+    {
+      "name": "all 27 skill cards and guide close",
+      "details": [
+        4,
+        5,
+        4,
+        4,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "visible copy: lobby",
+      "details": "SELECT YOUR PARTNER\n選擇並肩作戰的人。\n全技能出招表\n修改鍵位\n← 主選單\nP2 / 夥伴檔案\n沈舟\n機動 · 越線飛踢\n\n跨過名次的界線，也記得回到同伴身邊。\n\nP1 / 唐梨\nP2 / 沈舟\n小一\n選擇\n林夏\n選擇\n周齐\n選擇\n陈野\n選擇\n唐梨\nP1\n沈舟\nP2\n一起上場\n單人\n雙人同屏合作\n怪物數量\n1\n2\n3\n4\n5\n6\n怪物編隊\n混合編隊\n纸卷怪\n訂正獵手\n催促鐘怪\n戰鬥場景\n小学 · 不要掉队\n初中 · 名次巨像\n大学 · 前途无量\n教室 · 名字慢慢寫\n高中 · 下一題\n午後的粉筆還沒落下，先把自己的名字寫完。\n\n兩位夥伴同隊，迎戰 3 隻怪物：纸卷怪、訂正獵手、催促鐘怪。\n\nP1 W A S D 移動 / F 攻擊 G 跳躍 H 防禦\nP2 ↑ ← ↓ → 移動 / J 攻擊 K 跳躍 L 防禦\n點擊切換玩家與夥伴 · Enter 出發 · P 暫停 · Esc 退出\n准备好了 · 出发 ▶\n01 故事 · 不要掉队\n自由對戰\n同屏合作 · 5 處場景\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: free battle",
+      "details": "R /\n前程市 · 持續登入中\n對戰進行中\n00:00\n技能\nⅡ 暫停\n退出 Esc\nP1\n唐梨\n500 / 500\nMP\n201\nP2\n沈舟\n500 / 500\nMP\n201\n怪\n纸卷怪\n500 / 500\nMP\n201\n怪\n訂正獵手\n500 / 500\nMP\n201\n怪\n催促鐘怪\n500 / 500\nMP\n201\nP1\nW A S D 移動 · F 攻擊 G 跳躍 H 防禦\nP2\n↑ ← ↓ → 移動 · J 攻擊 K 跳躍 L 防禦\nP / ESC\n暫停 / 退出\n0 FPS\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING.\n组合键出招 · 连续依次按，不必同时按\n查看完整出招表\nP1 · 唐梨\n粉筆連彈\n40 MP\nH\n›\nA/D\n›\nF\n課間連踢\n75 MP\nH\n›\nS\n›\nF\n放學旋風\n75 MP\nH\n›\nA/D\n›\nG\n追問光點\n100 MP\nH\n›\nW\n›\nF\nP2 · 沈舟\n雙頁推進\n125 MP\nL\n›\n←/→\n›\nJ\n逆風起身\n0 MP\nL\n›\n↑\n›\nJ\n橫越題海\n50 MP\nL\n›\n↓\n›\nJ\n越線飛踢\n200 MP\nL\n›\n←/→\n›\nK\n直面現實\n50 MP\nL\n›\n↑\n›\nK\n回到同伴\n50 MP\nL\n›\n↓\n›\nK\n前方：按左 / 右决定出招方向，无需先转身。完整出招表可查看派生技。"
+    },
+    {
+      "name": "real simultaneous P1/P2 movement and attacks",
+      "details": {
+        "before": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "team": 1,
+            "frame": 0,
+            "controller": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            },
+            "x": 197,
+            "y": 0,
+            "z": 359,
+            "hp": 480,
+            "mp": 203
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "team": 1,
+            "frame": 0,
+            "controller": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            },
+            "x": 297,
+            "y": 0,
+            "z": 404,
+            "hp": 500,
+            "mp": 204
+          }
+        ],
+        "after": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "team": 1,
+            "frame": 8,
+            "controller": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            },
+            "x": 247,
+            "y": 0,
+            "z": 359,
+            "hp": 481,
+            "mp": 206
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "team": 1,
+            "frame": 8,
+            "controller": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            },
+            "x": 347,
+            "y": 0,
+            "z": 404,
+            "hp": 500,
+            "mp": 207
+          }
+        ],
+        "attackFrames": [
+          [
+            {
+              "frame": 60,
+              "state": 3,
+              "name": "punch",
+              "x": 258,
+              "z": 359
+            },
+            {
+              "frame": 60,
+              "state": 3,
+              "name": "punch",
+              "x": 259,
+              "z": 359
+            },
+            {
+              "frame": 61,
+              "state": 3,
+              "name": "punch",
+              "x": 260,
+              "z": 359
+            },
+            {
+              "frame": 61,
+              "state": 3,
+              "name": "punch",
+              "x": 260,
+              "z": 359
+            },
+            {
+              "frame": 62,
+              "state": 3,
+              "name": "punch",
+              "x": 260,
+              "z": 359
+            },
+            {
+              "frame": 62,
+              "state": 3,
+              "name": "punch",
+              "x": 260,
+              "z": 359
+            },
+            {
+              "frame": 63,
+              "state": 3,
+              "name": "punch",
+              "x": 260,
+              "z": 359
+            },
+            {
+              "frame": 63,
+              "state": 3,
+              "name": "punch",
+              "x": 260,
+              "z": 359
+            }
+          ],
+          [
+            {
+              "frame": 65,
+              "state": 3,
+              "name": "punch",
+              "x": 358,
+              "z": 404
+            },
+            {
+              "frame": 66,
+              "state": 3,
+              "name": "punch",
+              "x": 359,
+              "z": 404
+            },
+            {
+              "frame": 66,
+              "state": 3,
+              "name": "punch",
+              "x": 359,
+              "z": 404
+            },
+            {
+              "frame": 67,
+              "state": 3,
+              "name": "punch",
+              "x": 359,
+              "z": 404
+            },
+            {
+              "frame": 67,
+              "state": 3,
+              "name": "punch",
+              "x": 359,
+              "z": 404
+            },
+            {
+              "frame": 68,
+              "state": 3,
+              "name": "punch",
+              "x": 359,
+              "z": 404
+            },
+            {
+              "frame": 68,
+              "state": 3,
+              "name": "punch",
+              "x": 359,
+              "z": 404
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "name": "visible copy: paused battle",
+      "details": "R /\n前程市 · 持續登入中\n已暫停\n00:01\n技能\n▶ 繼續\n退出 Esc\nP1\n唐梨\n482 / 500\nMP\n211\nP2\n沈舟\n500 / 500\nMP\n212\n怪\n纸卷怪\n500 / 500\nMP\n212\n怪\n訂正獵手\n500 / 500\nMP\n212\n怪\n催促鐘怪\n500 / 500\nMP\n211\nP1\nW A S D 移動 · F 攻擊 G 跳躍 H 防禦\nP2\n↑ ← ↓ → 移動 · J 攻擊 K 跳躍 L 防禦\nP / ESC\n暫停 / 退出\npaused\nTAKE YOUR TIME\n歇一會兒\n按 P 或點擊「繼續」返回對戰\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING.\n组合键出招 · 连续依次按，不必同时按\n查看完整出招表\nP1 · 唐梨\n粉筆連彈\n40 MP\nH\n›\nA/D\n›\nF\n課間連踢\n75 MP\nH\n›\nS\n›\nF\n放學旋風\n75 MP\nH\n›\nA/D\n›\nG\n追問光點\n100 MP\nH\n›\nW\n›\nF\nP2 · 沈舟\n雙頁推進\n125 MP\nL\n›\n←/→\n›\nJ\n逆風起身\n0 MP\nL\n›\n↑\n›\nJ\n橫越題海\n50 MP\nL\n›\n↓\n›\nJ\n越線飛踢\n200 MP\nL\n›\n←/→\n›\nK\n直面現實\n50 MP\nL\n›\n↑\n›\nK\n回到同伴\n50 MP\nL\n›\n↓\n›\nK\n前方：按左 / 右决定出招方向，无需先转身。完整出招表可查看派生技。"
+    },
+    {
+      "name": "pause/resume and battle guide preserve correct pause state",
+      "details": {
+        "frozenTick": 36
+      }
+    },
+    {
+      "name": "visible copy: story lobby",
+      "details": "SELECT YOUR PARTNER\n選擇並肩作戰的人。\n全技能出招表\n修改鍵位\n← 主選單\nP2 / 夥伴檔案\n沈舟\n機動 · 越線飛踢\n\n跨過名次的界線，也記得回到同伴身邊。\n\nP1 / 唐梨\nP2 / 沈舟\n小一\n選擇\n林夏\n選擇\n周齐\n選擇\n陈野\n選擇\n唐梨\nP1\n沈舟\nP2\n一起上場\n單人\n雙人同屏合作\n怪物數量\n1\n2\n3\n4\n5\n6\n怪物編隊\n混合編隊\n纸卷怪\n訂正獵手\n催促鐘怪\n戰鬥場景\n小学 · 不要掉队\n初中 · 名次巨像\n大学 · 前途无量\n教室 · 名字慢慢寫\n高中 · 下一題\n小学 · 不要掉队\n\n两段故事战斗 · 靠近伙伴，按住防御可援护。\n\nP1 W A S D 移動 / F 攻擊 G 跳躍 H 防禦\nP2 ↑ ← ↓ → 移動 / J 攻擊 K 跳躍 L 防禦\n點擊切換玩家與夥伴 · Enter 出發 · P 暫停 · Esc 退出\n第一章 · 不要掉队 ▶\n01 故事 · 不要掉队\n自由對戰\n第一章 · 不要掉队\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING.\n组合键出招 · 连续依次按，不必同时按\n查看完整出招表\nP1 · 唐梨\n粉筆連彈\n40 MP\nH\n›\nA/D\n›\nF\n課間連踢\n75 MP\nH\n›\nS\n›\nF\n放學旋風\n75 MP\nH\n›\nA/D\n›\nG\n追問光點\n100 MP\nH\n›\nW\n›\nF\nP2 · 沈舟\n雙頁推進\n125 MP\nL\n›\n←/→\n›\nJ\n逆風起身\n0 MP\nL\n›\n↑\n›\nJ\n橫越題海\n50 MP\nL\n›\n↓\n›\nJ\n越線飛踢\n200 MP\nL\n›\n←/→\n›\nK\n直面現實\n50 MP\nL\n›\n↑\n›\nK\n回到同伴\n50 MP\nL\n›\n↓\n›\nK\n前方：按左 / 右决定出招方向，无需先转身。完整出招表可查看派生技。"
+    },
+    {
+      "name": "visible copy: story intro",
+      "details": "SELECT YOUR PARTNER\n選擇並肩作戰的人。\n全技能出招表\n修改鍵位\n← 主選單\nP2 / 夥伴檔案\n沈舟\n機動 · 越線飛踢\n\n跨過名次的界線，也記得回到同伴身邊。\n\nP1 / 唐梨\nP2 / 沈舟\n小一\n選擇\n林夏\n選擇\n周齐\n選擇\n陈野\n選擇\n唐梨\nP1\n沈舟\nP2\n一起上場\n單人\n雙人同屏合作\n怪物數量\n1\n2\n3\n4\n5\n6\n怪物編隊\n混合編隊\n纸卷怪\n訂正獵手\n催促鐘怪\n戰鬥場景\n小学 · 不要掉队\n初中 · 名次巨像\n大学 · 前途无量\n教室 · 名字慢慢寫\n高中 · 下一題\n小学 · 不要掉队\n\n两段故事战斗 · 靠近伙伴，按住防御可援护。\n\nP1 W A S D 移動 / F 攻擊 G 跳躍 H 防禦\nP2 ↑ ← ↓ → 移動 / J 攻擊 K 跳躍 L 防禦\n點擊切換玩家與夥伴 · Enter 出發 · P 暫停 · Esc 退出\n第一章 · 不要掉队 ▶\n01 故事 · 不要掉队\n自由對戰\n第一章 · 不要掉队\n01\n小学篇\n第一章 / 不要掉队\n今天，别走散了。\n前程市 / 开学第一天\n校园广播\n“新同学，请不要掉队。”\n\n广播响起，纸上的催促挤成了怪物。新书包还很重，大家约好一起走进校门。\n\n靠近倒下的伙伴，按住防御 1.5 秒扶起。P1 H / P2 L\n一起走进校门 ▶\n返回选角\n两段短篇战斗 · 到达中途自动保存\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING."
+    },
+    {
+      "name": "visible copy: story battle",
+      "details": "R /\n前程市 · 持續登入中\n對戰進行中\n00:00\n技能\nⅡ 暫停\n退出 Esc\nP1\n唐梨\n500 / 500\nMP\n201\nP2\n沈舟\n500 / 500\nMP\n201\n怪\n纸卷怪\n150 / 150\nMP\n201\n怪\n纸卷怪\n150 / 150\nMP\n201\nP1\nW A S D 移動 · F 攻擊 G 跳躍 H 防禦\nP2\n↑ ← ↓ → 移動 · J 攻擊 K 跳躍 L 防禦\nP / ESC\n暫停 / 退出\npaused\n01 / 不要掉队\n打散纸卷怪，和同伴一起走进校门。\n第 1 段 / 2　·　剩餘 2 隻怪物\nTHOSE WHO FIGHT THE MONSTER CALLED REALITY\n同屏合作格鬥 · 一台電腦，一起出發。\nSTILL HERE. STILL FIGHTING.\n组合键出招 · 连续依次按，不必同时按\n查看完整出招表\nP1 · 唐梨\n粉筆連彈\n40 MP\nH\n›\nA/D\n›\nF\n課間連踢\n75 MP\nH\n›\nS\n›\nF\n放學旋風\n75 MP\nH\n›\nA/D\n›\nG\n追問光點\n100 MP\nH\n›\nW\n›\nF\nP2 · 沈舟\n雙頁推進\n125 MP\nL\n›\n←/→\n›\nJ\n逆風起身\n0 MP\nL\n›\n↑\n›\nJ\n橫越題海\n50 MP\nL\n›\n↓\n›\nJ\n越線飛踢\n200 MP\nL\n›\n←/→\n›\nK\n直面現實\n50 MP\nL\n›\n↑\n›\nK\n回到同伴\n50 MP\nL\n›\n↓\n›\nK\n前方：按左 / 右决定出招方向，无需先转身。完整出招表可查看派生技。"
+    },
+    {
+      "name": "story intro enters first chapter through real buttons",
+      "details": {
+        "phase": "battle",
+        "checkpoint": 0,
+        "title": "不要掉队 · 校门口",
+        "objective": "打散纸卷怪，和同伴一起走进校门。",
+        "background": 0,
+        "monsterIds": [
+          30,
+          30
+        ],
+        "enemiesRemaining": 2,
+        "rescues": 0,
+        "reviveProgress": 0,
+        "reviveTarget": null,
+        "reviveHelper": null,
+        "downedPlayers": [],
+        "elapsedFrames": 5,
+        "paused": false,
+        "saved": {
+          "version": 1,
+          "chapter": "chapter-01",
+          "checkpoint": 0,
+          "completed": false,
+          "mementos": [],
+          "updatedAt": null
+        },
+        "savingError": null,
+        "mode": "story",
+        "dialog": ""
+      }
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedResources": [],
+  "canceledMedia": [],
+  "screenshots": [
+    "home-1280x920.png",
+    "home-700x600.png",
+    "home-390x844.png",
+    "about.png",
+    "controls.png",
+    "shenzhou-six-skills.png",
+    "shenzhou-six-skills-bottom.png",
+    "lobby.png",
+    "battle.png",
+    "paused-battle.png",
+    "battle-skill-guide.png",
+    "story-intro.png",
+    "story-battle.png"
+  ],
+  "finishedAt": "2026-10-18T08:44:40.882Z"
+}

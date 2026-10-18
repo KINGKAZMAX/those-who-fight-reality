@@ -1,0 +1,10 @@
+[
+  {
+    "type": "console.error",
+    "text": "Failed to load resource: net::ERR_CONNECTION_TIMED_OUT"
+  },
+  {
+    "type": "pageerror",
+    "text": "Error: Script error\nhttp://requirejs.org/docs/errors.html#scripterror"
+  }
+]

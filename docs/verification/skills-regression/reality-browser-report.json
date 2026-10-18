@@ -1,0 +1,147 @@
+{
+  "errors": [],
+  "failedResources": [],
+  "checks": [
+    {
+      "name": "settings conflict, persistence, recommended reset and keyboard lobby path",
+      "details": {
+        "conflict": "J 已用于玩家 2 的攻击，请换一个按键。"
+      }
+    },
+    {
+      "name": "simultaneous two-player movement",
+      "details": {
+        "before": [
+          250,
+          550
+        ],
+        "after": [
+          115,
+          685
+        ]
+      }
+    },
+    {
+      "name": "both players jump",
+      "details": [
+        {
+          "frame": 212,
+          "y": -16.299999
+        },
+        {
+          "frame": 212,
+          "y": -16.299999
+        }
+      ]
+    },
+    {
+      "name": "both players guard",
+      "details": [
+        {
+          "frame": 110,
+          "y": 0
+        },
+        {
+          "frame": 110,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "both players attack",
+      "details": [
+        {
+          "frame": 60,
+          "y": 0
+        },
+        {
+          "frame": 65,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "P pauses once while held, then resumes",
+      "details": {
+        "pausedTime": 315
+      }
+    },
+    {
+      "name": "stage 0 actual match",
+      "details": {
+        "names": [
+          "小一",
+          "林夏",
+          "纸卷怪",
+          "纸卷怪"
+        ],
+        "fps": [
+          "30 FPS"
+        ]
+      }
+    },
+    {
+      "name": "stage 1 actual match",
+      "details": {
+        "names": [
+          "周齐",
+          "陈野",
+          "纸卷怪",
+          "纸卷怪",
+          "纸卷怪",
+          "纸卷怪",
+          "纸卷怪",
+          "纸卷怪"
+        ],
+        "fps": [
+          "30 FPS",
+          "30 FPS",
+          "30 FPS",
+          "30 FPS",
+          "30 FPS",
+          "30 FPS",
+          "24 FPS",
+          "30 FPS"
+        ]
+      }
+    },
+    {
+      "name": "stage 2 actual match",
+      "details": {
+        "names": [
+          "周齐",
+          "陈野",
+          "纸卷怪",
+          "纸卷怪"
+        ],
+        "fps": [
+          "30 FPS"
+        ]
+      }
+    },
+    {
+      "name": "real attack damage causes KO and results (enemy HP=1 fixture)",
+      "details": [
+        {
+          "name": "小一",
+          "hp": 500
+        },
+        {
+          "name": "陈野",
+          "hp": 500
+        },
+        {
+          "name": "纸卷怪",
+          "hp": -19
+        }
+      ]
+    },
+    {
+      "name": "demo route loads without nonexistent background",
+      "details": {
+        "screen": "gameplay"
+      }
+    }
+  ],
+  "passed": true
+}

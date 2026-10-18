@@ -1,0 +1,89 @@
+{
+  "generator": "built-in image_gen",
+  "reviewed": false,
+  "width": 2073,
+  "height": 758,
+  "notes": "Four missing frames generated from exact native source strip. Distinct right, shallow down-right, steep down-right,near-down angles retained. Unequal sourceRects isolate generated objects; fit each independently to native69x69 pose bounds.",
+  "patches": [
+    {
+      "id": 213,
+      "pic": 32,
+      "nativeSource": "sprite/weapon7.png",
+      "replacement": "animation/object-213-pics32-35.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-e1e99b8a-5820-4bd6-b2ce-6bd485ecdd6e.png",
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "w": 565,
+        "h": 758
+      },
+      "nativeSourceRect": {
+        "x": 140,
+        "y": 210,
+        "w": 69,
+        "h": 69
+      },
+      "reviewed": false
+    },
+    {
+      "id": 213,
+      "pic": 33,
+      "nativeSource": "sprite/weapon7.png",
+      "replacement": "animation/object-213-pics32-35.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-e1e99b8a-5820-4bd6-b2ce-6bd485ecdd6e.png",
+      "sourceRect": {
+        "x": 565,
+        "y": 0,
+        "w": 565,
+        "h": 758
+      },
+      "nativeSourceRect": {
+        "x": 210,
+        "y": 210,
+        "w": 69,
+        "h": 69
+      },
+      "reviewed": false
+    },
+    {
+      "id": 213,
+      "pic": 34,
+      "nativeSource": "sprite/weapon7.png",
+      "replacement": "animation/object-213-pics32-35.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-e1e99b8a-5820-4bd6-b2ce-6bd485ecdd6e.png",
+      "sourceRect": {
+        "x": 1130,
+        "y": 0,
+        "w": 500,
+        "h": 758
+      },
+      "nativeSourceRect": {
+        "x": 280,
+        "y": 210,
+        "w": 69,
+        "h": 69
+      },
+      "reviewed": false
+    },
+    {
+      "id": 213,
+      "pic": 35,
+      "nativeSource": "sprite/weapon7.png",
+      "replacement": "animation/object-213-pics32-35.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-e1e99b8a-5820-4bd6-b2ce-6bd485ecdd6e.png",
+      "sourceRect": {
+        "x": 1630,
+        "y": 0,
+        "w": 443,
+        "h": 758
+      },
+      "nativeSourceRect": {
+        "x": 350,
+        "y": 210,
+        "w": 69,
+        "h": 69
+      },
+      "reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "created": "2026-10-17",
+  "generator": "image_gen",
+  "note": "Reference-guided original art; four 4x4 transparent sprite sheets plus two opaque arena paintings. Native combat data preserved. Sprite poses are reused across native frames.",
+  "assets": [
+    {
+      "file": "tangli.png",
+      "ref": "/Users/mekzenx2/Documents/2026Tripo上海黑客松LF2/vendor/F.LF/game/art/linxia.png",
+      "transparent": true,
+      "prompt": "Edit this reference game sprite sheet to become a DIFFERENT original playable classmate Tangli. Preserve its early-2000s LF2-like pixel sprite finish, blue-and-white Chinese school tracksuit and compact 3.5-head-tall silhouette, dark outlines and limited crisp pixel clusters. Change the character to an energetic schoolgirl with two short braided pigtails with purple ties, plum-purple backpack, rolled sleeves, purple sneaker details. Recognizably a new person, not the reference girl recolored. Martial arts movement with expressive determined face, no weapons. EXACT 4 equal columns by 4 equal rows, sixteen separate full-body poses, same scale and baseline, 10% transparent margin in each cell, absolutely no pose crossing a cell boundary. All poses face RIGHT three-quarter side view. Row1: idle A, idle B, walk A, walk B. Row2: run A, run B, attack anticipation, extended punch. Row3: high side kick, guard, jumping tucked knees, airborne attack. Row4: recoiling hit, lying HORIZONTAL unconscious but unharmed, crouched recovery, signature action. No grid, no labels, no text, no background, no floor or cast shadow; genuinely transparent alpha. The signature final cell is a spinning high kick with a SMALL violet arc contained inside the cell.",
+      "generatedPath": "/Users/mekzenx2/.codex/generated_images/01a14873-ec37-7653-9270-32b96eca613d/exec-506497ab-3ce4-4927-9967-bdfeec0b6066.png",
+      "runtimePath": "vendor/F.LF/game/art/tangli.png",
+      "id": 9,
+      "nativeMotionOrStageId": 9,
+      "authoredPoses": 16
+    },
+    {
+      "file": "shenzhou.png",
+      "ref": "/Users/mekzenx2/Documents/2026Tripo上海黑客松LF2/vendor/F.LF/game/art/xiaoyi.png",
+      "transparent": true,
+      "prompt": "Edit this reference game sprite sheet to become a DIFFERENT original playable classmate Shenzhou. Preserve its LF2-like early-2000s pixel sprite finish, blue-and-white Chinese school tracksuit, compact 3.5-head-tall silhouette, crisp dark outlines and limited pixel clusters. Change to a thoughtful slightly taller boy with ash-black swept hair, burgundy-red backpack and small round headphones resting around his neck, white long sleeves and dark trainers. Distinct from original boy. No real weapons. EXACT 4 equal columns by 4 equal rows, sixteen separate full-body poses, same scale and baseline, 10% transparent margin in each cell, absolutely no pose crossing a cell boundary. All poses face RIGHT three-quarter side view. Row1: idle A, idle B, walk A, walk B. Row2: run A, run B, attack anticipation, extended punch. Row3: high side kick, guard, jumping tucked knees, airborne attack. Row4: recoiling hit, lying HORIZONTAL unconscious but unharmed, crouched recovery, signature action. No grid, no labels, no text, no background, no floor or cast shadow; genuinely transparent alpha. Final signature cell shows a forward flying kick and a small cyan folded-page ribbon, entirely contained.",
+      "generatedPath": "/Users/mekzenx2/.codex/generated_images/01a14873-ec37-7653-9270-32b96eca613d/exec-7994f2aa-8d0c-4622-be62-29bf56e47ac8.png",
+      "runtimePath": "vendor/F.LF/game/art/shenzhou.png",
+      "id": 10,
+      "nativeMotionOrStageId": 10,
+      "authoredPoses": 16
+    },
+    {
+      "file": "stapler-monster.png",
+      "ref": "/Users/mekzenx2/Documents/2026Tripo上海黑客松LF2/vendor/F.LF/game/art/paper-monster.png",
+      "transparent": true,
+      "prompt": "Edit this monster sprite atlas into a wholly DIFFERENT original school stationery enemy: a small agile haunted stapler and correction-paper hunter. Same pixel-art rendering and size as supplied monster reference, LF2-style chunky readable outlines, compact 3.5-head-tall body. Teal enamel stapler-shaped head with fierce glowing orange eyes, cream folded-paper coat torso, small grey jointed limbs, a red correction-tape cartridge on belt; not human, not gruesome. The hinged stapler muzzle/arm shoots harmless stylized folded-paper darts. Do NOT retain the giant red X or rectangular paper-monster body. EXACT 4 equal columns by 4 equal rows, sixteen separate full-body poses, same scale and baseline, 10% transparent margin in each cell, absolutely no pose crossing a cell boundary. All poses face RIGHT three-quarter side view. Row1: idle A, idle B, walk A, walk B. Row2: run A, run B, attack anticipation, extended punch. Row3: high side kick, guard, jumping tucked knees, airborne attack. Row4: recoiling hit, lying HORIZONTAL unconscious but unharmed, crouched recovery, signature action. No grid, no labels, no text, no background, no floor or cast shadow; genuinely transparent alpha. Attack poses point the stapler muzzle to RIGHT; final signature shows a tiny paper dart leaving the muzzle. Maintain same character design across all sixteen cells.",
+      "generatedPath": "/Users/mekzenx2/.codex/generated_images/01a14873-ec37-7653-9270-32b96eca613d/exec-07c8ee16-3e32-42f2-94f0-dbd27d166c4b.png",
+      "runtimePath": "vendor/F.LF/game/art/stapler-monster.png",
+      "id": 31,
+      "nativeMotionOrStageId": 4,
+      "authoredPoses": 16
+    },
+    {
+      "file": "clock-monster.png",
+      "ref": "/Users/mekzenx2/Documents/2026Tripo上海黑客松LF2/vendor/F.LF/game/art/paper-monster.png",
+      "transparent": true,
+      "prompt": "Edit this monster sprite atlas into a wholly DIFFERENT original school enemy: a squat heavy haunted brass alarm clock named the Hurry Clock. Same LF2-style pixel-art finish as the reference, dark clean outlines, compact sprite, amber brass and navy metal. Round clock face with two angry glowing red eyes and exaggerated black clock hands, two bell caps, large mechanical mitten fists and short sturdy boots; mechanical fantasy creature, not human, no gore. Make the ROUND silhouette clear and consistent, not a rectangular paper body and no red X. EXACT 4 equal columns by 4 equal rows, sixteen separate full-body poses, same scale and baseline, 10% transparent margin in each cell, absolutely no pose crossing a cell boundary. All poses face RIGHT three-quarter side view. Row1: idle A, idle B, walk A, walk B. Row2: run A, run B, attack anticipation, extended punch. Row3: high side kick, guard, jumping tucked knees, airborne attack. Row4: recoiling hit, lying HORIZONTAL unconscious but unharmed, crouched recovery, signature action. No grid, no labels, no text, no background, no floor or cast shadow; genuinely transparent alpha. Attack anticipation has one big fist back; extended punch is one clear large forward fist; final signature is a shoulder charge with a small amber speed streak contained within the cell.",
+      "generatedPath": "/Users/mekzenx2/.codex/generated_images/01a14873-ec37-7653-9270-32b96eca613d/exec-1de28c27-2353-42bf-b271-22fa8fd383f0.png",
+      "runtimePath": "vendor/F.LF/game/art/clock-monster.png",
+      "id": 32,
+      "nativeMotionOrStageId": 6,
+      "authoredPoses": 16
+    },
+    {
+      "file": "stage-classroom.png",
+      "ref": "/Users/mekzenx2/Documents/2026Tripo上海黑客松LF2/vendor/F.LF/game/art/stage-primary.png",
+      "transparent": false,
+      "prompt": "Transform the supplied campus background into a new INTERIOR CHINESE PRIMARY SCHOOL CLASSROOM game arena, retaining its painterly pixel-art rendering, warm afternoon color and LF2 side-scrolling beat-em-up camera. Wide landscape 16:9. NO characters, NO enemies, NO HUD, NO words or labels. Back wall with broad green chalkboard with faint chalk diagrams only, wooden teacher desk at far rear, wall-mounted loudspeaker, high windows from left casting warm sunlight, a few small potted plants, student desks and chairs stacked neatly along the BACK WALL only. Subtle magical realism: two small paper airplanes suspended near ceiling and a softly curved chalk line. The FLOOR begins at 53 percent image height; the entire LOWER 47 percent is broad flat continuous amber terrazzo/wood floor with small sunlit reflections, EMPTY and unobstructed for lateral combat and depth walking. Floor horizon horizontal, no central vanishing point road, no close foreground furniture blocking fighters. Detailed room but quiet playable floor, strong pixel texture, not 3D or photorealism.",
+      "generatedPath": "/Users/mekzenx2/.codex/generated_images/01a14873-ec37-7653-9270-32b96eca613d/exec-ee3f601a-a412-4d16-a901-918b8d98595f.png",
+      "runtimePath": "vendor/F.LF/game/art/stage-classroom.png",
+      "id": 404,
+      "nativeMotionOrStageId": 4
+    },
+    {
+      "file": "stage-exam.png",
+      "ref": "/Users/mekzenx2/Documents/2026Tripo上海黑客松LF2/vendor/F.LF/game/art/stage-ranking.png",
+      "transparent": false,
+      "prompt": "Transform the supplied nighttime campus artwork into a DIFFERENT wide HIGH SCHOOL EXAM HALL CORRIDOR battle background in the same detailed painterly pixel-art Chinese magical-realism style, side-on LF2 brawler arena. Wide landscape16:9. NO characters, NO enemies, NO HUD, NO readable text. Upper 58 percent: long row of Chinese classroom doors and rectangular windows, fluorescent ceiling strips, broad green noticeboard with neat blank answer-sheet rectangles, one absurdly oversized round wall clock whose minute hand bends into a paper ribbon, far window glowing apricot dusk, desaturated teal walls. Mildly surreal architecture but usable and grounded, no horror. LOWER 42 percent: empty continuous horizontal pale terrazzo floor with subtle cyan/amber reflections and paper-thin shadows, completely walkable with no desks/obstacles in foreground. Clear horizontal floor boundary, view perpendicular to wall, avoid strong vanishing-point tunnel. Warm light contrasting cool teal, crisp pixel clusters, match the supplied world; no photorealism.",
+      "generatedPath": "/Users/mekzenx2/.codex/generated_images/01a14873-ec37-7653-9270-32b96eca613d/exec-ff8ff465-0ad5-4cb8-87aa-6138ea8563b8.png",
+      "runtimePath": "vendor/F.LF/game/art/stage-exam.png",
+      "id": 405,
+      "nativeMotionOrStageId": 4
+    }
+  ],
+  "runtimeCounts": {
+    "heroes": 6,
+    "skills": 27,
+    "monsterTypes": 3,
+    "stages": 5,
+    "sourcePngs": 16,
+    "characterAtlases": 40,
+    "propAtlases": 31
+  },
+  "integrationNote": "New monster IDs retain source-specific identity handling. Both new interiors use unmodified HK Coliseum geometry to avoid over-wide painting distortion."
+}

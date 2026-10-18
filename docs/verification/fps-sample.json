@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-17",
+  "durationSeconds": 8,
+  "mode": "upstream automated two-CPU battle",
+  "samples": [
+    {
+      "fps": "30fps",
+      "summaryVisible": false,
+      "hidden": false
+    },
+    {
+      "fps": "30fps",
+      "summaryVisible": false,
+      "hidden": false
+    },
+    {
+      "fps": "30fps",
+      "summaryVisible": false,
+      "hidden": false
+    },
+    {
+      "fps": "30fps",
+      "summaryVisible": false,
+      "hidden": false
+    },
+    {
+      "fps": "30fps",
+      "summaryVisible": false,
+      "hidden": false
+    },
+    {
+      "fps": "30fps",
+      "summaryVisible": false,
+      "hidden": false
+    },
+    {
+      "fps": "31fps",
+      "summaryVisible": false,
+      "hidden": false
+    },
+    {
+      "fps": "30fps",
+      "summaryVisible": false,
+      "hidden": false
+    }
+  ]
+}

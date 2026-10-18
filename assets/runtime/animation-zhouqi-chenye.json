@@ -1,0 +1,68 @@
+[
+  {
+    "id": "zhouqi",
+    "nativeSource": "sprite/freeze_0.png",
+    "replacement": "animation/zhouqi-0.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14996-1a1a-7510-91d2-743aa65dd907/exec-c7afb672-94e9-48f7-a654-09da9c9b9c71.png",
+    "columns": 10,
+    "rows": 7,
+    "sourceRows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "zhouqi",
+    "nativeSource": "sprite/freeze_1.png",
+    "replacement": "animation/zhouqi-1.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14996-1a1a-7510-91d2-743aa65dd907/exec-59415a4d-41e9-449c-b72b-433acc6e67d3.png",
+    "columns": 10,
+    "rows": 7,
+    "sourceRows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "zhouqi",
+    "nativeSource": "sprite/freeze_2.png",
+    "replacement": "animation/zhouqi-2.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14996-1a1a-7510-91d2-743aa65dd907/exec-2d0931f1-6a39-455f-a373-4fa8c0597832.png",
+    "columns": 10,
+    "rows": 3,
+    "sourceRows": 3,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "chenye",
+    "nativeSource": "sprite/henry_0.png",
+    "replacement": "animation/chenye-0.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14996-1a1a-7510-91d2-743aa65dd907/exec-21bf29cc-8879-43f6-9899-f818cd0f61a4.png",
+    "columns": 10,
+    "rows": 7,
+    "sourceRows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "chenye",
+    "nativeSource": "sprite/henry_1.png",
+    "replacement": "animation/chenye-1.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14996-1a1a-7510-91d2-743aa65dd907/exec-437f1876-4181-429e-99a9-aa00a56a7a4f.png",
+    "columns": 10,
+    "rows": 7,
+    "sourceRows": 7,
+    "declaredRows": 7,
+    "reviewed": false
+  },
+  {
+    "id": "chenye",
+    "nativeSource": "sprite/henry_2.png",
+    "replacement": "animation/chenye-2.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14996-1a1a-7510-91d2-743aa65dd907/exec-fca3ae90-b066-4d78-88d9-14206fd306ab.png",
+    "columns": 10,
+    "rows": 2,
+    "sourceRows": 2,
+    "declaredRows": 7,
+    "reviewed": false
+  }
+]

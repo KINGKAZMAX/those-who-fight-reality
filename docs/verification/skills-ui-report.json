@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "url": "http://127.0.0.1:18765/F.LF/game/game.html",
+  "startedAt": "2026-10-17T08:44:10.189Z",
+  "errors": [],
+  "failedResources": [],
+  "checks": [
+    {
+      "name": "Four hero tabs expose all 17 native combos and resolved advanced tips, without shortcut fields",
+      "details": {
+        "counts": [
+          4,
+          5,
+          4,
+          4
+        ],
+        "notes": [
+          "小一的进阶技巧\n\n近身重击收招时按 G 可接「向上一步」（25 MP），再按 F 追加踢击。\n\n抓住敌人后输入 H › S › F 可接连拳（75 MP）；H › W › F 可接升龙（225 MP）。\n\n跑动攻击中续按 F 可追加一拳；翻滚中仍可用升龙或「向上一步」，按对应招式消耗 MP。",
+          "林夏的进阶技巧\n\n近身重击收招时按 G，再按 F，可接腾跃追击；这套派生不消耗 MP。",
+          "周齐的进阶技巧\n\n「纪律尺」召唤后直接持有；普通攻击挥动尺子，掉落后可走近按 F 拾回。",
+          "陈野的进阶技巧\n\n普通射击 F 每箭消耗 12 MP；空中射击每箭消耗 20 MP，空中收招时续按 F 可连射。"
+        ]
+      }
+    },
+    {
+      "name": "Player tabs use actual bindings",
+      "details": {
+        "playerOneCombo": "依次按\nH\n›\nA/D\n›\nF",
+        "playerTwoCombo": "依次按\nL\n›\n←/→\n›\nJ"
+      }
+    },
+    {
+      "name": "Home and lobby guide entries preserve their screens"
+    },
+    {
+      "name": "Custom attack binding updates the guide, and resetting controls refreshes the open guide immediately",
+      "details": {
+        "updatedCombo": "依次按\nH\n›\nA/D\n›\nQ"
+      }
+    },
+    {
+      "name": "Both players get read-only combo hints outside the arena, with no cast buttons or shortcut API",
+      "details": {
+        "bounds": {
+          "frameBottom": 760,
+          "trayTop": 769,
+          "trayBottom": 872,
+          "hidden": false,
+          "viewportHeight": 900
+        },
+        "rowCounts": [
+          4,
+          5
+        ],
+        "combo": "H\n›\nA/D\n›\nF"
+      }
+    },
+    {
+      "name": "Guide pauses live play, isolates combat input, and Escape resumes without leaving"
+    },
+    {
+      "name": "Closing the guide preserves an already paused match"
+    },
+    {
+      "name": "Insufficient MP stays readable on a non-interactive combo hint",
+      "details": {
+        "message": "草稿冲击 · 依次按 H › A/D › F · 40 MP · MP 不足，需要 40 MP。"
+      }
+    },
+    {
+      "name": "Q has no skill action; physical H → D → F enters the original move and consumes 40 MP",
+      "details": {
+        "frames": [
+          1,
+          2,
+          3,
+          110,
+          240,
+          241,
+          242,
+          243
+        ],
+        "mpUsed": 40
+      }
+    },
+    {
+      "name": "Every combo remains within its hint at the narrowest expanded layout",
+      "details": [
+        {
+          "width": 136,
+          "content": 136
+        },
+        {
+          "width": 136,
+          "content": 136
+        },
+        {
+          "width": 136,
+          "content": 136
+        },
+        {
+          "width": 136,
+          "content": 136
+        },
+        {
+          "width": 105,
+          "content": 105
+        },
+        {
+          "width": 105,
+          "content": 105
+        },
+        {
+          "width": 105,
+          "content": 105
+        },
+        {
+          "width": 105,
+          "content": 105
+        },
+        {
+          "width": 105,
+          "content": 105
+        }
+      ]
+    },
+    {
+      "name": "Small windows collapse the tray and retain the HUD guide button",
+      "details": {
+        "width": 872,
+        "height": 594
+      }
+    }
+  ],
+  "completedAt": "2026-10-17T08:44:38.817Z"
+}

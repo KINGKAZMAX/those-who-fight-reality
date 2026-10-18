@@ -1,0 +1,67 @@
+{
+  "errors": [],
+  "resources": [],
+  "stages": [
+    {
+      "width": 794,
+      "depth": [
+        316,
+        442
+      ],
+      "rules": {},
+      "phase": "idle",
+      "tick": 1,
+      "players": [
+        {
+          "mp": 201,
+          "spent": 0
+        },
+        {
+          "mp": 201,
+          "spent": 0
+        }
+      ]
+    },
+    {
+      "width": 2400,
+      "depth": [
+        292,
+        495
+      ],
+      "rules": {},
+      "phase": "idle",
+      "tick": 1,
+      "players": [
+        {
+          "mp": 201,
+          "spent": 0
+        },
+        {
+          "mp": 201,
+          "spent": 0
+        }
+      ]
+    },
+    {
+      "width": 1600,
+      "depth": [
+        420,
+        510
+      ],
+      "rules": {},
+      "phase": "idle",
+      "tick": 1,
+      "players": [
+        {
+          "mp": 201,
+          "spent": 0
+        },
+        {
+          "mp": 201,
+          "spent": 0
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

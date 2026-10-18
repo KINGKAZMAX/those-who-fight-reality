@@ -1,0 +1,73 @@
+{
+  "generator": "built-in image_gen",
+  "reviewed": false,
+  "promptSummary": "Strict native motion atlas per source; campus identity appearance only; preserve every source pose, cell placement, orientation, limb endpoints, blank slots and animation sequence; actual transparent background; no grid or labels.",
+  "assets": [
+    {
+      "id": 2,
+      "nativeSource": "sprite/john_0.png",
+      "replacement": "animation/linxia-0.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-4f8735c4-095f-41ae-a733-3b69c73d3c52.png",
+      "columns": 10,
+      "rows": 7,
+      "declaredRows": 7,
+      "reviewed": false,
+      "notes": "Visual cell count and sparse slots retained; native normalization pending."
+    },
+    {
+      "id": 2,
+      "nativeSource": "sprite/john_1.png",
+      "replacement": "animation/linxia-1.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-71094684-07a3-4ce7-bfa5-3eaf90973d8d.png",
+      "columns": 10,
+      "rows": 7,
+      "declaredRows": 7,
+      "reviewed": false,
+      "notes": "Visual cell count and sparse slots retained; native normalization pending."
+    },
+    {
+      "id": 2,
+      "nativeSource": "sprite/john_3.png",
+      "replacement": "animation/linxia-3.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-5fd34ca5-4213-4011-9d63-077bb6751853.png",
+      "columns": 10,
+      "rows": 4.5,
+      "declaredRows": 7,
+      "reviewed": false,
+      "notes": "Source canvas 800x360; four occupied 80px rows plus40px bottom margin."
+    },
+    {
+      "id": 2,
+      "nativeSource": "sprite/john_2.png",
+      "replacement": "animation/linxia-2.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-77197738-9f58-4cf9-999b-ec28a8385a80.png",
+      "columns": 4,
+      "rows": 1,
+      "declaredRows": 1,
+      "reviewed": false,
+      "notes": "Source457x125, native110px cell pitch."
+    },
+    {
+      "id": 30,
+      "nativeSource": "sprite/bandit_0.png",
+      "replacement": "animation/paper-monster-0.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-6918a9ae-c10c-4f1d-baaf-972d284dff95.png",
+      "columns": 10,
+      "rows": 7,
+      "declaredRows": 7,
+      "reviewed": false,
+      "notes": "Visual cell count and sparse slots retained; native normalization pending."
+    },
+    {
+      "id": 30,
+      "nativeSource": "sprite/bandit_1.png",
+      "replacement": "animation/paper-monster-1.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-b2e08bb7-c941-494b-8725-a1d777530383.png",
+      "columns": 10,
+      "rows": 7,
+      "declaredRows": 7,
+      "reviewed": false,
+      "notes": "Visual cell count and sparse slots retained; native normalization pending."
+    }
+  ]
+}

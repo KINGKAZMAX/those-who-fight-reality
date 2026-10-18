@@ -1,0 +1,43 @@
+{
+  "generator": "built-in image_gen",
+  "reviewed": false,
+  "promptSummary": "Use case identity-preserve. Image1 is STRICT EDIT TARGET and motion/coordinate template. Image2 is character appearance reference ONLY. Repaint EVERY existing Louis sprite as campus clock monster: gold round alarm-clock torso and face, twin gold bells, black clock hands, red angry glowing eyes, dark navy mechanical fists and boots. Human hair/head/armor/cape become round clock casing, limbs and straps; do not retain human face/hair. Keep exact source pose per cell, direction, limb endpoints, attack/effect placement, body center, original order, small source scale and blank cells. DO NOT copy the4x4 identity reference layout. Compact game pixel-art detail; real transparent background. No text, numerals, labels, gridlines, shadows, extra sprites or clipping. Every sprite stays in its original cell. ",
+  "assets": [
+    {
+      "id": 32,
+      "nativeId": 6,
+      "nativeSource": "sprite/louis_0.png",
+      "replacement": "animation/clock-monster-0.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-544bb11a-604e-43e5-8995-ac9f1bd50d5e.png",
+      "columns": 10,
+      "rows": 7,
+      "declaredRows": 7,
+      "reviewed": false,
+      "notes": "Sparse layout and visual counts retained; native cell bounds normalization pending."
+    },
+    {
+      "id": 32,
+      "nativeId": 6,
+      "nativeSource": "sprite/louis_1.png",
+      "replacement": "animation/clock-monster-1.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-2123b16a-0389-4e31-a888-cbe3ea0f0346.png",
+      "columns": 10,
+      "rows": 7,
+      "declaredRows": 7,
+      "reviewed": false,
+      "notes": "Sparse layout and visual counts retained; native cell bounds normalization pending."
+    },
+    {
+      "id": 32,
+      "nativeId": 6,
+      "nativeSource": "sprite/louis_2.png",
+      "replacement": "animation/clock-monster-2.png",
+      "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14995-ad3f-7761-96d7-b91bc8f7490c/exec-2a292217-896b-42e8-a6f4-1a1fa5a3a023.png",
+      "columns": 10,
+      "rows": 5,
+      "declaredRows": 7,
+      "reviewed": false,
+      "notes": "Referenced native local frames0-16,20-22,30-48; generated row5c10 is extra unused sprite and must be discarded during normalization. No referenced row6."
+    }
+  ]
+}

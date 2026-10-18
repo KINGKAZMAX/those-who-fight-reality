@@ -1,0 +1,36 @@
+﻿ID,名称,用途,来源,状态,本地路径,Tripo建议,优先级
+ART-001,当前校园像素美术资产清单,生成来源与运行资源追溯,内置 image_gen；按已批准的三张概念图设计,首批9張運行PNG的生成紀錄；後續擴充見ART-003,assets/runtime/reality-art-manifest.json,当前为 2D 方案；无需 Tripo,P0
+HERO-001,小一,可选近战角色；16 姿态透明精灵表,内置 image_gen；原创校园角色设定,已接入；映射 Davis 动作时间线,vendor/F.LF/game/art/xiaoyi.png,无需 3D,P0
+HERO-002,林夏,可选支援角色；16 姿态透明精灵表,内置 image_gen；原创校园角色设定,已接入；映射 John 动作时间线,vendor/F.LF/game/art/linxia.png,无需 3D,P0
+HERO-003,周齐,可选控场角色；16 姿态透明精灵表,内置 image_gen；原创校园角色设定,已接入；映射 Freeze 动作时间线,vendor/F.LF/game/art/zhouqi.png,无需 3D,P0
+HERO-004,陈野,可选远程角色；16 姿态透明精灵表,内置 image_gen；原创校园角色设定,已接入；映射 Henry 动作时间线,vendor/F.LF/game/art/chenye.png,无需 3D,P0
+ENEMY-001,纸卷怪,CPU 敌人；16 姿态透明精灵表,内置 image_gen；原创试卷怪物设定,已接入；映射 Bandit；其他未公开角色沿用此视觉回退,vendor/F.LF/game/art/paper-monster.png,无需 3D,P0
+BG-101,小学·不要掉队,可选战斗场景,内置 image_gen；由小学概念图编辑为空场景,已接入；校門名稱改為实验小学；保留原生場寬與縱深,vendor/F.LF/game/art/stage-primary.png,2D 背景,P0
+BG-102,初中·名次巨像,可选战斗场景,内置 image_gen；由初中概念图编辑为空场景,已接入；美術適配原生場寬與縱深；未新增章節首領,vendor/F.LF/game/art/stage-ranking.png,2D 背景,P0
+BG-103,大学·前途无量,可选战斗场景,内置 image_gen；由大学概念图编辑为空场景,已接入；美術適配原生場寬與縱深；未新增章節首領,vendor/F.LF/game/art/stage-graduation.png,2D 背景,P0
+PROP-101,校园道具与特效表,纸飞机、尺子、纸屑、雨伞等 16 格,内置 image_gen；原创校园物件,已接入武器、射弹、命中效果与影子；部分格作为备用图形,vendor/F.LF/game/art/props.png,2D 道具；无需 Tripo,P0
+UI-001,校园像素主菜单、选角与设置,当前游戏界面,本地 JavaScript 实现；使用当前生成头像与场景,已接入；公開6英雄、5場景與3種怪物編隊,vendor/F.LF/game/urban-ui.js,UI 不需要 3D,P0
+UI-002,校园像素界面样式,主菜单、选角与设置视觉,本地 CSS 实现,已接入；替换上一版街机终端视觉,vendor/F.LF/game/urban-ui.css,UI 不需要 3D,P0
+UI-003,校园像素战斗 HUD 与结算,血量、能量、队员与结果显示,本地 JavaScript 实现；使用当前生成头像,已接入；读取原战斗结果,vendor/F.LF/game/urban-hud.js,UI 不需要 3D,P0
+UI-004,校园像素 HUD 样式,战斗与结算视觉,本地 CSS 实现,已接入,vendor/F.LF/game/urban-hud.css,UI 不需要 3D,P0
+PIPE-001,校园美术图集适配器,精灵裁切、姿态映射、头像与场景准备,本地 JavaScript 实现,已接入；16張來源PNG準備71張圖集、3879個映射格；保留原動作與場地邊界,vendor/F.LF/game/reality-art.js,无需 3D,P0
+CONCEPT-001,小学·不要掉队概念图,已批准美术方向与构图参考,内置 image_gen,已生成；设计参考；非实机画面,assets/concept-art/01-小学-不要掉队.png,作为后续设计参考,参考
+CONCEPT-002,初中·名次巨像概念图,已批准美术方向与首领设计参考,内置 image_gen,已生成；设计参考；首领尚未实装,assets/concept-art/02-初中-名次巨像.png,作为后续设计参考,参考
+CONCEPT-003,大学·前途无量概念图,已批准美术方向与首领设计参考,内置 image_gen,已生成；设计参考；首领尚未实装,assets/concept-art/03-大学-前途无量.png,作为后续设计参考,参考
+CONCEPT-004,三张概念图生成提示词,概念图来源追溯,本次对话生成记录,已保存,assets/concept-art/生成提示词.md,不适用,参考
+BG-001,旧版存档：深夜失物中转站,旧《失物招领局》首关背景提案,旧世界观提案,旧版存档；未制作、未实装；非当前校园素材缺项,docs/世界观与试玩方案.md,旧建议：2D 分层背景；当前不执行,存档
+PROP-001,旧版存档：会行走的遗失箱,旧世界观场景道具与投掷物提案,旧 Tripo 图片建模计划,旧版存档；未生成、未实装,docs/世界观与试玩方案.md,旧建议：3D 后预渲染；当前不执行,存档
+PROP-002,旧版存档：封箱锤与贴签枪,旧世界观角色武器提案,旧 Tripo 图片建模计划,旧版存档；未生成、未实装,docs/世界观与试玩方案.md,旧建议：1K 贴图并控制面数；当前不执行,存档
+CHAR-001,旧版存档：拆箱员,旧世界观近战角色提案,旧原创角色提案,旧版存档；动作帧未制作、未实装,docs/世界观与试玩方案.md,旧建模计划后置；当前不执行,存档
+CHAR-002,旧版存档：贴签员,旧世界观远程角色提案,旧原创角色提案,旧版存档；动作帧未制作、未实装,docs/世界观与试玩方案.md,旧建模计划后置；当前不执行,存档
+REF-001,原版 Bandit 头像,原引擎素材留档,Project-F/LF2_19 原作素材,原包保留；当前入口已显示纸卷怪头像,vendor/LF2_19/sprite/bandit_f.png,不作为本轮生成素材,参考
+REF-002,原版 UI 图片,原引擎尺寸与交互参考,Project-F/LF2_19 原作素材,原包保留；当前入口由校园像素界面覆盖显示,vendor/LF2_19/UI/,不作为本轮生成素材,参考
+VFX-101,六伙伴共用技能特效表,16 格技能发射物、升龙轨迹、护盾、治疗与控场特效,内置 image_gen；沿用已批准校园像素风格,已接入27招及原生動作；新增兩伙伴射彈沿用對應特效格,vendor/F.LF/game/art/skills-effects.png,2D 特效；无需 Tripo,P0
+ART-002,技能特效生成记录,技能图集来源、参考与完整提示词追溯,内置 image_gen；本次生成记录,已保存,assets/runtime/skills-effects-manifest.json,不适用,P0
+ART-003,角色場景怪物擴充紀錄,6張新PNG的提示詞與來源追溯,內置image_gen；沿用既有像素風格,已接入；2角色2怪物2場景,assets/runtime/asset-expansion-manifest.json,不適用,P0
+HERO-005,唐梨,可選連擊角色；16姿勢透明圖集,內置image_gen；參考林夏風格,已接入；Dennis ID9；4招,vendor/F.LF/game/art/tangli.png,無需3D,P0
+HERO-006,沈舟,可選機動角色；16姿勢透明圖集,內置image_gen；參考小一風格,已接入；Woody ID10；6招,vendor/F.LF/game/art/shenzhou.png,無需3D,P0
+ENEMY-002,訂正獵手,遠程怪物；16姿勢透明圖集,內置image_gen；原創訂書機怪物,已接入ID31；Henry ID4動作複本,vendor/F.LF/game/art/stapler-monster.png,無需3D,P0
+ENEMY-003,催促鐘怪,重擊怪物；16姿勢透明圖集,內置image_gen；原創時鐘怪物,已接入ID32；Louis ID6動作複本,vendor/F.LF/game/art/clock-monster.png,無需3D,P0
+BG-104,教室·名字慢慢寫,可選場景與第一章第二遭遇,內置image_gen；參考小學場景,已接入ID404；原生場地4邊界,vendor/F.LF/game/art/stage-classroom.png,2D背景,P0
+BG-105,高中·下一題,可選對戰場景,內置image_gen；參考初中場景,已接入ID405；原生場地4邊界；非高中完整劇情,vendor/F.LF/game/art/stage-exam.png,2D背景,P0

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 11,
+    "nativeSource": "sprite/davis_0.png",
+    "replacement": "animation/xiaoyi-0.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14981-ecea-70e2-b8a3-a0ca90b05728/exec-5063d8f9-3df1-4bd1-862e-b15b5c86577c.png",
+    "columns": 10,
+    "rows": 7,
+    "reviewed": false
+  },
+  {
+    "id": 11,
+    "nativeSource": "sprite/davis_1.png",
+    "replacement": "animation/xiaoyi-1.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14981-ecea-70e2-b8a3-a0ca90b05728/exec-95a016f2-b16d-4c5e-9889-64e8b2293e3f.png",
+    "columns": 10,
+    "rows": 7,
+    "reviewed": false
+  },
+  {
+    "id": 11,
+    "nativeSource": "sprite/davis_2.png",
+    "replacement": "animation/xiaoyi-2.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14981-ecea-70e2-b8a3-a0ca90b05728/exec-c1c1b2cd-dfc4-4e55-9774-1a43b8690345.png",
+    "columns": 10,
+    "rows": 4,
+    "reviewed": false
+  },
+  {
+    "id": 31,
+    "nativeSource": "sprite/henry_0.png",
+    "replacement": "animation/stapler-monster-0.png",
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14981-ecea-70e2-b8a3-a0ca90b05728/exec-5ff937a8-3f60-4098-aa47-7b66120df610.png",
+    "columns": 10,
+    "rows": 7,
+    "reviewed": false
+  }
+]

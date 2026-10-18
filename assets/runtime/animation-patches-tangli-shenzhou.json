@@ -1,0 +1,227 @@
+[
+  {
+    "objectId": 9,
+    "id": "tangli",
+    "pic": 10,
+    "file": "animation/patches/tangli-pics-10-39.png",
+    "sourceRect": {
+      "x": 0,
+      "y": 0,
+      "w": 310,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-99ad5532-3e5b-4488-aaa7-1af95783831c.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 9,
+    "id": "tangli",
+    "pic": 11,
+    "file": "animation/patches/tangli-pics-10-39.png",
+    "sourceRect": {
+      "x": 310,
+      "y": 0,
+      "w": 415,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-99ad5532-3e5b-4488-aaa7-1af95783831c.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 9,
+    "id": "tangli",
+    "pic": 12,
+    "file": "animation/patches/tangli-pics-10-39.png",
+    "sourceRect": {
+      "x": 725,
+      "y": 0,
+      "w": 295,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-99ad5532-3e5b-4488-aaa7-1af95783831c.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 9,
+    "id": "tangli",
+    "pic": 19,
+    "file": "animation/patches/tangli-pics-10-39.png",
+    "sourceRect": {
+      "x": 1020,
+      "y": 0,
+      "w": 400,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-99ad5532-3e5b-4488-aaa7-1af95783831c.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 9,
+    "id": "tangli",
+    "pic": 29,
+    "file": "animation/patches/tangli-pics-10-39.png",
+    "sourceRect": {
+      "x": 1420,
+      "y": 0,
+      "w": 400,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-99ad5532-3e5b-4488-aaa7-1af95783831c.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 9,
+    "id": "tangli",
+    "pic": 39,
+    "file": "animation/patches/tangli-pics-10-39.png",
+    "sourceRect": {
+      "x": 1820,
+      "y": 0,
+      "w": 352,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-99ad5532-3e5b-4488-aaa7-1af95783831c.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 9,
+    "id": "tangli",
+    "pic": 104,
+    "file": "animation/patches/tangli-pics-104-105.png",
+    "sourceRect": {
+      "x": 0,
+      "y": 0,
+      "w": 887,
+      "h": 887
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-63db4430-4bb9-46bf-9837-1487db781d18.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 9,
+    "id": "tangli",
+    "pic": 105,
+    "file": "animation/patches/tangli-pics-104-105.png",
+    "sourceRect": {
+      "x": 887,
+      "y": 0,
+      "w": 887,
+      "h": 887
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-63db4430-4bb9-46bf-9837-1487db781d18.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 10,
+    "id": "shenzhou",
+    "pic": 12,
+    "file": "animation/patches/shenzhou-pics-12-52.png",
+    "sourceRect": {
+      "x": 0,
+      "y": 0,
+      "w": 620,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-23d1365a-3e47-4b1e-acb6-d16b3c23f6fc.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 10,
+    "id": "shenzhou",
+    "pic": 37,
+    "file": "animation/patches/shenzhou-pics-12-52.png",
+    "sourceRect": {
+      "x": 620,
+      "y": 0,
+      "w": 460,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-23d1365a-3e47-4b1e-acb6-d16b3c23f6fc.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 10,
+    "id": "shenzhou",
+    "pic": 38,
+    "file": "animation/patches/shenzhou-pics-12-52.png",
+    "sourceRect": {
+      "x": 1080,
+      "y": 0,
+      "w": 490,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-23d1365a-3e47-4b1e-acb6-d16b3c23f6fc.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 10,
+    "id": "shenzhou",
+    "pic": 52,
+    "file": "animation/patches/shenzhou-pics-12-52.png",
+    "sourceRect": {
+      "x": 1570,
+      "y": 0,
+      "w": 602,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-23d1365a-3e47-4b1e-acb6-d16b3c23f6fc.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 10,
+    "id": "shenzhou",
+    "pic": 152,
+    "file": "animation/patches/shenzhou-pics-152-154.png",
+    "sourceRect": {
+      "x": 0,
+      "y": 0,
+      "w": 724,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-a6bd04a7-aa7a-4edc-a45f-499c09141208.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 10,
+    "id": "shenzhou",
+    "pic": 153,
+    "file": "animation/patches/shenzhou-pics-152-154.png",
+    "sourceRect": {
+      "x": 724,
+      "y": 0,
+      "w": 724,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-a6bd04a7-aa7a-4edc-a45f-499c09141208.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  },
+  {
+    "objectId": 10,
+    "id": "shenzhou",
+    "pic": 154,
+    "file": "animation/patches/shenzhou-pics-152-154.png",
+    "sourceRect": {
+      "x": 1448,
+      "y": 0,
+      "w": 724,
+      "h": 724
+    },
+    "generatedSource": "/Users/mekzenx2/.codex/generated_images/01a14997-76b8-74f0-89f1-b1c205ea1181/exec-a6bd04a7-aa7a-4edc-a45f-499c09141208.png",
+    "reviewed": false,
+    "reason": "confirmed rear-facing or backspin source pose rendered front-facing in full atlas"
+  }
+]
