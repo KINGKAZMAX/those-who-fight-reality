@@ -1,11 +1,26 @@
 (function () {
 
+    function showLoadingError(error) {
+        console.error(error);
+        var loading = document.getElementById('reality-loading');
+        if (loading) {
+            loading.setAttribute('role', 'alert');
+            loading.querySelector('strong').textContent = '校園資源暫時沒有準備好';
+            loading.querySelector('p').textContent = '連線較慢或部分資源載入失敗。請檢查網路後重新集合。';
+            loading.querySelector('button').hidden = false;
+        }
+    }
+
+    requirejs.onError = showLoadingError;
+
     if (document.getElementById('flf-config')) {
         var flf_config = document.getElementById('flf-config').innerHTML;
         flf_config = JSON.parse(flf_config);
         requirejs.config({
             baseUrl: flf_config.root || '',
-            urlArgs: 'ui=20261018-public-brand-1',
+            urlArgs: 'ui=20261018-public-brand-2',
+            // First visits fetch the full local data package over the network.
+            waitSeconds: 120,
             paths: {},
             config: {}
         });
@@ -46,14 +61,7 @@
                 api.animation = package.reality.animation;
                 if (loading) loading.remove();
             });
-        }).catch(function (error) {
-            console.error(error);
-            if (loading) {
-                loading.querySelector('strong').textContent = '校園資源暫時沒有準備好';
-                loading.querySelector('p').textContent = error.message + '。請重新整理頁面再試。';
-                loading.querySelector('button').hidden = false;
-            }
-        });
+        }).catch(showLoadingError);
 
     });
 
