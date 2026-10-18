@@ -2236,13 +2236,13 @@
     },
     {
       "path": "play/game.js",
-      "bytes": 2768,
-      "sha256": "f5a98d0389ac85e795e49fcd593391e047a1138902353becd144a3c79e081c72"
+      "bytes": 3074,
+      "sha256": "522fb1cdc8ba469a7fc1546b62ac51862dfce78db6f0608c563cfd36480fe11b"
     },
     {
       "path": "play/index.html",
-      "bytes": 3946,
-      "sha256": "b25547cf69ff05862357909c2ce722f1d6755d3cd2848909fba261dd5b23b97c"
+      "bytes": 3972,
+      "sha256": "d7fcb6940485ac2e8a5d523e7fff6f6f0708c49ecb6af81e08ab7aad674c426a"
     },
     {
       "path": "play/mac-controls.js",
@@ -2261,8 +2261,8 @@
     },
     {
       "path": "play/reality-art.js",
-      "bytes": 21433,
-      "sha256": "c0c1077f90221d4233a5ec8f61d62541b6368721b048f784194b879985760899"
+      "bytes": 21506,
+      "sha256": "c04732eabace1a0bec435fd2a3dda2575a063db965412e8a4df0945aa132abaa"
     },
     {
       "path": "play/reality-chapter.js",
@@ -2305,5 +2305,5 @@
       "sha256": "4bd25da35720c3aa2dd19cd04706bc78ce18d7a886997e971fb267baf9b97784"
     }
   ],
-  "totalBytes": 124882089
+  "totalBytes": 124882494
 }

@@ -272,7 +272,8 @@ define(function () {
   function loadObjects(pack) {
     return new Promise(function (resolve, reject) {
       if (typeof pack.data.load !== 'function') { resolve(); return }
-      const timeout = setTimeout(function () { reject(new Error('游戏动作数据加载超时，请刷新重试。')) }, 30000)
+      // Match the public loader's allowance for a first network visit.
+      const timeout = setTimeout(function () { reject(new Error('角色動作資料載入逾時，請重新集合。')) }, 120000)
       pack.data.load({ object: pack.data.object.map(function (entry) { return entry.id }),
         background: Array.from(new Set(STAGES.map(function (stage) { return stage.nativeId }))) }, function () {
         clearTimeout(timeout)
