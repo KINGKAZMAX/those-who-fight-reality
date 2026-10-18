@@ -1,0 +1,58 @@
+{
+  "version": "2026-10-18-public-brand-v1-live-confirmed",
+  "sourceCommit": "87342b2b650337e7e5428b1c478be01708ed0c68",
+  "publishCommit": "d3e9e61837e43d8173ad6e368f0607ec3d1a0631",
+  "pageBuildStatus": "built",
+  "playUrl": "https://kingkazmax.github.io/those-who-fight-reality/",
+  "passed": true,
+  "checks": 25,
+  "pageErrors": 0,
+  "consoleErrors": 0,
+  "failedResources": 0,
+  "finishedAt": "2026-10-18T09:05:58.626Z",
+  "records": [
+    {
+      "id": "LIVE-001",
+      "path": "docs/公開部署.md",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v1/live-confirmed/docs/公開部署.md",
+      "sha256": "6f55e5f988b6223417072361af2f03f9f38961bf21c1d216deeafdd6b3b8a92b",
+      "bytes": 3237,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/公開部署.md",
+      "source": "confirmed public release validation; HTTP 200 and 25 checks passed"
+    },
+    {
+      "id": "LIVE-002",
+      "path": "docs/verification/公開上線驗收.md",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v1/live-confirmed/docs/verification/公開上線驗收.md",
+      "sha256": "ce484d14ed7bbce21d2d6fd46883c31d9e426fc0e8e928dc8c720475163ec595",
+      "bytes": 2531,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/公開上線驗收.md",
+      "source": "confirmed public release validation; HTTP 200 and 25 checks passed"
+    },
+    {
+      "id": "LIVE-003",
+      "path": "docs/verification/public-live/report.json",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v1/live-confirmed/docs/verification/public-live/report.json",
+      "sha256": "39842823064d5adefb9b974b122d6bfc8f1dc945dab43d62da1248f7c505184b",
+      "bytes": 51139,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/report.json",
+      "source": "confirmed public release validation; HTTP 200 and 25 checks passed"
+    },
+    {
+      "id": "LIVE-004",
+      "path": "docs/verification/public-live/home-1280x920.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v1/live-confirmed/docs/verification/public-live/home-1280x920.png",
+      "sha256": "0ce9881e751489d5b40f1a1d99fee2c8a8c6e84d6171ddab96a2500c88b13305",
+      "bytes": 1285751,
+      "encoding": "png",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/home-1280x920.png",
+      "source": "confirmed public release validation; HTTP 200 and 25 checks passed",
+      "width": 1280,
+      "height": 920
+    }
+  ],
+  "codeChunks": 9
+}

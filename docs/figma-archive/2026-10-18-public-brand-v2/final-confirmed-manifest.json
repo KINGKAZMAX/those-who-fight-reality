@@ -1,0 +1,59 @@
+{
+  "version": "2026-10-18-public-brand-v2-final-confirmed",
+  "recordedAt": "2026-10-18T09:38:44.993325+00:00",
+  "passed": true,
+  "checks": "At 6.5 and 10 seconds: 30 FPS; five character atlases complete with valid dimensions; root visually reviewed both PNGs",
+  "records": [
+    {
+      "id": "V2FINAL-001",
+      "path": "docs/verification/public-live/spawn-observation.json",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/spawn-observation.json",
+      "bytes": 71685,
+      "sha256": "d2b891a2ae3515235220c31e7f703af4e3ce4bdc3fc7582682ad63c664fa02d0",
+      "encoding": "utf-8",
+      "source": "Final public v2 sustained spawn observation and release evidence",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/spawn-observation.json",
+      "reason": "Verify five character atlases loaded and stable 30 FPS after spawn invulnerability blink",
+      "parts": 11
+    },
+    {
+      "id": "V2FINAL-002",
+      "path": "docs/verification/公開上線驗收.md",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/公開上線驗收.md",
+      "bytes": 3799,
+      "sha256": "0c5ef48fad562c6b7da1a3d4583209a348019711a18a429ff72afd800004a04f",
+      "encoding": "utf-8",
+      "source": "Final public v2 sustained spawn observation and release evidence",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/公開上線驗收.md",
+      "reason": "Verify five character atlases loaded and stable 30 FPS after spawn invulnerability blink",
+      "parts": 1
+    },
+    {
+      "id": "V2FINAL-003",
+      "path": "docs/verification/public-live/battle-after-spawn.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/battle-after-spawn.png",
+      "bytes": 1210936,
+      "sha256": "5c908777967a0de9c9338133501cec5d9324031be8c7189ecbeeb19381ef6f8c",
+      "encoding": "png",
+      "source": "Final public v2 sustained spawn observation and release evidence",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/battle-after-spawn.png",
+      "reason": "Verify five character atlases loaded and stable 30 FPS after spawn invulnerability blink",
+      "width": 1280,
+      "height": 920
+    },
+    {
+      "id": "V2FINAL-004",
+      "path": "docs/verification/public-live/battle-after-spawn-paused.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/battle-after-spawn-paused.png",
+      "bytes": 1116403,
+      "sha256": "b7bb6ded2cd75b7e9d53c9c05afd8fa0874f93ea5bbce6a98bb52c1d5a867361",
+      "encoding": "png",
+      "source": "Final public v2 sustained spawn observation and release evidence",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/battle-after-spawn-paused.png",
+      "reason": "Verify five character atlases loaded and stable 30 FPS after spawn invulnerability blink",
+      "width": 1280,
+      "height": 920
+    }
+  ],
+  "codeChunks": 12
+}

@@ -1,0 +1,165 @@
+/* Original fighting-game identity. Display fonts are bundled with their OFL licenses. */
+@font-face {
+  font-family: 'Reality Display TC'; src: url('fonts/RealityTitleTC.woff2') format('woff2');
+  font-style: normal; font-weight: 900; font-display: swap;
+  unicode-range: U+4EBA,U+5011,U+540D,U+5BE6,U+602A,U+6230,U+70BA,U+7269,U+73FE,U+7684,U+8207,U+9B25;
+}
+@font-face {
+  font-family: 'Reality Fight'; src: url('fonts/BarlowCondensed-BlackItalic.ttf') format('truetype');
+  font-style: italic; font-weight: 900; font-display: swap;
+}
+:root { --blue: #b51d33; --deep: #201b20; --paper: #f4f4f5; --muted: #bbb5bd; --ink: #121015; --edge: #c7c3c8; --red: #ef334d; }
+body { background: #100e12 !important; }
+.urban-theme { background: radial-gradient(ellipse at 70% 25%, #3c1822 0, #151116 45%, #08070a 100%); color: var(--paper); }
+.urban-frame { box-shadow: 0 0 0 1px #6c5a65, 0 0 0 5px #171217, 0 22px 90px #000a; }
+.urban-ambient { font: italic 900 12px/1 'Reality Fight', sans-serif; letter-spacing: 2px; color: #b1a5ad; }
+.urban-shell-footer { color: #b1a5ad; letter-spacing: .5px; }
+.urban-shell-footer > :last-child { font: italic 900 12px/1 'Reality Fight', sans-serif; letter-spacing: 1.2px; }
+.urban-home { background: #1c151a; }
+.urban-home-scene { object-position: 64% center; filter: saturate(.65) brightness(.74); }
+.urban-home::before { content: ''; position: absolute; z-index: 1; inset: 0; background: linear-gradient(111deg, #110d13e8 0%, #1d111acf 47%, #55233142 70%, #17111b4a 100%); }
+.urban-home::after { z-index: 1; inset: 0; background: linear-gradient(114deg, transparent 47%, #8e183d62 47.15%, #b8224524 53%, transparent 53.15%), linear-gradient(0deg, #120e16d9 0%, transparent 32%); }
+.urban-topline { height: 58px; padding: 0 30px; gap: 11px; background: #120f16c9; border-bottom: 1px solid #b1a5ad4a; box-shadow: none; }
+.urban-brandmark { position: relative; width: 36px; height: 32px; border: 0; background: #db1f3b; color: #fff; box-shadow: 4px 0 #791b31; transform: skewX(-13deg); font: italic 900 29px/1 'Reality Fight', sans-serif; letter-spacing: -3px; }
+.urban-brandmark > span { display: inline; position: absolute; right: 2px; font-size: 31px; color: #151018; }
+.urban-toplabel { font: italic 900 12px/1.2 'Reality Fight', sans-serif; letter-spacing: 1.6px; color: #dbd7dc; }
+.urban-toplabel b { font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif; font-style: normal; font-weight: 700; font-size: 9px; letter-spacing: 2px; color: #aaa1ad; }
+.urban-online { font-size: 9px; color: #d6cdd5; }
+.urban-online i { width: 5px; height: 5px; background: #f3586d; box-shadow: 0 0 9px #f5325d; }
+.urban-home-copy { top: 88px; left: 40px; right: 30px; animation: reality-copy-in .45s cubic-bezier(.16,1,.3,1) both; }
+.urban-home-copy > .urban-eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 10px; letter-spacing: 3px; color: #f1c4ce; }
+.urban-home-copy > .urban-eyebrow::before { content: ''; width: 26px; height: 3px; background: #ed2545; transform: skewX(-30deg); }
+.urban-home .reality-wordmark { width: max-content; margin: 9px 0 7px; font: 900 49px/1.14 'Reality Display TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif; letter-spacing: -1.2px; transform: skewX(-10deg); transform-origin: left bottom; text-shadow: none; filter: drop-shadow(2px 2px 0 #15111a) drop-shadow(2px 3px 0 #4d263a); }
+.reality-wordmark .reality-title-line { display: block; width: max-content; color: #ececf1; background: linear-gradient(180deg, #fff 0%, #efedf4 42%, #a7a0b3 48%, #f9f8fb 57%, #b5adbd 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-text-stroke: .35px #f5eef8; }
+.reality-wordmark .reality-title-line:last-child { font-size: 55px; letter-spacing: -1.6px; }
+.reality-title-en { position: relative; width: max-content; display: flex; flex-direction: column; margin: 12px 0 15px; padding-left: 14px; color: #f2eaf1; font: italic 900 21px/.98 'Reality Fight', 'Arial Narrow', sans-serif; letter-spacing: .8px; }
+.reality-title-en::before { content: ''; position: absolute; top: 0; bottom: 0; left: 0; width: 4px; background: #ed2545; transform: skewX(-12deg); }
+.reality-title-en strong { font: inherit; font-size: 27px; letter-spacing: .3px; color: #f25b72; }
+.urban-home-copy p { margin: 0 0 18px; font-size: 11px; line-height: 1.7; color: #ded6de; letter-spacing: 1.2px; }
+.urban-home-actions { grid-template-columns: 192px 110px; column-gap: 9px; row-gap: 5px; width: max-content; }
+.urban-primary { height: 44px; padding: 0 22px; border: 1px solid #f06176 !important; background: linear-gradient(110deg, #a70e2a, #dc2443); box-shadow: inset 0 1px #fa8a9b55, 4px 4px 0 #1c101a; color: #fff5f7; font-style: italic; letter-spacing: 1.2px; clip-path: polygon(9px 0, 100% 0, calc(100% - 9px) 100%, 0 100%); transition: background .15s, translate .15s, filter .15s; }
+.urban-primary:hover { background: linear-gradient(110deg, #c91a38, #f03858); filter: brightness(1.08); translate: 3px -1px; }
+.urban-primary:active { translate: 1px 1px; box-shadow: none; }
+.urban-secondary { color: #f0eaf1; border: 1px solid #b3a0af !important; background: #211923d9; font-size: 11px !important; box-shadow: none; }
+.urban-secondary:hover { background: #4b2638; }
+.urban-text-button { color: #c4b6c3; font-size: 9px !important; padding-top: 9px; letter-spacing: .7px; }
+.urban-home .chapter-home-progress { max-width: 305px; color: #ad9daa; font-size: 9px; margin-top: 3px; }
+.urban-home-crew { right: 26px; bottom: 63px; gap: 5px; animation: reality-crew-in .55s .12s cubic-bezier(.16,1,.3,1) both; }
+.urban-crew-member { width: 52px; border: 0; border-bottom: 3px solid #bd2947; background: #211b23e6; box-shadow: none; transform: skewY(-3deg); }
+.urban-crew-member:nth-child(even) { translate: 0 -6px; }
+.urban-crew-member img { width: 52px; height: 68px; filter: contrast(1.07); }
+.urban-crew-member span { padding: 5px 0; border-top: 1px solid #8b717e; font-size: 9px; }
+.urban-home-bottom { height: 40px; padding: 0 29px; background: #120f15ef; border-top: 1px solid #8a647557; font-size: 9px; color: #a99da8; }
+.urban-issue { color: #d7cbd5; font-size: 9px; letter-spacing: 1px; }
+.urban-divider { color: #8a5266; margin: 0 7px; }
+.urban-credits { padding: 25px 31px; border: 1px solid #ad8a9d; background: #1b151d; box-shadow: 0 0 0 150px #08050bd9, 7px 7px #5b1832; }
+.urban-credits > .urban-eyebrow { display: block; max-width: 410px; font: italic 900 15px/1.1 'Reality Fight', sans-serif; letter-spacing: 1px; color: #ec4765; }
+.urban-credits h2 { font-family: 'Reality Display TC', 'PingFang TC', sans-serif; font-weight: 900; font-style: italic; font-size: 29px; margin: 13px 0 14px; }
+.urban-credits p { font-size: 11px; line-height: 1.8; color: #cac0cb; margin: 14px 0; }
+.urban-lobby { background: linear-gradient(120deg, #211822, #17131b); box-shadow: inset 0 0 0 1px #725264; }
+.urban-lobby-header { background: linear-gradient(105deg, #481c31, #1f1722 70%); border-bottom: 2px solid #ac2a46; }
+.urban-lobby-header .urban-eyebrow { font: italic 900 15px/1 'Reality Fight', sans-serif; color: #ec7189; letter-spacing: 1.6px; }
+.urban-lobby-header h2 { font-size: 25px; letter-spacing: -.4px; font-style: italic; color: #f3edf5; }
+.urban-back { border: 1px solid #806170 !important; background: #271c29; color: #e0d4e0; box-shadow: none; }
+.urban-back:hover { background: #65233e; border-color: #d75a78 !important; }
+.urban-agent-detail { background: #1d1520; border-color: #8b637b; }
+.urban-agent-no { background: #4b1e34e8; border-bottom-color: #875267; color: #f4dce9; }
+.urban-agent-picture { background: linear-gradient(#6e546c,#b69e98); border-color: #75435d; }
+.urban-agent-meta h3 { color: #fff1f9; font-style: italic; }
+.urban-agent-meta > span { color: #ef788f; }
+.urban-agent-meta p { color: #c6b5c5; }
+.urban-slot { color: #cbb8ca; background: #2b1c2e; border-color: #79576b !important; }
+.urban-slot.is-current { background: #b62444; color: #fff7fb; border-color: #ed6c88 !important; box-shadow: inset 0 -3px #76152f; }
+.urban-fighter { background: #1b151e; border-color: #745169 !important; }
+.urban-fighter-name { background: #241525eb; }
+.urban-fighter-tag { background: #180e1ce0; color: #e8ccdf; }
+.urban-fighter.is-selected { border-color: #ef4b6a !important; box-shadow: 0 0 0 1px #ef4b6a; }
+.urban-fighter.is-selected .urban-fighter-tag { background: #f34a70; color: #fff; }
+.urban-match-options label { color: #c3b3c4; }
+.urban-match-options select { background: #1d1522; border-color: #73536a; color: #f0e7f1; }
+.urban-stage-preview { border-color: #76506a; }
+.urban-stage-preview span { background: #1e1027d9; }
+.urban-lobby-note { color: #b7a6b8; }
+.urban-lobby-footer { background: #130e19; border-top-color: #60435b; }
+.urban-keyguide { color: #e0d6e5; }
+.urban-keyguide .urban-menu-tip { color: #a38ca4; }
+.urban-theme kbd { background: #ded2e2; color: #291c2c; border-bottom-color: #967c98; }
+.urban-theme .settings { background: #1e1623 !important; }
+.urban-settings-header h2 { font-style: italic; }
+.urban-settings-header .urban-eyebrow { font: italic 900 16px/1 'Reality Fight', sans-serif; letter-spacing: 1.5px; color: #f06583; }
+.urban-theme .keychanger td { background: #352136 !important; border-color: #78506e; }
+.urban-theme .keychanger td:first-child { background: #1d1423 !important; color: #ccb4cc !important; border-color: #472c45; }
+.urban-theme .keychanger td:not(:first-child):hover { background: #6a294b !important; }
+.urban-settings-bottom { border-top-color: #704b68; }
+.urban-theme .alert_box { background: #28162c; }
+.urban-theme .alert_box button { background: #ae2449; }
+/* Story and skill surfaces share the same palette while retaining their layouts. */
+.urban-theme .chapter-mode { color: #c8b4c7; background: #211426; border-color: #73516c !important; }
+.urban-theme .chapter-mode[aria-pressed="true"] { color: #fff0f8; background: #a12546; border-color: #d66583 !important; box-shadow: inset 0 -3px #6f1936; }
+.urban-theme .chapter-progress-label, .urban-theme .chapter-home-progress { color: #c5a1b8; }
+.urban-theme .chapter-overlay { background: #100a17e8; }
+.urban-theme .chapter-sheet { border-color: #b58ba4; background: #25162c; box-shadow: 6px 6px 0 #09050f; }
+.urban-theme .chapter-scene { border-color: #87566f; }
+.urban-theme .chapter-scene::after { background: linear-gradient(90deg, #28142ced, #28142c55 75%, #28142c22); }
+.urban-theme .chapter-heading h2 { text-shadow: 2px 2px #1b0f24; }
+.urban-theme .chapter-details { background: #35172d; border-color: #d95175; }
+.urban-theme .chapter-objective { background: #251330eb; border-color: #735070; border-left-color: #e15b7b; }
+.urban-theme .chapter-stamp { color: #fff2f8; background: #ac284b; box-shadow: 3px 3px #47152f; }
+.urban-hud { background: #211225; border-bottom-color: #a64060; box-shadow: inset 0 -3px #120d18; }
+.urban-hud-mark { color: #fff; background: #c72447; font: italic 900 14px/1 'Reality Fight', sans-serif; }
+.urban-hud-mode { color: #c8adc4; }
+.urban-hud-clock { font: italic 900 26px/1 'Reality Fight', sans-serif; color: #fff0f9; }
+.urban-hud-button { background: #39203a; border-color: #8c5b78; color: #f6e2f3; }
+.urban-hud-player { background: #2a192d; border-color: #64415e; border-left-color: #eb5277; }
+.urban-hud-player[data-controller="computer"] { background: #261e28; border-left-color: #ab91aa; }
+.urban-hud-slot { color: #fff2fa; background: #a42a4a; }
+.urban-hud-player[data-controller="computer"] .urban-hud-slot { background: #635167; color: #f6edf7; }
+.urban-hud-portrait { background: #201126; border-color: #906382; }
+.urban-hud-hp-fill { background: #dd3356; box-shadow: inset 0 2px #ff7e96; }
+.urban-hud-hp-bound { background: #78384f; }
+.urban-hud-mp-fill { background: #b2a2d8; }
+.urban-hud-footer { background: #140c1c; border-top-color: #6f4766; }
+.urban-hud-keytip kbd { background: #49253f; border-color: #8f647e; }
+.urban-hud-pause-notice, .urban-hud-enabled .summary_dialog.urban-hud-summary { background: #23132cf7; border-color: #c85c7b; }
+.urban-hud-pause-notice strong, .urban-hud-results h2 { font-style: italic; }
+.urban-hud-result-return { background: #b5264a; border-color: #e2849c; }
+.urban-hud-result-return:hover { background: #d93560; }
+@keyframes reality-copy-in { from { opacity: 0; translate: -26px 8px; } to { opacity: 1; translate: 0 0; } }
+@keyframes reality-crew-in { from { opacity: 0; translate: 24px 8px; } to { opacity: 1; translate: 0 0; } }
+@media (prefers-reduced-motion: reduce) { .urban-theme *, .urban-theme *::before, .urban-theme *::after { animation: none !important; transition: none !important; } }
+.reality-skills-dialog, .reality-skills-tray { font-family: 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif; color: #f2e8f2; }
+.reality-skills-dialog { background: #211428; border-color: #ab6e8f; box-shadow: 6px 6px 0 #0d0713; }
+.reality-skills-dialog::backdrop { background: #0b0611dc; }
+.reality-skills-head { background: linear-gradient(110deg, #591d3a, #2b172f); border-bottom-color: #a34063; }
+.reality-skills-kicker { font: italic 900 15px/1 'Reality Fight', sans-serif; letter-spacing: 1.5px; color: #ed7298; }
+.reality-skills-head h2 { font-style: italic; color: #f7edf6; }
+.reality-skills-close { background: #371c39; color: #f4e5f2; border-color: #a16889 !important; }
+.reality-skills-player, .reality-skills-hero { background: #341d39; color: #d2b6d0; border-color: #77516f !important; }
+.reality-skills-player.is-current { background: #ae264a; color: #fff0f9; border-color: #ee6a91 !important; }
+.reality-skills-hero.is-current { background: #62233f; color: #fff0f9; border-color: #ed658c !important; box-shadow: inset 0 -3px #8d2446; }
+.reality-skills-context { color: #bea5bf; }
+.reality-skills-body { scrollbar-color: #a77998 #1e0e28; }
+.reality-skill-card { background: #2b1934; border-color: #62405f; border-left-color: #d64c76; }
+.reality-skill-card-head h3 { color: #f0d3e6; }
+.reality-skill-mp { color: #c4afea; }
+.reality-skill-description { color: #cdbccc; }
+.reality-skill-combo { color: #bba0bf; }
+.reality-skills-dialog kbd { background: #e6d8e8; color: #2b1535; border-color: #a17d9d; }
+.reality-skill-then { color: #ef8fab; }
+.reality-skill-followup { color: #d3abc1; }
+.reality-skills-notes { background: #1e1128; border-left-color: #b83d67; }
+.reality-skills-notes h3 { color: #e6bdd7; }
+.reality-skills-notes p, .reality-skills-basic-text p { color: #c3aec8; }
+.reality-skills-basics { border-top-color: #684063; }
+.reality-skills-basic-text b { color: #e6d2e5; }
+.reality-skills-foot { background: #160b20; color: #b9a1bd; border-top-color: #633e60; }
+.reality-skills-foot > span:first-child { color: #dc9eb9; }
+.reality-skills-home-entry { color: #ee9bb9; }
+.reality-skills-tray-heading { color: #bba4bb; }
+.reality-skills-tray-guide { color: #df9fbd; }
+.reality-skills-row-player { color: #dfcde0; }
+.reality-skill-hint { background: #311c3a; color: #f2deed; border-color: #704769; }
+.reality-skill-hint-mp { color: #cfb4e5; }
+.reality-skill-hint kbd { background: #e3d3e7; color: #2b1535; border-bottom-color: #98749e; }
+.reality-skill-hint.is-unavailable { border-color: #4d3450; }
+.reality-skills-feedback { color: #c6accc; }

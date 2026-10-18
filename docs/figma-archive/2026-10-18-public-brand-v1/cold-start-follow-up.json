@@ -1,0 +1,8 @@
+{
+  "recordedAt": "2026-10-18T09:23:06.841097+00:00",
+  "status": "v1 archive complete evidence; loader follow-up pending",
+  "finding": "Two fresh cold starts hit default 7-second AMD timeout after the original 25-check public acceptance passed.",
+  "authorizedFix": "Increase AMD waitSeconds to 120 and surface reload guidance on load failure; preserve combat mechanics.",
+  "rule": "retain v1 snapshots and append new loader patch, commits and acceptance result",
+  "source": "root agent verification report"
+}

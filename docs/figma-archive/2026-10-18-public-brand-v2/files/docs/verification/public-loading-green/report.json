@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:18766/those-who-fight-reality/",
+  "startedAt": "2026-10-18T09:26:15.885Z",
+  "delayMilliseconds": 10000,
+  "cases": [
+    {
+      "kind": "slow-module",
+      "passed": true,
+      "pageErrors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:18766/those-who-fight-reality/content/data/bandit.js?ui=20261018-public-brand-2",
+          "interceptedAt": "2026-10-18T09:26:17.888Z"
+        }
+      ],
+      "consoleErrors": [],
+      "waitSeconds": 120,
+      "title": "與名為現實的怪物戰鬥的人們 | THOSE WHO FIGHT THE MONSTER CALLED REALITY",
+      "screen": "frontpage",
+      "intercepted": 1,
+      "loadingText": null
+    },
+    {
+      "kind": "failed-module",
+      "passed": true,
+      "pageErrors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:18766/those-who-fight-reality/content/data/bandit.js?ui=20261018-public-brand-2",
+          "interceptedAt": "2026-10-18T09:26:35.163Z"
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Error: Script error\nhttp://requirejs.org/docs/errors.html#scripterror\n    at J (http://127.0.0.1:18766/those-who-fight-reality/engine/third_party/require.js:8:194)\n    at HTMLScriptElement.onScriptError (http://127.0.0.1:18766/those-who-fight-reality/engine/third_party/require.js:29:93)"
+      ],
+      "waitSeconds": 120,
+      "message": "校園資源暫時沒有準備好\n\n連線較慢或部分資源載入失敗。請檢查網路後重新集合。\n\n重新集合",
+      "intercepted": 1,
+      "loadingText": "校園資源暫時沒有準備好\n\n連線較慢或部分資源載入失敗。請檢查網路後重新集合。\n\n重新集合"
+    }
+  ],
+  "finishedAt": "2026-10-18T09:26:35.844Z"
+}

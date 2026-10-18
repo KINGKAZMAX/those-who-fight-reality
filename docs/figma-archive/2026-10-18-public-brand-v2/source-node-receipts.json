@@ -1,0 +1,92 @@
+[
+  {
+    "fileId": "V2-001",
+    "path": "vendor/F.LF/game/game.js",
+    "part": 1,
+    "frameId": "71:138",
+    "headerId": "71:139",
+    "textId": "71:140",
+    "exactText": true,
+    "height": 1385
+  },
+  {
+    "fileId": "V2-002",
+    "path": "vendor/F.LF/game/game.html",
+    "part": 1,
+    "frameId": "71:141",
+    "headerId": "71:142",
+    "textId": "71:143",
+    "exactText": true,
+    "height": 1925
+  },
+  {
+    "fileId": "V2-003",
+    "path": "vendor/F.LF/game/reality-art.js",
+    "part": 1,
+    "frameId": "71:144",
+    "headerId": "71:145",
+    "textId": "71:146",
+    "exactText": true,
+    "height": 2321
+  },
+  {
+    "fileId": "V2-003",
+    "path": "vendor/F.LF/game/reality-art.js",
+    "part": 2,
+    "frameId": "72:2",
+    "headerId": "72:3",
+    "textId": "72:4",
+    "exactText": true,
+    "height": 2177
+  },
+  {
+    "fileId": "V2-003",
+    "path": "vendor/F.LF/game/reality-art.js",
+    "part": 3,
+    "frameId": "72:5",
+    "headerId": "72:6",
+    "textId": "72:7",
+    "exactText": true,
+    "height": 2105
+  },
+  {
+    "fileId": "V2-003",
+    "path": "vendor/F.LF/game/reality-art.js",
+    "part": 4,
+    "frameId": "72:8",
+    "headerId": "72:9",
+    "textId": "72:10",
+    "exactText": true,
+    "height": 1151
+  },
+  {
+    "fileId": "V2-004",
+    "path": "tools/verify_public_loading.cjs",
+    "part": 1,
+    "frameId": "72:11",
+    "headerId": "72:12",
+    "textId": "72:13",
+    "exactText": true,
+    "height": 1529
+  },
+  {
+    "fileId": "V2-005",
+    "path": "docs/verification/public-loading-red/report.json",
+    "part": 1,
+    "frameId": "72:14",
+    "headerId": "72:15",
+    "textId": "72:16",
+    "exactText": true,
+    "height": 1043
+  },
+  {
+    "fileId": "V2-006",
+    "path": "docs/verification/public-loading-green/report.json",
+    "part": 1,
+    "frameId": "72:17",
+    "headerId": "72:18",
+    "textId": "72:19",
+    "exactText": true,
+    "height": 953
+  }
+]

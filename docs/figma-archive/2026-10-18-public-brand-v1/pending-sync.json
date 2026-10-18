@@ -1,0 +1,16 @@
+{
+  "status": "v1 uploaded and verified; loader follow-up waiting for root validation and redeployment",
+  "completed": [
+    "14 actual PNG uploads",
+    "69 source/font fragments + 9 live-confirmation fragments",
+    "26 source/font snapshots recoverable",
+    "22 historical pages retained",
+    "source and picture layout reviewed"
+  ],
+  "pending": [
+    "cold-start fix red/green evidence",
+    "new source and deployment commits",
+    "updated live verification"
+  ],
+  "loaderCandidateNodeId": "70:2"
+}

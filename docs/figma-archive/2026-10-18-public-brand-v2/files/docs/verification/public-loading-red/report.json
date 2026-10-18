@@ -1,0 +1,49 @@
+{
+  "passed": false,
+  "url": "http://127.0.0.1:18766/those-who-fight-reality/",
+  "startedAt": "2026-10-18T09:23:12.321Z",
+  "delayMilliseconds": 10000,
+  "cases": [
+    {
+      "kind": "slow-module",
+      "passed": false,
+      "pageErrors": [
+        "Load timeout for modules: ../content/data/bandit\nhttp://requirejs.org/docs/errors.html#timeout"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:18766/those-who-fight-reality/content/data/bandit.js?ui=20261018-public-brand-1",
+          "interceptedAt": "2026-10-18T09:23:13.583Z"
+        }
+      ],
+      "consoleErrors": [
+        "Error: 游戏动作数据加载超时，请刷新重试。\n    at http://127.0.0.1:18766/those-who-fight-reality/play/reality-art.js?ui=20261018-public-brand-1:275:55"
+      ],
+      "waitSeconds": 7,
+      "failure": "page.waitForFunction: Timeout 30000ms exceeded.\n    at /Users/mekzenx2/Documents/2026Tripo上海黑客松LF2/tools/verify_public_loading.cjs:42:20",
+      "intercepted": 1,
+      "loadingText": "夥伴們，正在集合。\n\n正在裝好書包，整理校園與角色動作。首次進入需要一點時間。"
+    },
+    {
+      "kind": "failed-module",
+      "passed": false,
+      "pageErrors": [
+        "Script error\nhttp://requirejs.org/docs/errors.html#scripterror"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:18766/those-who-fight-reality/content/data/bandit.js?ui=20261018-public-brand-1",
+          "interceptedAt": "2026-10-18T09:23:44.045Z"
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "waitSeconds": 7,
+      "failure": "locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#reality-loading button') to be visible\u001b[22m\n\u001b[2m    34 × locator resolved to hidden <button hidden=\"\" onclick=\"location.reload()\">重新集合</button>\u001b[22m\n\n    at /Users/mekzenx2/Documents/2026Tripo上海黑客松LF2/tools/verify_public_loading.cjs:50:21",
+      "intercepted": 1,
+      "loadingText": "夥伴們，正在集合。\n\n正在裝好書包，整理校園與角色動作。首次進入需要一點時間。"
+    }
+  ],
+  "finishedAt": "2026-10-18T09:23:59.037Z"
+}

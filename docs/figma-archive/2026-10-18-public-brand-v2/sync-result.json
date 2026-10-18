@@ -1,0 +1,127 @@
+{
+  "status": "completed and verified",
+  "figmaFileKey": "f3y5wnMvX7f7M2Xm0pqOAr",
+  "pages": {
+    "reviewPageId": "71:2",
+    "sourcePageId": "71:3",
+    "overviewId": "71:4",
+    "images": [
+      {
+        "id": "V2-007",
+        "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/slow-module.png",
+        "originalPath": "docs/verification/public-loading-red/slow-module.png",
+        "nodeId": "71:15",
+        "cardId": "71:13"
+      },
+      {
+        "id": "V2-008",
+        "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/failed-module.png",
+        "originalPath": "docs/verification/public-loading-red/failed-module.png",
+        "nodeId": "71:19",
+        "cardId": "71:17"
+      },
+      {
+        "id": "V2-009",
+        "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/slow-module.png",
+        "originalPath": "docs/verification/public-loading-green/slow-module.png",
+        "nodeId": "71:23",
+        "cardId": "71:21"
+      },
+      {
+        "id": "V2-010",
+        "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/failed-module.png",
+        "originalPath": "docs/verification/public-loading-green/failed-module.png",
+        "nodeId": "71:27",
+        "cardId": "71:25"
+      }
+    ],
+    "createdNodeIds": [
+      "71:4",
+      "71:5",
+      "71:6",
+      "71:7",
+      "71:8",
+      "71:9",
+      "71:10",
+      "71:11",
+      "71:12",
+      "71:13",
+      "71:14",
+      "71:15",
+      "71:16",
+      "71:17",
+      "71:18",
+      "71:19",
+      "71:20",
+      "71:21",
+      "71:22",
+      "71:23",
+      "71:24",
+      "71:25",
+      "71:26",
+      "71:27",
+      "71:28"
+    ]
+  },
+  "live": {
+    "cardId": "74:2",
+    "nodeId": "74:7",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/verification/public-live/home-1280x920.png",
+    "originalPath": "docs/verification/public-live/home-1280x920.png",
+    "id": "V2LIVE-005",
+    "createdNodeIds": [
+      "74:2",
+      "74:3",
+      "74:4",
+      "74:5",
+      "74:6",
+      "74:7",
+      "74:8"
+    ]
+  },
+  "finalBattle": [
+    {
+      "id": "V2FINAL-003",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/battle-after-spawn.png",
+      "originalPath": "docs/verification/public-live/battle-after-spawn.png",
+      "cardId": "75:2",
+      "nodeId": "75:4",
+      "headerId": "75:3",
+      "textId": "75:5"
+    },
+    {
+      "id": "V2FINAL-004",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/battle-after-spawn-paused.png",
+      "originalPath": "docs/verification/public-live/battle-after-spawn-paused.png",
+      "cardId": "75:6",
+      "nodeId": "75:8",
+      "headerId": "75:7",
+      "textId": "75:9"
+    }
+  ],
+  "zipHeader": {
+    "headerFrameId": "73:2",
+    "textId": "73:3",
+    "height": 228
+  },
+  "sourceTextChunks": 31,
+  "zipBase64Chunks": 36,
+  "images": 7,
+  "sourceSnapshots": 13,
+  "zipOriginalFiles": 52,
+  "allTextExactFingerprint": true,
+  "allImagesFilled": true,
+  "historicalAndV1PagesRetained": true,
+  "notes": [
+    "v1 and prevalidation candidate remain unchanged",
+    "25 public checks passed; zero page/console/resource errors",
+    "Cold-start red/green cases pass with intentional network abort errors retained as expected evidence",
+    "Stable 30 FPS observed at 6.5 and 10 seconds with five valid loaded character atlases",
+    "Actual source files and images; no claim screenshots are editable UI"
+  ],
+  "visualReviewAddendum": {
+    "frameId": "78:2",
+    "textId": "78:4",
+    "verified": true
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "archiveSame": true,
+  "allFilesSame": true,
+  "files": [
+    {
+      "path": "tools/verify_public_release.cjs",
+      "same": true
+    },
+    {
+      "path": "tools/verify_public_loading.cjs",
+      "same": true
+    },
+    {
+      "path": "tools/verify_public_spawn.cjs",
+      "same": true
+    },
+    {
+      "path": "tools/serve_lf2.py",
+      "same": true
+    },
+    {
+      "path": "tests/test_static_release.py",
+      "same": true
+    },
+    {
+      "path": "tests/reality-coop.test.cjs",
+      "same": true
+    },
+    {
+      "path": "tests/native-package.test.cjs",
+      "same": true
+    },
+    {
+      "path": ".gitignore",
+      "same": true
+    },
+    {
+      "path": "package-lock.json",
+      "same": true
+    },
+    {
+      "path": "LICENSE",
+      "same": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/AI.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/background.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/character.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/effect.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/factories.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/global.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/livingobject.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/loader-config.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/loader.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/manager.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/match.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/mechanics.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/network.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/scene.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/soundpack.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/specialattack.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/sprite-select.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/sprite.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/touchcontroller.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/util.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/weapon.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/LICENSE",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/README.md",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/animator.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/collision.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/combodec.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/controller-changer.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/controller-recorder.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/controller.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/css-build.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/css.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/effects-pool.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/math.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/network.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/resourcemap.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/sprite-canvas.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/sprite-dom.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/sprite.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/support.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/core/util.js",
+      "same": true
+    },
+    {
+      "path": "tests/fixtures/upstream/manifest.json",
+      "same": true
+    }
+  ]
+}

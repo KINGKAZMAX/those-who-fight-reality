@@ -1,0 +1,106 @@
+{
+  "allSame": true,
+  "count": 20,
+  "files": [
+    {
+      "id": "V2-001",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/vendor/F.LF/game/game.js",
+      "same": true
+    },
+    {
+      "id": "V2-002",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/vendor/F.LF/game/game.html",
+      "same": true
+    },
+    {
+      "id": "V2-003",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/vendor/F.LF/game/reality-art.js",
+      "same": true
+    },
+    {
+      "id": "V2-004",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/tools/verify_public_loading.cjs",
+      "same": true
+    },
+    {
+      "id": "V2-005",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/report.json",
+      "same": true
+    },
+    {
+      "id": "V2-006",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/report.json",
+      "same": true
+    },
+    {
+      "id": "V2-007",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/slow-module.png",
+      "same": true
+    },
+    {
+      "id": "V2-008",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/failed-module.png",
+      "same": true
+    },
+    {
+      "id": "V2-009",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/slow-module.png",
+      "same": true
+    },
+    {
+      "id": "V2-010",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/failed-module.png",
+      "same": true
+    },
+    {
+      "id": "V2LIVE-001",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/README.md",
+      "same": true
+    },
+    {
+      "id": "V2LIVE-002",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/公開部署.md",
+      "same": true
+    },
+    {
+      "id": "V2LIVE-003",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/verification/公開上線驗收.md",
+      "same": true
+    },
+    {
+      "id": "V2LIVE-004",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/verification/public-live/report.json",
+      "same": true
+    },
+    {
+      "id": "V2LIVE-005",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/verification/public-live/home-1280x920.png",
+      "same": true
+    },
+    {
+      "id": "V2FINAL-001",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/spawn-observation.json",
+      "same": true
+    },
+    {
+      "id": "V2FINAL-002",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/公開上線驗收.md",
+      "same": true
+    },
+    {
+      "id": "V2FINAL-003",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/battle-after-spawn.png",
+      "same": true
+    },
+    {
+      "id": "V2FINAL-004",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/battle-after-spawn-paused.png",
+      "same": true
+    },
+    {
+      "id": "V2FINAL-005",
+      "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/visual-review.md",
+      "same": true
+    }
+  ]
+}

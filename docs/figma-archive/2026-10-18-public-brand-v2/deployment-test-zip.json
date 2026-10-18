@@ -1,0 +1,10 @@
+{
+  "path": "docs/figma-archive/2026-10-18-public-brand-v2/deployment-test-source.zip",
+  "sha256": "f1aae9a191db7c613e5ddf0b24158a745cb0feee8ddca581db92e279eb6527d8",
+  "bytes": 158520,
+  "files": 52,
+  "embeddedInventory": "ARCHIVE_INVENTORY.json",
+  "base64Characters": 211360,
+  "chunks": 36,
+  "restoration": "Concatenate text chunks in part order without headers; base64-decode to ZIP; verify archive SHA256; unzip and verify individual files against ARCHIVE_INVENTORY.json"
+}

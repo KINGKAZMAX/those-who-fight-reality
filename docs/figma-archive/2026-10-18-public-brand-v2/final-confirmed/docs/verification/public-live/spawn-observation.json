@@ -1,0 +1,2491 @@
+{
+  "passed": true,
+  "url": "https://kingkazmax.github.io/those-who-fight-reality/",
+  "startedAt": "2026-10-18T09:34:04.301Z",
+  "pageErrors": [],
+  "failedResources": [],
+  "samples": [
+    {
+      "label": "spawn",
+      "at": "2026-10-18T09:34:25.175Z",
+      "state": {
+        "screen": "gameplay",
+        "animation": {
+          "mode": "native-picture",
+          "sheets": 57,
+          "pictures": 1930
+        },
+        "selected": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "index": 8
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "index": 9
+          }
+        ],
+        "humans": 2,
+        "computers": 3,
+        "stage": 3,
+        "formation": "mixed",
+        "monsterIds": [
+          30,
+          31,
+          32
+        ],
+        "chapter": {
+          "phase": "idle",
+          "checkpoint": 0,
+          "title": "不要掉队 · 校门口",
+          "objective": "打散纸卷怪，和同伴一起走进校门。",
+          "background": 0,
+          "monsterIds": [
+            30,
+            30
+          ],
+          "enemiesRemaining": 2,
+          "rescues": 0,
+          "reviveProgress": 0,
+          "reviveTarget": null,
+          "reviveHelper": null,
+          "downedPlayers": [],
+          "elapsedFrames": 0,
+          "paused": false,
+          "saved": {
+            "version": 1,
+            "chapter": "chapter-01",
+            "checkpoint": 0,
+            "completed": false,
+            "mementos": [],
+            "updatedAt": null
+          },
+          "savingError": null,
+          "mode": "free",
+          "dialog": ""
+        },
+        "controls": [
+          {
+            "player": 0,
+            "name": "player1",
+            "type": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            }
+          },
+          {
+            "player": 1,
+            "name": "player2",
+            "type": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            }
+          }
+        ],
+        "skills": [
+          {
+            "player": 0,
+            "hero": {
+              "id": 9,
+              "name": "唐梨"
+            },
+            "notes": [
+              "跑動攻擊收招時續按 {att} 可接近身重踢，不額外消耗 MP。",
+              "近身重踢、跑動攻擊收招或抓住敵人時，可輸入原組合銜接「課間連踢」（75 MP）、「放學旋風」（75 MP 起動）或「追問光點」（100 MP）。",
+              "「粉筆連彈」的續招窗口很短，需在每段收招時按下 {att}；按住不放不會自動連發。"
+            ],
+            "active": true,
+            "mp": 202,
+            "skills": [
+              {
+                "id": "tangli-chalk",
+                "name": "粉筆連彈",
+                "description": "向前踢出一道粉筆光彈，可逐段追加遠程攻擊。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "att"
+                ],
+                "tag": "hit_Fa",
+                "entryFrame": 235,
+                "mp": 40,
+                "followup": "出手後按 {att} 追加第二發（40 MP），再按 {att} 追加兩發（70 MP）；四發收招時再按 {att} 可銜接下一輪首發，此次銜接不額外耗 MP。",
+                "comboKeys": [
+                  "H",
+                  "A/D",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-recess",
+                "name": "課間連踢",
+                "description": "近身連續踢擊，把迎面的阻攔一腳腳踢開。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "att"
+                ],
+                "tag": "hit_Da",
+                "entryFrame": 265,
+                "mp": 75,
+                "followup": "",
+                "comboKeys": [
+                  "H",
+                  "S",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-whirl",
+                "name": "放學旋風",
+                "description": "旋轉向前突進並持續踢擊，清出穿行的空間。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "jump"
+                ],
+                "tag": "hit_Fj",
+                "entryFrame": 280,
+                "mp": 75,
+                "followup": "75 MP 為起動消耗；旋轉期間每輪另耗 34 MP，MP 用完會收招。按防禦 {def} 或跳躍 {jump} 可提前停止。",
+                "comboKeys": [
+                  "H",
+                  "A/D",
+                  "G"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-question",
+                "name": "追問光點",
+                "description": "放出會追蹤敵人的光彈，追上躲到遠處的目標。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "att"
+                ],
+                "tag": "hit_Ua",
+                "entryFrame": 295,
+                "mp": 100,
+                "followup": "",
+                "comboKeys": [
+                  "H",
+                  "W",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              }
+            ]
+          },
+          {
+            "player": 1,
+            "hero": {
+              "id": 10,
+              "name": "沈舟"
+            },
+            "notes": [
+              "兩種瞬移可在站定或跳躍中輸入；移動、防禦等動作中不能直接接出。先鬆開方向再輸入完整組合。",
+              "瞬移收招時輸入 {def} › {up} › {att} 可接「逆風起身」（0 MP）；{def} › {left} / {right} › {jump} 可接「越線飛踢」（200 MP）。",
+              "翻滾中輸入 {def} › {down} › {att} 可接「橫越題海」（50 MP）；跑動攻擊收招時續按 {att} 可延長近身連擊，不額外消耗 MP。"
+            ],
+            "active": true,
+            "mp": 202,
+            "skills": [
+              {
+                "id": "shenzhou-pages",
+                "name": "雙頁推進",
+                "description": "接連發出兩道遠程光彈，打開前進的路。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "att"
+                ],
+                "tag": "hit_Fa",
+                "entryFrame": 235,
+                "mp": 125,
+                "followup": "一次完整出招自動發出兩彈，共耗 125 MP。",
+                "comboKeys": [
+                  "L",
+                  "←/→",
+                  "J"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "shenzhou-rise",
+                "name": "逆風起身",
+                "description": "翻身上挑，把近處的敵人擊向空中。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "att"
+                ],
+                "tag": "hit_Ua",
+                "entryFrame": 70,
+                "mp": 0,
+                "followup": "落地收招時輸入 {def} › {left} / {right} › {jump}，可接「越線飛踢」（200 MP）。",
+                "comboKeys": [
+                  "L",
+                  "↑",
+                  "J"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "shenzhou-crossing",
+                "name": "橫越題海",
+                "description": "向前旋身掃踢，同時攻擊身前與身後近處的敵人。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "att"
+                ],
+                "tag": "hit_Da",
+                "entryFrame": 260,
+                "mp": 50,
+                "followup": "收招時輸入 {def} › {up} › {att} 可接「逆風起身」（0 MP）；{def} › {left} / {right} › {jump} 可接「越線飛踢」（200 MP）。",
+                "comboKeys": [
+                  "L",
+                  "↓",
+                  "J"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "shenzhou-leap",
+                "name": "越線飛踢",
+                "description": "躍起向前突進，用重踢擊退攔路的敵人。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "jump"
+                ],
+                "tag": "hit_Fj",
+                "entryFrame": 250,
+                "mp": 200,
+                "followup": "跳躍落地、翻滾起身或部分招式收招時輸入同一組合，可更快接出飛踢；仍耗 200 MP。",
+                "comboKeys": [
+                  "L",
+                  "←/→",
+                  "K"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "shenzhou-face",
+                "name": "直面現實",
+                "description": "瞬移到最近的敵人附近，重新調整交戰位置。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "jump"
+                ],
+                "tag": "hit_Uj",
+                "entryFrame": 275,
+                "mp": 50,
+                "followup": "出現在目標同一縱深、身前約 120 距離處，並非直接貼身。沒有敵人也會消耗 MP。",
+                "comboKeys": [
+                  "L",
+                  "↑",
+                  "K"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "shenzhou-return",
+                "name": "回到同伴",
+                "description": "瞬移到最遠的同隊夥伴附近，迅速回到搭檔身邊。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "jump"
+                ],
+                "tag": "hit_Dj",
+                "entryFrame": 290,
+                "mp": 50,
+                "followup": "出現在同伴同一縱深、前方約 60 距離處。沒有同伴時不會移動，仍會消耗 MP。",
+                "comboKeys": [
+                  "L",
+                  "↓",
+                  "K"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              }
+            ]
+          }
+        ],
+        "skillsGuideOpen": false,
+        "coordinates": "x right, z down along ground, y vertical (up is negative)",
+        "paused": false,
+        "players": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "team": 1,
+            "frame": 0,
+            "controller": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            },
+            "x": 579.7439877229612,
+            "y": 0,
+            "z": 425.2082901150473,
+            "hp": 500,
+            "mp": 202
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "team": 1,
+            "frame": 0,
+            "controller": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            },
+            "x": 207.58925984301354,
+            "y": 0,
+            "z": 383.2208612557083,
+            "hp": 500,
+            "mp": 202
+          },
+          {
+            "id": 30,
+            "name": "纸卷怪",
+            "team": 2,
+            "frame": 5,
+            "controller": "AIcontroller",
+            "x": 119.2512322643891,
+            "y": 0,
+            "z": 401.4868601273016,
+            "hp": 500,
+            "mp": 202
+          },
+          {
+            "id": 31,
+            "name": "訂正獵手",
+            "team": 2,
+            "frame": 5,
+            "controller": "AIcontroller",
+            "x": 43.87516255311287,
+            "y": 0,
+            "z": 369.384555223371,
+            "hp": 500,
+            "mp": 202
+          },
+          {
+            "id": 32,
+            "name": "催促鐘怪",
+            "team": 2,
+            "frame": 65,
+            "controller": "AIcontroller",
+            "x": 579.2895054720085,
+            "y": 0,
+            "z": 419.0808528075183,
+            "hp": 500,
+            "mp": 202
+          }
+        ]
+      },
+      "tick": 5,
+      "fps": "0 FPS",
+      "rawFPS": "0fps",
+      "characters": [
+        {
+          "id": 9,
+          "frame": 0,
+          "picture": 0,
+          "state": 0,
+          "hp": 500,
+          "blink": false,
+          "timein": -5,
+          "timeout": -5,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 540,
+            "y": 346,
+            "w": 79,
+            "h": 79,
+            "imageX": 0,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "frame": 0,
+          "picture": 0,
+          "state": 0,
+          "hp": 500,
+          "blink": false,
+          "timein": -5,
+          "timeout": -5,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 168,
+            "y": 304,
+            "w": 79,
+            "h": 79,
+            "imageX": 0,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "frame": 5,
+          "picture": 4,
+          "state": 1,
+          "hp": 500,
+          "blink": false,
+          "timein": -5,
+          "timeout": -5,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 80,
+            "y": 322,
+            "w": 79,
+            "h": 79,
+            "imageX": -320,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "frame": 5,
+          "picture": 4,
+          "state": 1,
+          "hp": 500,
+          "blink": false,
+          "timein": -5,
+          "timeout": -5,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 8,
+            "y": 291,
+            "w": 79,
+            "h": 79,
+            "imageX": -320,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "frame": 65,
+          "picture": 12,
+          "state": 3,
+          "hp": 500,
+          "blink": false,
+          "timein": -5,
+          "timeout": -5,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 539,
+            "y": 340,
+            "w": 79,
+            "h": 79,
+            "imageX": -160,
+            "imageY": -80
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "after-6.5-seconds",
+      "at": "2026-10-18T09:34:31.699Z",
+      "state": {
+        "screen": "gameplay",
+        "animation": {
+          "mode": "native-picture",
+          "sheets": 57,
+          "pictures": 1930
+        },
+        "selected": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "index": 8
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "index": 9
+          }
+        ],
+        "humans": 2,
+        "computers": 3,
+        "stage": 3,
+        "formation": "mixed",
+        "monsterIds": [
+          30,
+          31,
+          32
+        ],
+        "chapter": {
+          "phase": "idle",
+          "checkpoint": 0,
+          "title": "不要掉队 · 校门口",
+          "objective": "打散纸卷怪，和同伴一起走进校门。",
+          "background": 0,
+          "monsterIds": [
+            30,
+            30
+          ],
+          "enemiesRemaining": 2,
+          "rescues": 0,
+          "reviveProgress": 0,
+          "reviveTarget": null,
+          "reviveHelper": null,
+          "downedPlayers": [],
+          "elapsedFrames": 0,
+          "paused": false,
+          "saved": {
+            "version": 1,
+            "chapter": "chapter-01",
+            "checkpoint": 0,
+            "completed": false,
+            "mementos": [],
+            "updatedAt": null
+          },
+          "savingError": null,
+          "mode": "free",
+          "dialog": ""
+        },
+        "controls": [
+          {
+            "player": 0,
+            "name": "player1",
+            "type": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            }
+          },
+          {
+            "player": 1,
+            "name": "player2",
+            "type": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            }
+          }
+        ],
+        "skills": [
+          {
+            "player": 0,
+            "hero": {
+              "id": 9,
+              "name": "唐梨"
+            },
+            "notes": [
+              "跑動攻擊收招時續按 {att} 可接近身重踢，不額外消耗 MP。",
+              "近身重踢、跑動攻擊收招或抓住敵人時，可輸入原組合銜接「課間連踢」（75 MP）、「放學旋風」（75 MP 起動）或「追問光點」（100 MP）。",
+              "「粉筆連彈」的續招窗口很短，需在每段收招時按下 {att}；按住不放不會自動連發。"
+            ],
+            "active": true,
+            "mp": 274,
+            "skills": [
+              {
+                "id": "tangli-chalk",
+                "name": "粉筆連彈",
+                "description": "向前踢出一道粉筆光彈，可逐段追加遠程攻擊。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "att"
+                ],
+                "tag": "hit_Fa",
+                "entryFrame": 235,
+                "mp": 40,
+                "followup": "出手後按 {att} 追加第二發（40 MP），再按 {att} 追加兩發（70 MP）；四發收招時再按 {att} 可銜接下一輪首發，此次銜接不額外耗 MP。",
+                "comboKeys": [
+                  "H",
+                  "A/D",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-recess",
+                "name": "課間連踢",
+                "description": "近身連續踢擊，把迎面的阻攔一腳腳踢開。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "att"
+                ],
+                "tag": "hit_Da",
+                "entryFrame": 265,
+                "mp": 75,
+                "followup": "",
+                "comboKeys": [
+                  "H",
+                  "S",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-whirl",
+                "name": "放學旋風",
+                "description": "旋轉向前突進並持續踢擊，清出穿行的空間。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "jump"
+                ],
+                "tag": "hit_Fj",
+                "entryFrame": 280,
+                "mp": 75,
+                "followup": "75 MP 為起動消耗；旋轉期間每輪另耗 34 MP，MP 用完會收招。按防禦 {def} 或跳躍 {jump} 可提前停止。",
+                "comboKeys": [
+                  "H",
+                  "A/D",
+                  "G"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-question",
+                "name": "追問光點",
+                "description": "放出會追蹤敵人的光彈，追上躲到遠處的目標。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "att"
+                ],
+                "tag": "hit_Ua",
+                "entryFrame": 295,
+                "mp": 100,
+                "followup": "",
+                "comboKeys": [
+                  "H",
+                  "W",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              }
+            ]
+          },
+          {
+            "player": 1,
+            "hero": {
+              "id": 10,
+              "name": "沈舟"
+            },
+            "notes": [
+              "兩種瞬移可在站定或跳躍中輸入；移動、防禦等動作中不能直接接出。先鬆開方向再輸入完整組合。",
+              "瞬移收招時輸入 {def} › {up} › {att} 可接「逆風起身」（0 MP）；{def} › {left} / {right} › {jump} 可接「越線飛踢」（200 MP）。",
+              "翻滾中輸入 {def} › {down} › {att} 可接「橫越題海」（50 MP）；跑動攻擊收招時續按 {att} 可延長近身連擊，不額外消耗 MP。"
+            ],
+            "active": true,
+            "mp": 266,
+            "skills": [
+              {
+                "id": "shenzhou-pages",
+                "name": "雙頁推進",
+                "description": "接連發出兩道遠程光彈，打開前進的路。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "att"
+                ],
+                "tag": "hit_Fa",
+                "entryFrame": 235,
+                "mp": 125,
+                "followup": "一次完整出招自動發出兩彈，共耗 125 MP。",
+                "comboKeys": [
+                  "L",
+                  "←/→",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-rise",
+                "name": "逆風起身",
+                "description": "翻身上挑，把近處的敵人擊向空中。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "att"
+                ],
+                "tag": "hit_Ua",
+                "entryFrame": 70,
+                "mp": 0,
+                "followup": "落地收招時輸入 {def} › {left} / {right} › {jump}，可接「越線飛踢」（200 MP）。",
+                "comboKeys": [
+                  "L",
+                  "↑",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-crossing",
+                "name": "橫越題海",
+                "description": "向前旋身掃踢，同時攻擊身前與身後近處的敵人。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "att"
+                ],
+                "tag": "hit_Da",
+                "entryFrame": 260,
+                "mp": 50,
+                "followup": "收招時輸入 {def} › {up} › {att} 可接「逆風起身」（0 MP）；{def} › {left} / {right} › {jump} 可接「越線飛踢」（200 MP）。",
+                "comboKeys": [
+                  "L",
+                  "↓",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-leap",
+                "name": "越線飛踢",
+                "description": "躍起向前突進，用重踢擊退攔路的敵人。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "jump"
+                ],
+                "tag": "hit_Fj",
+                "entryFrame": 250,
+                "mp": 200,
+                "followup": "跳躍落地、翻滾起身或部分招式收招時輸入同一組合，可更快接出飛踢；仍耗 200 MP。",
+                "comboKeys": [
+                  "L",
+                  "←/→",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-face",
+                "name": "直面現實",
+                "description": "瞬移到最近的敵人附近，重新調整交戰位置。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "jump"
+                ],
+                "tag": "hit_Uj",
+                "entryFrame": 275,
+                "mp": 50,
+                "followup": "出現在目標同一縱深、身前約 120 距離處，並非直接貼身。沒有敵人也會消耗 MP。",
+                "comboKeys": [
+                  "L",
+                  "↑",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-return",
+                "name": "回到同伴",
+                "description": "瞬移到最遠的同隊夥伴附近，迅速回到搭檔身邊。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "jump"
+                ],
+                "tag": "hit_Dj",
+                "entryFrame": 290,
+                "mp": 50,
+                "followup": "出現在同伴同一縱深、前方約 60 距離處。沒有同伴時不會移動，仍會消耗 MP。",
+                "comboKeys": [
+                  "L",
+                  "↓",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              }
+            ]
+          }
+        ],
+        "skillsGuideOpen": false,
+        "coordinates": "x right, z down along ground, y vertical (up is negative)",
+        "paused": false,
+        "players": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "team": 1,
+            "frame": 1,
+            "controller": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            },
+            "x": 792.2895054720085,
+            "y": 0,
+            "z": 425.2082901150473,
+            "hp": 406,
+            "mp": 274
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "team": 1,
+            "frame": 226,
+            "controller": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            },
+            "x": 280.58925984301356,
+            "y": 0,
+            "z": 383.2208612557083,
+            "hp": 389,
+            "mp": 266
+          },
+          {
+            "id": 30,
+            "name": "纸卷怪",
+            "team": 2,
+            "frame": 66,
+            "controller": "AIcontroller",
+            "x": 286.86551797867463,
+            "y": 0,
+            "z": 392.1868601273015,
+            "hp": 480,
+            "mp": 264
+          },
+          {
+            "id": 31,
+            "name": "訂正獵手",
+            "team": 2,
+            "frame": 63,
+            "controller": "AIcontroller",
+            "x": 307.5894482673987,
+            "y": 0,
+            "z": 396.28455522337106,
+            "hp": 482,
+            "mp": 195
+          },
+          {
+            "id": 32,
+            "name": "催促鐘怪",
+            "team": 2,
+            "frame": 10,
+            "controller": "AIcontroller",
+            "x": 794,
+            "y": 0,
+            "z": 385.40085280751794,
+            "hp": 500,
+            "mp": 264
+          }
+        ]
+      },
+      "tick": 203,
+      "fps": "30 FPS",
+      "rawFPS": "30fps",
+      "characters": [
+        {
+          "id": 9,
+          "frame": 1,
+          "picture": 1,
+          "state": 0,
+          "hp": 406,
+          "blink": false,
+          "timein": -62,
+          "timeout": -32,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 753,
+            "y": 346,
+            "w": 79,
+            "h": 79,
+            "imageX": -80,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "frame": 226,
+          "picture": 120,
+          "state": 16,
+          "hp": 389,
+          "blink": false,
+          "timein": -5,
+          "timeout": -3,
+          "hidden": false,
+          "currentImage": 1,
+          "rect": {
+            "x": 244,
+            "y": 304,
+            "w": 79,
+            "h": 79,
+            "imageX": 0,
+            "imageY": -400
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "frame": 66,
+          "picture": 13,
+          "state": 3,
+          "hp": 480,
+          "blink": false,
+          "timein": -5,
+          "timeout": -2,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 245,
+            "y": 313,
+            "w": 79,
+            "h": 79,
+            "imageX": -240,
+            "imageY": -80
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "frame": 63,
+          "picture": 13,
+          "state": 3,
+          "hp": 482,
+          "blink": false,
+          "timein": -97,
+          "timeout": -67,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 265,
+            "y": 318,
+            "w": 79,
+            "h": 79,
+            "imageX": -240,
+            "imageY": -80
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "frame": 10,
+          "picture": 21,
+          "state": 2,
+          "hp": 500,
+          "blink": false,
+          "timein": -137,
+          "timeout": -134,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 743,
+            "y": 306,
+            "w": 79,
+            "h": 79,
+            "imageX": -80,
+            "imageY": -160
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "after-10-seconds",
+      "at": "2026-10-18T09:34:35.699Z",
+      "state": {
+        "screen": "gameplay",
+        "animation": {
+          "mode": "native-picture",
+          "sheets": 57,
+          "pictures": 1930
+        },
+        "selected": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "index": 8
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "index": 9
+          }
+        ],
+        "humans": 2,
+        "computers": 3,
+        "stage": 3,
+        "formation": "mixed",
+        "monsterIds": [
+          30,
+          31,
+          32
+        ],
+        "chapter": {
+          "phase": "idle",
+          "checkpoint": 0,
+          "title": "不要掉队 · 校门口",
+          "objective": "打散纸卷怪，和同伴一起走进校门。",
+          "background": 0,
+          "monsterIds": [
+            30,
+            30
+          ],
+          "enemiesRemaining": 2,
+          "rescues": 0,
+          "reviveProgress": 0,
+          "reviveTarget": null,
+          "reviveHelper": null,
+          "downedPlayers": [],
+          "elapsedFrames": 0,
+          "paused": false,
+          "saved": {
+            "version": 1,
+            "chapter": "chapter-01",
+            "checkpoint": 0,
+            "completed": false,
+            "mementos": [],
+            "updatedAt": null
+          },
+          "savingError": null,
+          "mode": "free",
+          "dialog": ""
+        },
+        "controls": [
+          {
+            "player": 0,
+            "name": "player1",
+            "type": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            }
+          },
+          {
+            "player": 1,
+            "name": "player2",
+            "type": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            }
+          }
+        ],
+        "skills": [
+          {
+            "player": 0,
+            "hero": {
+              "id": 9,
+              "name": "唐梨"
+            },
+            "notes": [
+              "跑動攻擊收招時續按 {att} 可接近身重踢，不額外消耗 MP。",
+              "近身重踢、跑動攻擊收招或抓住敵人時，可輸入原組合銜接「課間連踢」（75 MP）、「放學旋風」（75 MP 起動）或「追問光點」（100 MP）。",
+              "「粉筆連彈」的續招窗口很短，需在每段收招時按下 {att}；按住不放不會自動連發。"
+            ],
+            "active": true,
+            "mp": 312,
+            "skills": [
+              {
+                "id": "tangli-chalk",
+                "name": "粉筆連彈",
+                "description": "向前踢出一道粉筆光彈，可逐段追加遠程攻擊。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "att"
+                ],
+                "tag": "hit_Fa",
+                "entryFrame": 235,
+                "mp": 40,
+                "followup": "出手後按 {att} 追加第二發（40 MP），再按 {att} 追加兩發（70 MP）；四發收招時再按 {att} 可銜接下一輪首發，此次銜接不額外耗 MP。",
+                "comboKeys": [
+                  "H",
+                  "A/D",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-recess",
+                "name": "課間連踢",
+                "description": "近身連續踢擊，把迎面的阻攔一腳腳踢開。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "att"
+                ],
+                "tag": "hit_Da",
+                "entryFrame": 265,
+                "mp": 75,
+                "followup": "",
+                "comboKeys": [
+                  "H",
+                  "S",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-whirl",
+                "name": "放學旋風",
+                "description": "旋轉向前突進並持續踢擊，清出穿行的空間。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "jump"
+                ],
+                "tag": "hit_Fj",
+                "entryFrame": 280,
+                "mp": 75,
+                "followup": "75 MP 為起動消耗；旋轉期間每輪另耗 34 MP，MP 用完會收招。按防禦 {def} 或跳躍 {jump} 可提前停止。",
+                "comboKeys": [
+                  "H",
+                  "A/D",
+                  "G"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              },
+              {
+                "id": "tangli-question",
+                "name": "追問光點",
+                "description": "放出會追蹤敵人的光彈，追上躲到遠處的目標。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "att"
+                ],
+                "tag": "hit_Ua",
+                "entryFrame": 295,
+                "mp": 100,
+                "followup": "",
+                "comboKeys": [
+                  "H",
+                  "W",
+                  "F"
+                ],
+                "enabled": true,
+                "disabledReason": ""
+              }
+            ]
+          },
+          {
+            "player": 1,
+            "hero": {
+              "id": 10,
+              "name": "沈舟"
+            },
+            "notes": [
+              "兩種瞬移可在站定或跳躍中輸入；移動、防禦等動作中不能直接接出。先鬆開方向再輸入完整組合。",
+              "瞬移收招時輸入 {def} › {up} › {att} 可接「逆風起身」（0 MP）；{def} › {left} / {right} › {jump} 可接「越線飛踢」（200 MP）。",
+              "翻滾中輸入 {def} › {down} › {att} 可接「橫越題海」（50 MP）；跑動攻擊收招時續按 {att} 可延長近身連擊，不額外消耗 MP。"
+            ],
+            "active": true,
+            "mp": 340,
+            "skills": [
+              {
+                "id": "shenzhou-pages",
+                "name": "雙頁推進",
+                "description": "接連發出兩道遠程光彈，打開前進的路。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "att"
+                ],
+                "tag": "hit_Fa",
+                "entryFrame": 235,
+                "mp": 125,
+                "followup": "一次完整出招自動發出兩彈，共耗 125 MP。",
+                "comboKeys": [
+                  "L",
+                  "←/→",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-rise",
+                "name": "逆風起身",
+                "description": "翻身上挑，把近處的敵人擊向空中。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "att"
+                ],
+                "tag": "hit_Ua",
+                "entryFrame": 70,
+                "mp": 0,
+                "followup": "落地收招時輸入 {def} › {left} / {right} › {jump}，可接「越線飛踢」（200 MP）。",
+                "comboKeys": [
+                  "L",
+                  "↑",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-crossing",
+                "name": "橫越題海",
+                "description": "向前旋身掃踢，同時攻擊身前與身後近處的敵人。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "att"
+                ],
+                "tag": "hit_Da",
+                "entryFrame": 260,
+                "mp": 50,
+                "followup": "收招時輸入 {def} › {up} › {att} 可接「逆風起身」（0 MP）；{def} › {left} / {right} › {jump} 可接「越線飛踢」（200 MP）。",
+                "comboKeys": [
+                  "L",
+                  "↓",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-leap",
+                "name": "越線飛踢",
+                "description": "躍起向前突進，用重踢擊退攔路的敵人。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "jump"
+                ],
+                "tag": "hit_Fj",
+                "entryFrame": 250,
+                "mp": 200,
+                "followup": "跳躍落地、翻滾起身或部分招式收招時輸入同一組合，可更快接出飛踢；仍耗 200 MP。",
+                "comboKeys": [
+                  "L",
+                  "←/→",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-face",
+                "name": "直面現實",
+                "description": "瞬移到最近的敵人附近，重新調整交戰位置。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "jump"
+                ],
+                "tag": "hit_Uj",
+                "entryFrame": 275,
+                "mp": 50,
+                "followup": "出現在目標同一縱深、身前約 120 距離處，並非直接貼身。沒有敵人也會消耗 MP。",
+                "comboKeys": [
+                  "L",
+                  "↑",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              },
+              {
+                "id": "shenzhou-return",
+                "name": "回到同伴",
+                "description": "瞬移到最遠的同隊夥伴附近，迅速回到搭檔身邊。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "jump"
+                ],
+                "tag": "hit_Dj",
+                "entryFrame": 290,
+                "mp": 50,
+                "followup": "出現在同伴同一縱深、前方約 60 距離處。沒有同伴時不會移動，仍會消耗 MP。",
+                "comboKeys": [
+                  "L",
+                  "↓",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "当前动作无法接招，请站稳后再试。"
+              }
+            ]
+          }
+        ],
+        "skillsGuideOpen": false,
+        "coordinates": "x right, z down along ground, y vertical (up is negative)",
+        "paused": false,
+        "players": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "team": 1,
+            "frame": 2,
+            "controller": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            },
+            "x": 792.2895054720085,
+            "y": 0,
+            "z": 425.2082901150473,
+            "hp": 416,
+            "mp": 312
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "team": 1,
+            "frame": 231,
+            "controller": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            },
+            "x": 431.58925984301356,
+            "y": 0,
+            "z": 383.2208612557083,
+            "hp": 329,
+            "mp": 340
+          },
+          {
+            "id": 30,
+            "name": "纸卷怪",
+            "team": 2,
+            "frame": 5,
+            "controller": "AIcontroller",
+            "x": 249.1428571428571,
+            "y": 0,
+            "z": 419.28686012730157,
+            "hp": 490,
+            "mp": 301
+          },
+          {
+            "id": 31,
+            "name": "訂正獵手",
+            "team": 2,
+            "frame": 8,
+            "controller": "AIcontroller",
+            "x": 260.3037339816846,
+            "y": 0,
+            "z": 441.28455522337106,
+            "hp": 490,
+            "mp": 173
+          },
+          {
+            "id": 32,
+            "name": "催促鐘怪",
+            "team": 2,
+            "frame": 65,
+            "controller": "AIcontroller",
+            "x": 793,
+            "y": 0,
+            "z": 411.5808528075183,
+            "hp": 500,
+            "mp": 252
+          }
+        ]
+      },
+      "tick": 317,
+      "fps": "30 FPS",
+      "rawFPS": "30fps",
+      "characters": [
+        {
+          "id": 9,
+          "frame": 2,
+          "picture": 2,
+          "state": 0,
+          "hp": 416,
+          "blink": false,
+          "timein": -176,
+          "timeout": -146,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 753,
+            "y": 346,
+            "w": 79,
+            "h": 79,
+            "imageX": -160,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "frame": 231,
+          "picture": 44,
+          "state": 14,
+          "hp": 329,
+          "blink": false,
+          "timein": -44,
+          "timeout": -42,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 392,
+            "y": 308,
+            "w": 79,
+            "h": 79,
+            "imageX": -320,
+            "imageY": -320
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "frame": 5,
+          "picture": 4,
+          "state": 1,
+          "hp": 490,
+          "blink": false,
+          "timein": -44,
+          "timeout": -42,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 208,
+            "y": 340,
+            "w": 79,
+            "h": 79,
+            "imageX": -320,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "frame": 8,
+          "picture": 7,
+          "state": 1,
+          "hp": 490,
+          "blink": false,
+          "timein": -211,
+          "timeout": -181,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 220,
+            "y": 363,
+            "w": 79,
+            "h": 79,
+            "imageX": -560,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "frame": 65,
+          "picture": 12,
+          "state": 3,
+          "hp": 500,
+          "blink": false,
+          "timein": -251,
+          "timeout": -248,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 753,
+            "y": 332,
+            "w": 79,
+            "h": 79,
+            "imageX": -160,
+            "imageY": -80
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "paused-after-10-seconds",
+      "at": "2026-10-18T09:34:36.236Z",
+      "state": {
+        "screen": "gameplay",
+        "animation": {
+          "mode": "native-picture",
+          "sheets": 57,
+          "pictures": 1930
+        },
+        "selected": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "index": 8
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "index": 9
+          }
+        ],
+        "humans": 2,
+        "computers": 3,
+        "stage": 3,
+        "formation": "mixed",
+        "monsterIds": [
+          30,
+          31,
+          32
+        ],
+        "chapter": {
+          "phase": "idle",
+          "checkpoint": 0,
+          "title": "不要掉队 · 校门口",
+          "objective": "打散纸卷怪，和同伴一起走进校门。",
+          "background": 0,
+          "monsterIds": [
+            30,
+            30
+          ],
+          "enemiesRemaining": 2,
+          "rescues": 0,
+          "reviveProgress": 0,
+          "reviveTarget": null,
+          "reviveHelper": null,
+          "downedPlayers": [],
+          "elapsedFrames": 0,
+          "paused": false,
+          "saved": {
+            "version": 1,
+            "chapter": "chapter-01",
+            "checkpoint": 0,
+            "completed": false,
+            "mementos": [],
+            "updatedAt": null
+          },
+          "savingError": null,
+          "mode": "free",
+          "dialog": ""
+        },
+        "controls": [
+          {
+            "player": 0,
+            "name": "player1",
+            "type": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            }
+          },
+          {
+            "player": 1,
+            "name": "player2",
+            "type": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            }
+          }
+        ],
+        "skills": [
+          {
+            "player": 0,
+            "hero": {
+              "id": 9,
+              "name": "唐梨"
+            },
+            "notes": [
+              "跑動攻擊收招時續按 {att} 可接近身重踢，不額外消耗 MP。",
+              "近身重踢、跑動攻擊收招或抓住敵人時，可輸入原組合銜接「課間連踢」（75 MP）、「放學旋風」（75 MP 起動）或「追問光點」（100 MP）。",
+              "「粉筆連彈」的續招窗口很短，需在每段收招時按下 {att}；按住不放不會自動連發。"
+            ],
+            "active": true,
+            "mp": 317,
+            "skills": [
+              {
+                "id": "tangli-chalk",
+                "name": "粉筆連彈",
+                "description": "向前踢出一道粉筆光彈，可逐段追加遠程攻擊。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "att"
+                ],
+                "tag": "hit_Fa",
+                "entryFrame": 235,
+                "mp": 40,
+                "followup": "出手後按 {att} 追加第二發（40 MP），再按 {att} 追加兩發（70 MP）；四發收招時再按 {att} 可銜接下一輪首發，此次銜接不額外耗 MP。",
+                "comboKeys": [
+                  "H",
+                  "A/D",
+                  "F"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              },
+              {
+                "id": "tangli-recess",
+                "name": "課間連踢",
+                "description": "近身連續踢擊，把迎面的阻攔一腳腳踢開。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "att"
+                ],
+                "tag": "hit_Da",
+                "entryFrame": 265,
+                "mp": 75,
+                "followup": "",
+                "comboKeys": [
+                  "H",
+                  "S",
+                  "F"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              },
+              {
+                "id": "tangli-whirl",
+                "name": "放學旋風",
+                "description": "旋轉向前突進並持續踢擊，清出穿行的空間。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "jump"
+                ],
+                "tag": "hit_Fj",
+                "entryFrame": 280,
+                "mp": 75,
+                "followup": "75 MP 為起動消耗；旋轉期間每輪另耗 34 MP，MP 用完會收招。按防禦 {def} 或跳躍 {jump} 可提前停止。",
+                "comboKeys": [
+                  "H",
+                  "A/D",
+                  "G"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              },
+              {
+                "id": "tangli-question",
+                "name": "追問光點",
+                "description": "放出會追蹤敵人的光彈，追上躲到遠處的目標。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "att"
+                ],
+                "tag": "hit_Ua",
+                "entryFrame": 295,
+                "mp": 100,
+                "followup": "",
+                "comboKeys": [
+                  "H",
+                  "W",
+                  "F"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              }
+            ]
+          },
+          {
+            "player": 1,
+            "hero": {
+              "id": 10,
+              "name": "沈舟"
+            },
+            "notes": [
+              "兩種瞬移可在站定或跳躍中輸入；移動、防禦等動作中不能直接接出。先鬆開方向再輸入完整組合。",
+              "瞬移收招時輸入 {def} › {up} › {att} 可接「逆風起身」（0 MP）；{def} › {left} / {right} › {jump} 可接「越線飛踢」（200 MP）。",
+              "翻滾中輸入 {def} › {down} › {att} 可接「橫越題海」（50 MP）；跑動攻擊收招時續按 {att} 可延長近身連擊，不額外消耗 MP。"
+            ],
+            "active": true,
+            "mp": 350,
+            "skills": [
+              {
+                "id": "shenzhou-pages",
+                "name": "雙頁推進",
+                "description": "接連發出兩道遠程光彈，打開前進的路。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "att"
+                ],
+                "tag": "hit_Fa",
+                "entryFrame": 235,
+                "mp": 125,
+                "followup": "一次完整出招自動發出兩彈，共耗 125 MP。",
+                "comboKeys": [
+                  "L",
+                  "←/→",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              },
+              {
+                "id": "shenzhou-rise",
+                "name": "逆風起身",
+                "description": "翻身上挑，把近處的敵人擊向空中。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "att"
+                ],
+                "tag": "hit_Ua",
+                "entryFrame": 70,
+                "mp": 0,
+                "followup": "落地收招時輸入 {def} › {left} / {right} › {jump}，可接「越線飛踢」（200 MP）。",
+                "comboKeys": [
+                  "L",
+                  "↑",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              },
+              {
+                "id": "shenzhou-crossing",
+                "name": "橫越題海",
+                "description": "向前旋身掃踢，同時攻擊身前與身後近處的敵人。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "att"
+                ],
+                "tag": "hit_Da",
+                "entryFrame": 260,
+                "mp": 50,
+                "followup": "收招時輸入 {def} › {up} › {att} 可接「逆風起身」（0 MP）；{def} › {left} / {right} › {jump} 可接「越線飛踢」（200 MP）。",
+                "comboKeys": [
+                  "L",
+                  "↓",
+                  "J"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              },
+              {
+                "id": "shenzhou-leap",
+                "name": "越線飛踢",
+                "description": "躍起向前突進，用重踢擊退攔路的敵人。",
+                "sequence": [
+                  "def",
+                  "forward",
+                  "jump"
+                ],
+                "tag": "hit_Fj",
+                "entryFrame": 250,
+                "mp": 200,
+                "followup": "跳躍落地、翻滾起身或部分招式收招時輸入同一組合，可更快接出飛踢；仍耗 200 MP。",
+                "comboKeys": [
+                  "L",
+                  "←/→",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              },
+              {
+                "id": "shenzhou-face",
+                "name": "直面現實",
+                "description": "瞬移到最近的敵人附近，重新調整交戰位置。",
+                "sequence": [
+                  "def",
+                  "up",
+                  "jump"
+                ],
+                "tag": "hit_Uj",
+                "entryFrame": 275,
+                "mp": 50,
+                "followup": "出現在目標同一縱深、身前約 120 距離處，並非直接貼身。沒有敵人也會消耗 MP。",
+                "comboKeys": [
+                  "L",
+                  "↑",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              },
+              {
+                "id": "shenzhou-return",
+                "name": "回到同伴",
+                "description": "瞬移到最遠的同隊夥伴附近，迅速回到搭檔身邊。",
+                "sequence": [
+                  "def",
+                  "down",
+                  "jump"
+                ],
+                "tag": "hit_Dj",
+                "entryFrame": 290,
+                "mp": 50,
+                "followup": "出現在同伴同一縱深、前方約 60 距離處。沒有同伴時不會移動，仍會消耗 MP。",
+                "comboKeys": [
+                  "L",
+                  "↓",
+                  "K"
+                ],
+                "enabled": false,
+                "disabledReason": "对战已暂停，继续后再施放。"
+              }
+            ]
+          }
+        ],
+        "skillsGuideOpen": false,
+        "coordinates": "x right, z down along ground, y vertical (up is negative)",
+        "paused": true,
+        "players": [
+          {
+            "id": 9,
+            "name": "唐梨",
+            "team": 1,
+            "frame": 0,
+            "controller": "keyboard",
+            "config": {
+              "up": "w",
+              "down": "s",
+              "left": "a",
+              "right": "d",
+              "def": "h",
+              "jump": "g",
+              "att": "f"
+            },
+            "x": 792.2895054720085,
+            "y": 0,
+            "z": 425.2082901150473,
+            "hp": 417,
+            "mp": 317
+          },
+          {
+            "id": 10,
+            "name": "沈舟",
+            "team": 1,
+            "frame": 0,
+            "controller": "keyboard",
+            "config": {
+              "up": "up",
+              "down": "down",
+              "left": "left",
+              "right": "right",
+              "def": "l",
+              "jump": "k",
+              "att": "j"
+            },
+            "x": 431.58925984301356,
+            "y": 0,
+            "z": 383.2208612557083,
+            "hp": 330,
+            "mp": 350
+          },
+          {
+            "id": 30,
+            "name": "纸卷怪",
+            "team": 2,
+            "frame": 5,
+            "controller": "AIcontroller",
+            "x": 198.1428571428571,
+            "y": 0,
+            "z": 435.28686012730157,
+            "hp": 490,
+            "mp": 306
+          },
+          {
+            "id": 31,
+            "name": "訂正獵手",
+            "team": 2,
+            "frame": 5,
+            "controller": "AIcontroller",
+            "x": 221.1608768388274,
+            "y": 0,
+            "z": 442,
+            "hp": 490,
+            "mp": 178
+          },
+          {
+            "id": 32,
+            "name": "催促鐘怪",
+            "team": 2,
+            "frame": 0,
+            "controller": "AIcontroller",
+            "x": 784,
+            "y": 0,
+            "z": 411.5808528075183,
+            "hp": 500,
+            "mp": 257
+          }
+        ]
+      },
+      "tick": 332,
+      "fps": "30 FPS",
+      "rawFPS": "paused",
+      "characters": [
+        {
+          "id": 9,
+          "frame": 0,
+          "picture": 0,
+          "state": 0,
+          "hp": 417,
+          "blink": false,
+          "timein": -191,
+          "timeout": -161,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 753,
+            "y": 346,
+            "w": 79,
+            "h": 79,
+            "imageX": 0,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "frame": 0,
+          "picture": 0,
+          "state": 0,
+          "hp": 330,
+          "blink": true,
+          "blinkIndex": 9,
+          "timein": -9,
+          "timeout": 21,
+          "hidden": true,
+          "currentImage": 0,
+          "rect": {
+            "x": 392,
+            "y": 304,
+            "w": 79,
+            "h": 79,
+            "imageX": 0,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "frame": 5,
+          "picture": 4,
+          "state": 1,
+          "hp": 490,
+          "blink": false,
+          "timein": -59,
+          "timeout": -57,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 157,
+            "y": 356,
+            "w": 79,
+            "h": 79,
+            "imageX": -320,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "frame": 5,
+          "picture": 4,
+          "state": 1,
+          "hp": 490,
+          "blink": false,
+          "timein": -226,
+          "timeout": -196,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 176,
+            "y": 364,
+            "w": 79,
+            "h": 79,
+            "imageX": -320,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "frame": 0,
+          "picture": 0,
+          "state": 0,
+          "hp": 500,
+          "blink": false,
+          "timein": -266,
+          "timeout": -263,
+          "hidden": false,
+          "currentImage": 0,
+          "rect": {
+            "x": 746,
+            "y": 332,
+            "w": 79,
+            "h": 79,
+            "imageX": 0,
+            "imageY": 0
+          },
+          "images": [
+            {
+              "key": "0",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "1",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            },
+            {
+              "key": "2",
+              "complete": true,
+              "w": 800,
+              "h": 560
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "loader": {
+    "waitSeconds": 120,
+    "mainScript": "game.js?v=20261018-public-brand-2"
+  },
+  "finishedAt": "2026-10-18T09:34:36.568Z"
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>與名為現實的怪物戰鬥的人們 | THOSE WHO FIGHT THE MONSTER CALLED REALITY</title>
+<meta name="description" content="中式荒誕 × 魔幻現實主義的同屏合作格鬥遊戲。六位夥伴、五處場景，與同伴並肩戰鬥。">
+<meta name="theme-color" content="#171116">
+<link rel="stylesheet" href="urban-ui.css?v=20261017-asset-expansion-1">
+<link rel="stylesheet" href="urban-hud.css?v=20261017-chapter-1">
+<link rel="stylesheet" href="chapter-ui.css?v=20261017-chapter-1">
+<link rel="stylesheet" href="reality-skills.css?v=20261017-asset-expansion-1">
+<link rel="stylesheet" href="brand.css?v=20261018-brand-1">
+<style>
+#reality-loading{position:fixed;inset:0;z-index:10000;display:grid;place-content:center;gap:14px;text-align:center;background:#171116;color:#f4edf3;font:16px system-ui,sans-serif;padding:32px}
+#reality-loading strong{font-size:26px}#reality-loading p{color:#c8b4c3;max-width:540px;line-height:1.7}#reality-loading button{padding:10px 20px;background:#c72447;color:#fff;border:3px solid #fff6d9;cursor:pointer}#reality-loading button[hidden]{display:none}
+</style>
+</head>
+
+<body>
+<div id="reality-loading" role="status"><strong>夥伴們，正在集合。</strong><p>正在裝好書包，整理校園與角色動作。首次進入需要一點時間。</p><button hidden onclick="location.reload()">重新集合</button></div>
+<div class='LFroot'>
+	<div class='container'>
+		<div class='window_caption'>
+			<div class='window_caption_title'>
+				與名為現實的怪物戰鬥的人們
+			</div>
+			<div class='window_caption_button_bar'>
+				<div class='maximize_button'><span class='unisym'>&#9723;</span></div>
+				<!--<div class='settingsButton'><span class='unisym'>&#9000;</span></div>-->
+
+			</div>
+		</div>
+		<div class='window'>
+			<div class='frontpage'>
+				<div class='frontpage_content'>
+				</div>
+			</div>
+			<div class='settings'>
+			</div>
+			<div class='network_game'>
+				<div class='network_game_menu'>
+					<select class='server_select'>
+					</select>
+					<button class='server_connect'>Connect</button>
+					<button class='network_game_cancel'>Cancel</button>
+					<input class='server_address' type='url' value=''>
+					<textarea class='network_log' readonly></textarea>
+				</div>
+			</div>
+			<div class='gameplay'>
+				<canvas class='canvas' width='0' height='0'></canvas>
+				<div class='top_status'></div>
+				<div class='bottom_status'>
+					<input class='fps' value='0fps'></input>
+					<span class='footnote'></span>
+				</div>
+				<div class='dialog_holder'>
+					<div class='pause_message'></div>
+					<div class='summary_dialog'></div>
+				</div>
+			</div>
+			<div class='character_selection'>
+			</div>
+		</div>
+		<pre class='projectFmessage' hidden>THOSE WHO FIGHT THE MONSTER CALLED REALITY</pre>
+	</div>
+	<div class='extra_UI container'>
+		<div class='dialog_holder'>
+			<div class='alert_box' style='display:none;'>
+				<span class='alert_message'>Loading...</span>
+				<button class='alert_box_ok'>OK</button>
+			</div>
+		</div>
+	</div>
+	<div class='touch_control_holder'></div>
+	<div class='lobby'>
+		<div class='header'>
+			<div class='nav'>
+				<a>&nbsp;&nbsp;&nbsp;合作大廳&nbsp;&nbsp;&nbsp;</a>
+				<a href='#' target='_blank' class='help_button'>&nbsp;?&nbsp;</a>
+				<a class='close_button'>&nbsp;X&nbsp;</a>
+			</div>
+		</div>
+		<iframe class='lobby_window'></iframe>
+	</div>
+
+</div>
+<pre id='flf-config' style='display:none'>
+{"root":"../","package":"../LF2_19"}
+</pre>
+<script data-main="game.js" src="../third_party/require.js"></script>
+</body>
+</html>

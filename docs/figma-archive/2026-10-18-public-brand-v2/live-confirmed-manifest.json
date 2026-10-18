@@ -1,0 +1,81 @@
+{
+  "version": "2026-10-18-public-brand-v2-live-confirmed",
+  "recordedAt": "2026-10-18T09:37:11.120427+00:00",
+  "sourceCommit": "2693b16c68b1b9c89e4c5323a16581420c7b0f2f",
+  "publishCommit": "e4e998026e0ace302aa22fec661a7feac450cc8c",
+  "playUrl": "https://kingkazmax.github.io/those-who-fight-reality/",
+  "passed": true,
+  "checks": 25,
+  "startedAt": "2026-10-18T09:32:21.726Z",
+  "finishedAt": "2026-10-18T09:33:04.445Z",
+  "reportSummary": {
+    "pageErrors": 0,
+    "consoleErrors": 0,
+    "failedResources": 0
+  },
+  "publishedManifestSha256": "a71680fe56197e93d959d8be67db078e308040a051fdbef3058d1bbaf96025e3",
+  "records": [
+    {
+      "id": "V2LIVE-001",
+      "path": "README.md",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/README.md",
+      "bytes": 3069,
+      "sha256": "b04915590ade8a7882a8a6cf321500666aba4d032fffb89edc574b08e96b8fdc",
+      "encoding": "utf-8",
+      "source": "Live v2 published build verification and current release documentation",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/README.md",
+      "reason": "Confirm deployed loader changes after reproducible red/green tests",
+      "parts": 1
+    },
+    {
+      "id": "V2LIVE-002",
+      "path": "docs/公開部署.md",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/公開部署.md",
+      "bytes": 3459,
+      "sha256": "5447134fad31e4cabf7c5dff9eed64cf146704f55ab618ff1c6a4264cb0bf73f",
+      "encoding": "utf-8",
+      "source": "Live v2 published build verification and current release documentation",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/公開部署.md",
+      "reason": "Confirm deployed loader changes after reproducible red/green tests",
+      "parts": 1
+    },
+    {
+      "id": "V2LIVE-003",
+      "path": "docs/verification/公開上線驗收.md",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/verification/公開上線驗收.md",
+      "bytes": 3355,
+      "sha256": "af4f8380d5d47bfe5f855364781341efb81486a9619e50186de6f120f86585bf",
+      "encoding": "utf-8",
+      "source": "Live v2 published build verification and current release documentation",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/公開上線驗收.md",
+      "reason": "Confirm deployed loader changes after reproducible red/green tests",
+      "parts": 1
+    },
+    {
+      "id": "V2LIVE-004",
+      "path": "docs/verification/public-live/report.json",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/verification/public-live/report.json",
+      "bytes": 51072,
+      "sha256": "2d3973537e56c6c6713099e2510776e64345a753cb349f4aa9cd9f178fcf25fb",
+      "encoding": "utf-8",
+      "source": "Live v2 published build verification and current release documentation",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/report.json",
+      "reason": "Confirm deployed loader changes after reproducible red/green tests",
+      "parts": 6
+    },
+    {
+      "id": "V2LIVE-005",
+      "path": "docs/verification/public-live/home-1280x920.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/verification/public-live/home-1280x920.png",
+      "bytes": 1285748,
+      "sha256": "1a30e11b274aa862deff0f63c1534c510f0f916eed960f512f380f6245ef6e64",
+      "encoding": "png",
+      "source": "Live v2 published build verification and current release documentation",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/home-1280x920.png",
+      "reason": "Confirm deployed loader changes after reproducible red/green tests",
+      "width": 1280,
+      "height": 920
+    }
+  ],
+  "codeChunks": 9
+}

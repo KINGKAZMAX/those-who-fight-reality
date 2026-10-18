@@ -1,0 +1,34 @@
+[
+  {
+    "id": "V2-007",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/slow-module.png",
+    "originalPath": "docs/verification/public-loading-red/slow-module.png",
+    "nodeId": "71:15",
+    "cardId": "71:13",
+    "targetNodeId": "71:15"
+  },
+  {
+    "id": "V2-008",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/failed-module.png",
+    "originalPath": "docs/verification/public-loading-red/failed-module.png",
+    "nodeId": "71:19",
+    "cardId": "71:17",
+    "targetNodeId": "71:19"
+  },
+  {
+    "id": "V2-009",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/slow-module.png",
+    "originalPath": "docs/verification/public-loading-green/slow-module.png",
+    "nodeId": "71:23",
+    "cardId": "71:21",
+    "targetNodeId": "71:23"
+  },
+  {
+    "id": "V2-010",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/failed-module.png",
+    "originalPath": "docs/verification/public-loading-green/failed-module.png",
+    "nodeId": "71:27",
+    "cardId": "71:25",
+    "targetNodeId": "71:27"
+  }
+]

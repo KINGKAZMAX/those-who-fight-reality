@@ -1,0 +1,101 @@
+[
+  {
+    "index": 0,
+    "fileId": "LIVE-001",
+    "path": "docs/公開部署.md",
+    "part": 1,
+    "frameId": "63:2",
+    "textId": "63:4",
+    "headerId": "63:3",
+    "characters": 1779,
+    "exactText": true
+  },
+  {
+    "index": 1,
+    "fileId": "LIVE-002",
+    "path": "docs/verification/公開上線驗收.md",
+    "part": 1,
+    "frameId": "63:5",
+    "textId": "63:7",
+    "headerId": "63:6",
+    "characters": 1324,
+    "exactText": true
+  },
+  {
+    "index": 2,
+    "fileId": "LIVE-003",
+    "path": "docs/verification/public-live/report.json",
+    "part": 1,
+    "frameId": "63:8",
+    "textId": "63:10",
+    "headerId": "63:9",
+    "characters": 5995,
+    "exactText": true
+  },
+  {
+    "index": 3,
+    "fileId": "LIVE-003",
+    "path": "docs/verification/public-live/report.json",
+    "part": 2,
+    "frameId": "63:11",
+    "textId": "63:13",
+    "headerId": "63:12",
+    "characters": 5988,
+    "exactText": true
+  },
+  {
+    "index": 4,
+    "fileId": "LIVE-003",
+    "path": "docs/verification/public-live/report.json",
+    "part": 3,
+    "frameId": "63:14",
+    "textId": "63:16",
+    "headerId": "63:15",
+    "characters": 4942,
+    "exactText": true
+  },
+  {
+    "index": 5,
+    "fileId": "LIVE-003",
+    "path": "docs/verification/public-live/report.json",
+    "part": 4,
+    "frameId": "63:17",
+    "textId": "63:19",
+    "headerId": "63:18",
+    "characters": 5283,
+    "exactText": true
+  },
+  {
+    "index": 6,
+    "fileId": "LIVE-003",
+    "path": "docs/verification/public-live/report.json",
+    "part": 5,
+    "frameId": "63:20",
+    "textId": "63:22",
+    "headerId": "63:21",
+    "characters": 5455,
+    "exactText": true
+  },
+  {
+    "index": 7,
+    "fileId": "LIVE-003",
+    "path": "docs/verification/public-live/report.json",
+    "part": 6,
+    "frameId": "63:23",
+    "textId": "63:25",
+    "headerId": "63:24",
+    "characters": 5985,
+    "exactText": true
+  },
+  {
+    "index": 8,
+    "fileId": "LIVE-003",
+    "path": "docs/verification/public-live/report.json",
+    "part": 7,
+    "frameId": "63:26",
+    "textId": "63:28",
+    "headerId": "63:27",
+    "characters": 274,
+    "exactText": true
+  }
+]

@@ -1,0 +1,270 @@
+{
+  "pageId": "54:2",
+  "pages": [
+    {
+      "id": "36:14",
+      "name": "20261018 00 资产总览与版本记录"
+    },
+    {
+      "id": "15:99",
+      "name": "历史｜校园篇v0.4（原快照保留）"
+    },
+    {
+      "id": "0:1",
+      "name": "历史｜失物招领局与都市 UI v0.1–0.2"
+    },
+    {
+      "id": "36:15",
+      "name": "20261018 01 当前 / 完整逐帧图集"
+    },
+    {
+      "id": "36:16",
+      "name": "20261018 02 当前 / 单帧补图"
+    },
+    {
+      "id": "36:24",
+      "name": "20261018 10 技能表 / 校园与原版"
+    },
+    {
+      "id": "36:17",
+      "name": "20261018 03 当前 / 场景"
+    },
+    {
+      "id": "36:18",
+      "name": "20261018 04 历史 / 16姿态与身份参考"
+    },
+    {
+      "id": "36:19",
+      "name": "20261018 05 原版 / 角色武器特效"
+    },
+    {
+      "id": "36:20",
+      "name": "20261018 06 原版 / 背景图层"
+    },
+    {
+      "id": "36:21",
+      "name": "20261018 07 原版 / UI"
+    },
+    {
+      "id": "36:22",
+      "name": "20261018 08 参考 / 概念图"
+    },
+    {
+      "id": "36:23",
+      "name": "20261018 09 参考 / 原版动作模板"
+    },
+    {
+      "id": "36:25",
+      "name": "20261018 11 隐藏内容 / 代码与缺失清单"
+    },
+    {
+      "id": "36:26",
+      "name": "20261018 12 代码快照 / 实现与原数据"
+    },
+    {
+      "id": "36:27",
+      "name": "20261018 13 来源 / 提示词与验收"
+    },
+    {
+      "id": "44:194",
+      "name": "20261018 14 官方2.0a / 全角色与隐藏角色"
+    },
+    {
+      "id": "44:195",
+      "name": "20261018 15 官方2.0a / 武器特效与其他素材"
+    },
+    {
+      "id": "44:196",
+      "name": "20261018 16 官方2.0a / 背景全部图层"
+    },
+    {
+      "id": "44:197",
+      "name": "20261018 17 官方2.0a / 24角色技能与隐藏内容"
+    },
+    {
+      "id": "44:198",
+      "name": "20261018 18 官方2.0a / 解码数据快照"
+    },
+    {
+      "id": "51:60",
+      "name": "20261018 19 替换映射 / 原版→新美术"
+    },
+    {
+      "id": "54:2",
+      "name": "20261018 公開品牌與部署 v1"
+    },
+    {
+      "id": "54:3",
+      "name": "20261018 公開品牌源檔 v1"
+    }
+  ],
+  "oldPageCount": 22,
+  "allOldPagesRetained": true,
+  "images": [
+    {
+      "id": "PUBLIC-024",
+      "path": "docs/verification/public-release/about.png",
+      "nodeId": "54:15",
+      "cardId": "54:13",
+      "imageHash": "b267a358aa74e9f84eab7347fab90c56e3db1d27",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-025",
+      "path": "docs/verification/public-release/battle-skill-guide.png",
+      "nodeId": "54:19",
+      "cardId": "54:17",
+      "imageHash": "1f846ca55edc8ad2810bb70489c22d6d72b4ff40",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-026",
+      "path": "docs/verification/public-release/battle.png",
+      "nodeId": "54:23",
+      "cardId": "54:21",
+      "imageHash": "d07beb7ee4d394e91aed34ebd28eb78c9b596c98",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-027",
+      "path": "docs/verification/public-release/controls.png",
+      "nodeId": "54:27",
+      "cardId": "54:25",
+      "imageHash": "a2effd8c08976449359188e4a536dc0730ed3598",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-028",
+      "path": "docs/verification/public-release/home-1280x920.png",
+      "nodeId": "54:31",
+      "cardId": "54:29",
+      "imageHash": "3a8a0db87c9734e42a4b190c7779e59fabe70131",
+      "width": 1272,
+      "height": 914.25
+    },
+    {
+      "id": "PUBLIC-029",
+      "path": "docs/verification/public-release/home-390x844.png",
+      "nodeId": "54:35",
+      "cardId": "54:33",
+      "imageHash": "28bc7f2a53bf26f22cf8a3fd5dd613fec4363cbc",
+      "width": 612,
+      "height": 1324.4307861328125
+    },
+    {
+      "id": "PUBLIC-030",
+      "path": "docs/verification/public-release/home-700x600.png",
+      "nodeId": "54:39",
+      "cardId": "54:37",
+      "imageHash": "6d1fe1b3c09142155ad098ab6b2603e844e4536a",
+      "width": 612,
+      "height": 524.5714111328125
+    },
+    {
+      "id": "PUBLIC-031",
+      "path": "docs/verification/public-release/lobby.png",
+      "nodeId": "54:43",
+      "cardId": "54:41",
+      "imageHash": "378ea41505ba393705d4036f98b367d9ac7513ea",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-032",
+      "path": "docs/verification/public-release/paused-battle.png",
+      "nodeId": "54:47",
+      "cardId": "54:45",
+      "imageHash": "28f4cf38f6f92a75ed586200b19f4180a957d9d1",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-033",
+      "path": "docs/verification/public-release/shenzhou-six-skills-bottom.png",
+      "nodeId": "54:51",
+      "cardId": "54:49",
+      "imageHash": "ebf4ec485fba897ae55712537f5b8657d8e575d6",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-034",
+      "path": "docs/verification/public-release/shenzhou-six-skills.png",
+      "nodeId": "54:55",
+      "cardId": "54:53",
+      "imageHash": "b1f568d7ff9a9f40ed097e8a91eb696ced2407e8",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-035",
+      "path": "docs/verification/public-release/story-battle.png",
+      "nodeId": "54:59",
+      "cardId": "54:57",
+      "imageHash": "2c2018b6ba16d01e2cad86300cbec42aef509c2f",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "PUBLIC-036",
+      "path": "docs/verification/public-release/story-intro.png",
+      "nodeId": "54:63",
+      "cardId": "54:61",
+      "imageHash": "e124febb4e84ac06111c25726298c873cd90c397",
+      "width": 612,
+      "height": 439.875
+    },
+    {
+      "id": "LIVE-004",
+      "path": "docs/verification/public-live/home-1280x920.png",
+      "nodeId": "65:6",
+      "cardId": "65:2",
+      "imageHash": "3a8a0db87c9734e42a4b190c7779e59fabe70131",
+      "width": 1272,
+      "height": 914.25
+    }
+  ],
+  "allImagesFilled": true,
+  "textNodes": 41,
+  "allTextAutoHeight": true,
+  "overlaps": [],
+  "overflow": [],
+  "links": [
+    {
+      "id": "54:9",
+      "name": "線上體驗連結",
+      "link": {
+        "type": "URL",
+        "value": "https://kingkazmax.github.io/those-who-fight-reality/"
+      }
+    },
+    {
+      "id": "54:10",
+      "name": "原始碼連結",
+      "link": {
+        "type": "URL",
+        "value": "https://github.com/KINGKAZMAX/those-who-fight-reality"
+      }
+    },
+    {
+      "id": "54:12",
+      "name": "完整版本源檔連結",
+      "link": {
+        "type": "NODE",
+        "value": "54:3"
+      }
+    },
+    {
+      "id": "65:5",
+      "name": "正式網址",
+      "link": {
+        "type": "URL",
+        "value": "https://kingkazmax.github.io/those-who-fight-reality/"
+      }
+    }
+  ]
+}

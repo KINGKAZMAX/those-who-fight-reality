@@ -1,0 +1,167 @@
+{
+  "version": "2026-10-18-public-brand-v2",
+  "recordedAt": "2026-10-18T09:29:53.095471+00:00",
+  "status": "red/green verified; source and pages pushed; final live retest pending",
+  "sourceCommit": "2693b16c68b1b9c89e4c5323a16581420c7b0f2f",
+  "publishCommit": "e4e998026e0ace302aa22fec661a7feac450cc8c",
+  "playUrl": "https://kingkazmax.github.io/those-who-fight-reality/",
+  "changes": [
+    "game.js: RequireJS waitSeconds 120, shared failure UI, visible retry button and brand-2 cache key",
+    "game.html: data-main v2 cache tag",
+    "reality-art.js: action-data wait aligned to 120 seconds and Traditional Chinese error"
+  ],
+  "verification": {
+    "oldBuildRed": {
+      "passed": false,
+      "failedCases": 2
+    },
+    "newBuildGreen": {
+      "passed": true,
+      "passedCases": 2,
+      "pageErrors": 0
+    },
+    "slowModuleDelayMs": 10000,
+    "intentionalAbortConsoleErrors": "Expected network/RequireJS errors retained in evidence; this is not a zero-console-error claim",
+    "nodeUnitTests": 77,
+    "pythonUnitTests": 4
+  },
+  "records": [
+    {
+      "id": "V2-001",
+      "path": "vendor/F.LF/game/game.js",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/vendor/F.LF/game/game.js",
+      "sha256": "32986b9a007cd571e318032bdbe805349550a0e002b1f6f5dbd32b038ab6e481",
+      "bytes": 3057,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/vendor/F.LF/game/game.js",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "parts": 1
+    },
+    {
+      "id": "V2-002",
+      "path": "vendor/F.LF/game/game.html",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/vendor/F.LF/game/game.html",
+      "sha256": "da2640daf4b8070a20e0e235befccb6b9a342c41c31782f8092c497d18a2f8d1",
+      "bytes": 3914,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/vendor/F.LF/game/game.html",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "parts": 1
+    },
+    {
+      "id": "V2-003",
+      "path": "vendor/F.LF/game/reality-art.js",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/vendor/F.LF/game/reality-art.js",
+      "sha256": "b92bc2ff931dfdc1139d1ecbcb3650d6f4110fac222ac0e1699e2bdf9392302d",
+      "bytes": 21487,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/vendor/F.LF/game/reality-art.js",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "parts": 4
+    },
+    {
+      "id": "V2-004",
+      "path": "tools/verify_public_loading.cjs",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/tools/verify_public_loading.cjs",
+      "sha256": "6f8e2235d32da4e1279d708694ccd55617d1892f5dcb2a0d5f83741c71087a03",
+      "bytes": 4549,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/tools/verify_public_loading.cjs",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "parts": 1
+    },
+    {
+      "id": "V2-005",
+      "path": "docs/verification/public-loading-red/report.json",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/report.json",
+      "sha256": "563b374ac6dc8a097864bb58a86e7efbe2a39fe75a5466cae39db671321762fe",
+      "bytes": 2258,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/docs/verification/public-loading-red/report.json",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "parts": 1
+    },
+    {
+      "id": "V2-006",
+      "path": "docs/verification/public-loading-green/report.json",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/report.json",
+      "sha256": "bf4867674205da813d8841afff7fcea4ceb087056ccca009600164f4603af6df",
+      "bytes": 1805,
+      "encoding": "utf-8",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/docs/verification/public-loading-green/report.json",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "parts": 1
+    },
+    {
+      "id": "V2-007",
+      "path": "docs/verification/public-loading-red/slow-module.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/slow-module.png",
+      "sha256": "712434b26ecb43af4c6a464fc891f7b83432e06a5c1cb43a855df5aafea08ef4",
+      "bytes": 21819,
+      "encoding": "png",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/docs/verification/public-loading-red/slow-module.png",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "width": 1280,
+      "height": 920
+    },
+    {
+      "id": "V2-008",
+      "path": "docs/verification/public-loading-red/failed-module.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-red/failed-module.png",
+      "sha256": "712434b26ecb43af4c6a464fc891f7b83432e06a5c1cb43a855df5aafea08ef4",
+      "bytes": 21819,
+      "encoding": "png",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/docs/verification/public-loading-red/failed-module.png",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "width": 1280,
+      "height": 920
+    },
+    {
+      "id": "V2-009",
+      "path": "docs/verification/public-loading-green/slow-module.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/slow-module.png",
+      "sha256": "0ce9881e751489d5b40f1a1d99fee2c8a8c6e84d6171ddab96a2500c88b13305",
+      "bytes": 1285751,
+      "encoding": "png",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/docs/verification/public-loading-green/slow-module.png",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "width": 1280,
+      "height": 920
+    },
+    {
+      "id": "V2-010",
+      "path": "docs/verification/public-loading-green/failed-module.png",
+      "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/files/docs/verification/public-loading-green/failed-module.png",
+      "sha256": "24aa26f4e5a8a321888bf4fdf074c677ebe66d4f1381cdaa952c8df28c8a6df3",
+      "bytes": 28492,
+      "encoding": "png",
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/2693b16c68b1b9c89e4c5323a16581420c7b0f2f/docs/verification/public-loading-green/failed-module.png",
+      "source": "Current source and red/green regression evidence for public brand v2",
+      "reason": "Fix reproducible cold-start module timeouts and expose a visible retry action; preserve v1 unchanged",
+      "originalRelation": "Program code and QA evidence; no original official action data or artwork modified",
+      "width": 1280,
+      "height": 920
+    }
+  ],
+  "codeChunks": 9,
+  "userRequest": "全部更新到我github 部署上线在线体验，不要标注和lf2相关，繁體中英文格鬥字體與排版",
+  "previousVersion": "2026-10-18-public-brand-v1 (preserved unchanged)"
+}

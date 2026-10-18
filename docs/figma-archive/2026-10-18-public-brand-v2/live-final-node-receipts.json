@@ -1,0 +1,212 @@
+[
+  {
+    "fileId": "V2LIVE-001",
+    "path": "README.md",
+    "part": 1,
+    "frameId": "76:111",
+    "headerId": "76:112",
+    "textId": "76:113",
+    "exactText": true,
+    "characters": 1630
+  },
+  {
+    "fileId": "V2LIVE-002",
+    "path": "docs/公開部署.md",
+    "part": 1,
+    "frameId": "76:114",
+    "headerId": "76:115",
+    "textId": "76:116",
+    "exactText": true,
+    "characters": 1891
+  },
+  {
+    "fileId": "V2LIVE-003",
+    "path": "docs/verification/公開上線驗收.md",
+    "part": 1,
+    "frameId": "76:117",
+    "headerId": "76:118",
+    "textId": "76:119",
+    "exactText": true,
+    "characters": 1756
+  },
+  {
+    "fileId": "V2LIVE-004",
+    "path": "docs/verification/public-live/report.json",
+    "part": 1,
+    "frameId": "76:120",
+    "headerId": "76:121",
+    "textId": "76:122",
+    "exactText": true,
+    "characters": 5978
+  },
+  {
+    "fileId": "V2LIVE-004",
+    "path": "docs/verification/public-live/report.json",
+    "part": 2,
+    "frameId": "76:123",
+    "headerId": "76:124",
+    "textId": "76:125",
+    "exactText": true,
+    "characters": 5993
+  },
+  {
+    "fileId": "V2LIVE-004",
+    "path": "docs/verification/public-live/report.json",
+    "part": 3,
+    "frameId": "76:126",
+    "headerId": "76:127",
+    "textId": "76:128",
+    "exactText": true,
+    "characters": 5221
+  },
+  {
+    "fileId": "V2LIVE-004",
+    "path": "docs/verification/public-live/report.json",
+    "part": 4,
+    "frameId": "76:129",
+    "headerId": "76:130",
+    "textId": "76:131",
+    "exactText": true,
+    "characters": 5283
+  },
+  {
+    "fileId": "V2LIVE-004",
+    "path": "docs/verification/public-live/report.json",
+    "part": 5,
+    "frameId": "76:132",
+    "headerId": "76:133",
+    "textId": "76:134",
+    "exactText": true,
+    "characters": 5455
+  },
+  {
+    "fileId": "V2LIVE-004",
+    "path": "docs/verification/public-live/report.json",
+    "part": 6,
+    "frameId": "76:135",
+    "headerId": "76:136",
+    "textId": "76:137",
+    "exactText": true,
+    "characters": 5925
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 1,
+    "frameId": "76:138",
+    "headerId": "76:139",
+    "textId": "76:140",
+    "exactText": true,
+    "characters": 5950
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 2,
+    "frameId": "76:141",
+    "headerId": "76:142",
+    "textId": "76:143",
+    "exactText": true,
+    "characters": 5989
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 3,
+    "frameId": "76:144",
+    "headerId": "76:145",
+    "textId": "76:146",
+    "exactText": true,
+    "characters": 5995
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 4,
+    "frameId": "76:147",
+    "headerId": "76:148",
+    "textId": "76:149",
+    "exactText": true,
+    "characters": 5987
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 5,
+    "frameId": "76:150",
+    "headerId": "76:151",
+    "textId": "76:152",
+    "exactText": true,
+    "characters": 5994
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 6,
+    "frameId": "76:153",
+    "headerId": "76:154",
+    "textId": "76:155",
+    "exactText": true,
+    "characters": 5981
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 7,
+    "frameId": "76:156",
+    "headerId": "76:157",
+    "textId": "76:158",
+    "exactText": true,
+    "characters": 5997
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 8,
+    "frameId": "76:159",
+    "headerId": "76:160",
+    "textId": "76:161",
+    "exactText": true,
+    "characters": 5996
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 9,
+    "frameId": "76:162",
+    "headerId": "76:163",
+    "textId": "76:164",
+    "exactText": true,
+    "characters": 5984
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 10,
+    "frameId": "76:165",
+    "headerId": "76:166",
+    "textId": "76:167",
+    "exactText": true,
+    "characters": 5983
+  },
+  {
+    "fileId": "V2FINAL-001",
+    "path": "docs/verification/public-live/spawn-observation.json",
+    "part": 11,
+    "frameId": "76:168",
+    "headerId": "76:169",
+    "textId": "76:170",
+    "exactText": true,
+    "characters": 5037
+  },
+  {
+    "fileId": "V2FINAL-002",
+    "path": "docs/verification/公開上線驗收.md",
+    "part": 1,
+    "frameId": "76:171",
+    "headerId": "76:172",
+    "textId": "76:173",
+    "exactText": true,
+    "characters": 1996
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "V2FINAL-005",
+  "path": "docs/verification/public-live/visual-review.md",
+  "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/visual-review.md",
+  "bytes": 2160,
+  "sha256": "0cd4c731cb04b75a89a75d5863b8eed9965b08e3f89c97f1e72e48f909a60ecf",
+  "encoding": "utf-8",
+  "source": "Release acceptance agent final visual review",
+  "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/visual-review.md",
+  "reason": "Clarify observed renderer timing, natural battle occlusion and measured recovery blink without attributing all initial shadows to spawn blink"
+}

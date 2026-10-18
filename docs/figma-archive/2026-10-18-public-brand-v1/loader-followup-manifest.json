@@ -1,0 +1,16 @@
+{
+  "version": "2026-10-18-loader-followup-prevalidation",
+  "status": "prepared; not verified or deployed yet",
+  "sourcePath": "vendor/F.LF/game/game.js",
+  "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v1/loader-followup/vendor/F.LF/game/game.js",
+  "sha256": "32986b9a007cd571e318032bdbe805349550a0e002b1f6f5dbd32b038ab6e481",
+  "previousSha256": "cc00543b48a7b7a4aed44b3a65fdb2bd54d7859281afc12d17d9157128cc6963",
+  "recordedAt": "2026-10-18T09:24:31.814264+00:00",
+  "changes": [
+    "RequireJS waitSeconds 120",
+    "shared actionable loader error and retry button",
+    "brand-2 cache key"
+  ],
+  "reason": "Two fresh browser starts timed out after 7 seconds while loading remote static content",
+  "parts": 1
+}

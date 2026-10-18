@@ -1,0 +1,1041 @@
+{
+  "allExact": true,
+  "allLinks": true,
+  "parts": [
+    {
+      "index": 0,
+      "exactText": true,
+      "characters": 5981,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 1,
+      "exactText": true,
+      "characters": 5956,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 2,
+      "exactText": true,
+      "characters": 5998,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 3,
+      "exactText": true,
+      "characters": 5261,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 4,
+      "exactText": true,
+      "characters": 5823,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 5,
+      "exactText": true,
+      "characters": 5949,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 6,
+      "exactText": true,
+      "characters": 3040,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 7,
+      "exactText": true,
+      "characters": 5984,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 8,
+      "exactText": true,
+      "characters": 5999,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 9,
+      "exactText": true,
+      "characters": 5992,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 10,
+      "exactText": true,
+      "characters": 810,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 11,
+      "exactText": true,
+      "characters": 5986,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 12,
+      "exactText": true,
+      "characters": 5215,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 13,
+      "exactText": true,
+      "characters": 5983,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 14,
+      "exactText": true,
+      "characters": 5929,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 15,
+      "exactText": true,
+      "characters": 3292,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 16,
+      "exactText": true,
+      "characters": 3669,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 17,
+      "exactText": true,
+      "characters": 2707,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 18,
+      "exactText": true,
+      "characters": 45,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 19,
+      "exactText": true,
+      "characters": 5990,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 20,
+      "exactText": true,
+      "characters": 5564,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 21,
+      "exactText": true,
+      "characters": 2561,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 22,
+      "exactText": true,
+      "characters": 5946,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 23,
+      "exactText": true,
+      "characters": 4487,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 24,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 25,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 26,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 27,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 28,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 29,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 30,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 31,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 32,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 33,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 34,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 35,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 36,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 37,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 38,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 39,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 40,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 41,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 42,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 43,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 44,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 45,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 46,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 47,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 48,
+      "exactText": true,
+      "characters": 6000,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 49,
+      "exactText": true,
+      "characters": 124,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 50,
+      "exactText": true,
+      "characters": 4220,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 51,
+      "exactText": true,
+      "characters": 4377,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 52,
+      "exactText": true,
+      "characters": 4388,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 53,
+      "exactText": true,
+      "characters": 557,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 54,
+      "exactText": true,
+      "characters": 5970,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 55,
+      "exactText": true,
+      "characters": 5891,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 56,
+      "exactText": true,
+      "characters": 2024,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 57,
+      "exactText": true,
+      "characters": 135,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 58,
+      "exactText": true,
+      "characters": 1779,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 59,
+      "exactText": true,
+      "characters": 1569,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 60,
+      "exactText": true,
+      "characters": 538,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 61,
+      "exactText": true,
+      "characters": 70,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 62,
+      "exactText": true,
+      "characters": 667,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 63,
+      "exactText": true,
+      "characters": 5996,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 64,
+      "exactText": true,
+      "characters": 5980,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 65,
+      "exactText": true,
+      "characters": 4942,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 66,
+      "exactText": true,
+      "characters": 5283,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 67,
+      "exactText": true,
+      "characters": 5455,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    },
+    {
+      "index": 68,
+      "exactText": true,
+      "characters": 4961,
+      "width": 1152,
+      "height": 100,
+      "linkMatches": true,
+      "font": {
+        "family": "Noto Sans TC",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      }
+    }
+  ]
+}

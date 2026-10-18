@@ -1,0 +1,119 @@
+[
+  {
+    "id": "PUBLIC-024",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/about.png",
+    "originalPath": "docs/verification/public-release/about.png",
+    "nodeId": "54:15",
+    "cardId": "54:13",
+    "targetNodeId": "54:15",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-025",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/battle-skill-guide.png",
+    "originalPath": "docs/verification/public-release/battle-skill-guide.png",
+    "nodeId": "54:19",
+    "cardId": "54:17",
+    "targetNodeId": "54:19",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-026",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/battle.png",
+    "originalPath": "docs/verification/public-release/battle.png",
+    "nodeId": "54:23",
+    "cardId": "54:21",
+    "targetNodeId": "54:23",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-027",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/controls.png",
+    "originalPath": "docs/verification/public-release/controls.png",
+    "nodeId": "54:27",
+    "cardId": "54:25",
+    "targetNodeId": "54:27",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-028",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/home-1280x920.png",
+    "originalPath": "docs/verification/public-release/home-1280x920.png",
+    "nodeId": "54:31",
+    "cardId": "54:29",
+    "targetNodeId": "54:31",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-029",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/home-390x844.png",
+    "originalPath": "docs/verification/public-release/home-390x844.png",
+    "nodeId": "54:35",
+    "cardId": "54:33",
+    "targetNodeId": "54:35",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-030",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/home-700x600.png",
+    "originalPath": "docs/verification/public-release/home-700x600.png",
+    "nodeId": "54:39",
+    "cardId": "54:37",
+    "targetNodeId": "54:39",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-031",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/lobby.png",
+    "originalPath": "docs/verification/public-release/lobby.png",
+    "nodeId": "54:43",
+    "cardId": "54:41",
+    "targetNodeId": "54:43",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-032",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/paused-battle.png",
+    "originalPath": "docs/verification/public-release/paused-battle.png",
+    "nodeId": "54:47",
+    "cardId": "54:45",
+    "targetNodeId": "54:47",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-033",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/shenzhou-six-skills-bottom.png",
+    "originalPath": "docs/verification/public-release/shenzhou-six-skills-bottom.png",
+    "nodeId": "54:51",
+    "cardId": "54:49",
+    "targetNodeId": "54:51",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-034",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/shenzhou-six-skills.png",
+    "originalPath": "docs/verification/public-release/shenzhou-six-skills.png",
+    "nodeId": "54:55",
+    "cardId": "54:53",
+    "targetNodeId": "54:55",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-035",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/story-battle.png",
+    "originalPath": "docs/verification/public-release/story-battle.png",
+    "nodeId": "54:59",
+    "cardId": "54:57",
+    "targetNodeId": "54:59",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  },
+  {
+    "id": "PUBLIC-036",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v1/files/docs/verification/public-release/story-intro.png",
+    "originalPath": "docs/verification/public-release/story-intro.png",
+    "nodeId": "54:63",
+    "cardId": "54:61",
+    "targetNodeId": "54:63",
+    "uploadStatus": "consumed successfully; request fresh URL for any retry"
+  }
+]

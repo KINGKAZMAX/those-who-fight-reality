@@ -1,0 +1,375 @@
+{
+  "version": "2026-10-18-public-brand-v2-deployment-test-source",
+  "recordedAt": "2026-10-18T09:35:31.346381+00:00",
+  "scope": "Exact allowlist of deployment/test files supplied by root; no unrelated session archive assets",
+  "originalRelation": "Project F is a reimplementation; these are program/test sources and licenses, not unpublished original LF2 C++ code or original artwork",
+  "prompt": "Archive all current-task code changes in Figma, preserving historical versions",
+  "purpose": "Recoverable ZIP with per-file SHA-256 and provenance",
+  "sourceCommit": "2693b16c68b1b9c89e4c5323a16581420c7b0f2f; verification helper may be newer working-tree evidence",
+  "records": [
+    {
+      "path": "tools/verify_public_release.cjs",
+      "sha256": "b447408a70ea27108ee70985d61be933c9766bcb67b77c1a2b7b66a5a7daf196",
+      "bytes": 15439,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tools/verify_public_release.cjs",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "tools/verify_public_loading.cjs",
+      "sha256": "6f8e2235d32da4e1279d708694ccd55617d1892f5dcb2a0d5f83741c71087a03",
+      "bytes": 4549,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tools/verify_public_loading.cjs",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "tools/verify_public_spawn.cjs",
+      "sha256": "a3c0fcb4d2c92537d1edee876731d62072310803ef0b67e4a28d431414b5e3c5",
+      "bytes": 6258,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tools/verify_public_spawn.cjs",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "tools/serve_lf2.py",
+      "sha256": "cca0ab772a731e7a052173adce9c78fd98d808681e66bf4af617759b74baa258",
+      "bytes": 1940,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tools/serve_lf2.py",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "tests/test_static_release.py",
+      "sha256": "1d821714104902cf107d533645f2971da04afe93827d5c84a8fd9daeae54fe3e",
+      "bytes": 4721,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/test_static_release.py",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "tests/reality-coop.test.cjs",
+      "sha256": "cacfffd53a3e6baccf4068c79e859dd75d9a8d26601b88cf496f5a0eb1f22fec",
+      "bytes": 24003,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/reality-coop.test.cjs",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "tests/native-package.test.cjs",
+      "sha256": "be29c5a3e70225f5467677d259e48281128179aa11b47780b203ce415ec68d48",
+      "bytes": 2014,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/native-package.test.cjs",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "6ced744fdc2de2694d060598f9140cc2aa82c00919a3ccdfe06b17629e25cbd3",
+      "bytes": 109,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/.gitignore",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "10d10d43349f2d782aa84244cb771471e2d5ff25ffea318b4196b9ec0135df93",
+      "bytes": 1767,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/package-lock.json",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/LICENSE",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "713688573f4790bd492ab4198bd9ca124fe78e8be99c25ba0a1e4956009f0ac8",
+      "bytes": 1323,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/THIRD_PARTY_NOTICES.md",
+      "role": "deployment, verification or legal source; actual current task file snapshot"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/AI.js",
+      "sha256": "07f662bb3b457953a4994560367ffae46e260364be6087e9d87fa88e3acb1058",
+      "bytes": 5423,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/AI.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/background.js",
+      "sha256": "b3b98e639b976e9e7cd9234fdb522f1925a9cc7745fad1d7d3d16365313c59e9",
+      "bytes": 10832,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/background.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/character.js",
+      "sha256": "043a91da9d3a60a09cf48e7fe92c9dde60ae0b83ce097267137944c28fdb8176",
+      "bytes": 71003,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/character.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/effect.js",
+      "sha256": "e9f055c352a935bdef88b67e8645f93177f4f891da4218e5eddb8ccaccef717a",
+      "bytes": 5218,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/effect.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/factories.js",
+      "sha256": "2045d7c550bdc463f768141a0acfa1adc0fe1999efaab384a43e729f456f1239",
+      "bytes": 788,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/factories.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/global.js",
+      "sha256": "620b22fdfab19351ff1d38a55a1444e45c68b239825e140cb34585b92f7e70b1",
+      "bytes": 6729,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/global.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/livingobject.js",
+      "sha256": "e4a71aea49c76ab58a43529c7cd7005efab8215ffe93c0dd519c528a185c9fd7",
+      "bytes": 19565,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/livingobject.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/loader-config.js",
+      "sha256": "4fa55d37721cc116a1f123c671890367faeb0ad7c7e829328336d58c9ab10cad",
+      "bytes": 395,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/loader-config.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/loader.js",
+      "sha256": "cb6eb9ecae56f2d5ff78358014b8a71ecd7e63821a23b4b3fba5fc79c56c00a2",
+      "bytes": 5659,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/loader.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/manager.js",
+      "sha256": "8d54870ff8c27c3ede2c1e48b2af2b32c23f2dbcf759018da66d0250baf41f99",
+      "bytes": 70600,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/manager.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/match.js",
+      "sha256": "ae8735acc7a166cc16faff4b228fd06f0025e0bc45a28d569a770799f664b3c4",
+      "bytes": 26162,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/match.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/mechanics.js",
+      "sha256": "7d514199f2c36ec7123e8d4593713d2cee2d88643a1868fa264937406e973e44",
+      "bytes": 10968,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/mechanics.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/network.js",
+      "sha256": "76e5ccb64d673a855c83abb946bba209bec0cdec287153c8e36d8685adf29249",
+      "bytes": 5128,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/network.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/scene.js",
+      "sha256": "4572007f63a1ec2712882a71f3498b70e3036e72a886ac12504a6bdbe3421d68",
+      "bytes": 4743,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/scene.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/soundpack.js",
+      "sha256": "86bfb01f941c68d78aade33bbd47ea5c37984f11465844121ae63ab947f043b0",
+      "bytes": 7120,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/soundpack.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/specialattack.js",
+      "sha256": "d9df9e06e720579108537fc954981c71bf8fba492cdb003ecb3822d4038048b6",
+      "bytes": 15554,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/specialattack.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/sprite-select.js",
+      "sha256": "2611f344920865681810c0c015192e28ffb78ff5e9f8f545fb4140c641b8f473",
+      "bytes": 98,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/sprite-select.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/sprite.js",
+      "sha256": "f45fb2f71592a090e7747feb00c0b4fcd943f778dbd96082053d7c9e3d3fcfcb",
+      "bytes": 3713,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/sprite.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/touchcontroller.js",
+      "sha256": "e6e55e91ea3881604e01cba5b1c02865c86551508893b176611ef4d7affa47a4",
+      "bytes": 7107,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/touchcontroller.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/util.js",
+      "sha256": "e6b6bd8a3c91bb555dc938c6c13f86ffbe799c8986b9939daf4747ee13f7d70c",
+      "bytes": 5318,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/util.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LF/weapon.js",
+      "sha256": "f0b28ae6b07b2a6177560353e5ac2c48fda0d09b3d522c7dc16fe9e080440449",
+      "bytes": 15159,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LF/weapon.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/LICENSE",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/README.md",
+      "sha256": "09e7b8f10e2dba260b55f81c1f67b516337d6cedde4ceba5696cb18b83f2c512",
+      "bytes": 1018,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/README.md",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/animator.js",
+      "sha256": "15ed4621594d504a44a7fa6ca657205b6ca6c6cf72771626a02f08ab901f94a1",
+      "bytes": 5425,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/animator.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/collision.js",
+      "sha256": "9b2b8784e64f3b537e98d15b08b95241f310c3dfece4a19a91db6ece423e5f83",
+      "bytes": 4958,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/collision.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/combodec.js",
+      "sha256": "fff2f00c97ea5c9c03a315c9e79be11dab2b6ce4a7f6f91a7ecdcade916e0fe8",
+      "bytes": 5042,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/combodec.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/controller-changer.js",
+      "sha256": "c22b8c940f6d00f3817af79996dd7dea00fbf196e52a987ab0fa904782739e7b",
+      "bytes": 3059,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/controller-changer.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/controller-recorder.js",
+      "sha256": "c150c438eb09edcd3980f79a3a50b21aa363444211d872bffff6ad065484ff9d",
+      "bytes": 3163,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/controller-recorder.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/controller.js",
+      "sha256": "050cd978431e3ab9f95ad36af0cf1bebd595cee2705dae16269b3ea6242d77a6",
+      "bytes": 8485,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/controller.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/css-build.js",
+      "sha256": "bdd864c25692c22ddf8db2cb766f7ae9c0bad5b715c33b1a8c6f31f326a56e73",
+      "bytes": 2064,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/css-build.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/css.js",
+      "sha256": "cc6d8e294a12835689a039c2b01eaa9a7d8d57e457a9db88e27ccbe8110fa6e1",
+      "bytes": 848,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/css.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/effects-pool.js",
+      "sha256": "052de69f23ca4c8be3600114d806ddb7faf6ae89fa60392e953e7a77dfd8ba6d",
+      "bytes": 8006,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/effects-pool.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/math.js",
+      "sha256": "bf1d54445d4a49d73dc44539112092a55c47e7eb215552f1fd4f8b495dc30341",
+      "bytes": 5099,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/math.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/network.js",
+      "sha256": "ac40e83a192b62556d818e2f845dfd5c00a2e4deea7ad69f1f887129f7e0e986",
+      "bytes": 6427,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/network.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/resourcemap.js",
+      "sha256": "111e639f4a609fb4c745466db5657bc6929a62316b89865a7f8f1b81e3f34cf9",
+      "bytes": 4098,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/resourcemap.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/sprite-canvas.js",
+      "sha256": "aeb889b62ac7cc3f5a854d9ac247204aebe35faaabb93bc2d2c9fc2638790404",
+      "bytes": 10011,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/sprite-canvas.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/sprite-dom.js",
+      "sha256": "9d1537a0e77e95d12b032ba705a813bc82e04474bcde0da803b75ab1b449e114",
+      "bytes": 12241,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/sprite-dom.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/sprite.js",
+      "sha256": "2a8d49cf158025b7dbff96e56244e585e59e672fd2d5b87364b185f78fe7e3f9",
+      "bytes": 6749,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/sprite.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/support.js",
+      "sha256": "bc89cc6ad07a069a3c61f2bed4e28359d1a7b5de695c1ff56eb100d42a3609f7",
+      "bytes": 4998,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/support.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/core/util.js",
+      "sha256": "e2e59a88995cd72cdc8852b0f4d242bbd636508bede612de4be34d6d33646725",
+      "bytes": 7458,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/core/util.js",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    },
+    {
+      "path": "tests/fixtures/upstream/manifest.json",
+      "sha256": "24013165754c801e3684084ebd5f7f5c28de987743eaaac4659e17f5a87bfe49",
+      "bytes": 5453,
+      "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/tests/fixtures/upstream/manifest.json",
+      "role": "fixed upstream test baseline; Project F commit 21341737e4154d06d9784e9a629c9dd4db9148d6"
+    }
+  ]
+}

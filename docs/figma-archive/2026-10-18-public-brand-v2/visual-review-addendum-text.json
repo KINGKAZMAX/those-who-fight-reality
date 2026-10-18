@@ -1,0 +1,12 @@
+{
+  "id": "V2FINAL-005",
+  "path": "docs/verification/public-live/visual-review.md",
+  "snapshotPath": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/visual-review.md",
+  "bytes": 2160,
+  "sha256": "0cd4c731cb04b75a89a75d5863b8eed9965b08e3f89c97f1e72e48f909a60ecf",
+  "encoding": "utf-8",
+  "source": "Release acceptance agent final visual review",
+  "sourceUrl": "https://github.com/KINGKAZMAX/those-who-fight-reality/blob/main/docs/verification/public-live/visual-review.md",
+  "reason": "Clarify observed renderer timing, natural battle occlusion and measured recovery blink without attributing all initial shadows to spawn blink",
+  "text": "# 公開網址驗收\n\n2026-10-18，使用隔離 Chromium 從正式網址重新載入。\n\n- 正式入口：`https://kingkazmax.github.io/those-who-fight-reality/`。\n- 實際載入 `game.js?v=20261018-public-brand-2`，RequireJS `waitSeconds` 為 120。\n- `report.json`：25 項通過，0 頁面例外、0 主控台錯誤、0 資源失敗。涵蓋中英標題、兩個展示字型、三種視窗尺寸、6 位角色／5 張場景／27 招、雙人實際按鍵、暫停、技能表及故事入口。\n- 已檢視正式站首頁與後續戰鬥截圖。完整標題未截斷。\n\n## 未修改戰鬥狀態的持續觀察\n\n以唐梨、沈舟和三種混合怪物進入教室，保留全部 AI、隨機道具與原本出生位置，不修改遊戲內任何數值。\n\n| 觀察點 | 遊戲 tick | 顯示 FPS | 結果 |\n|---|---:|---|---|\n| 初始 | 5 | 0 FPS | 初始 FPS 計數尚未更新；五者圖集皆已解碼、blink=false |\n| 等候 6.5 秒 | 203 | 30 FPS | 全部圖集尺寸正常，遊戲持續推進 |\n| 約 10 秒 | 317 | 30 FPS | 玩家受擊、怪物移動與正常人物圖像可見 |\n| 暫停於約 11 秒 | 332 | 30 FPS（暫停前） | 沈舟剛起身，blink=true、hidden=true，符合原生恢復閃爍 |\n\n已實際檢視 `battle-after-spawn.png`、`battle-after-ten-seconds.png`、`battle-after-spawn-paused.png`。五個角色／怪物跨畫面均確實繪出，沒有持續缺圖；自然戰鬥中有人位於畫布邊界，或被其他人物／道具遮擋。\n\n不能僅根據最早 `00:00 / 0 FPS` 的影子截圖判定永久缺圖，也不能把所有初始影子都歸因於出生閃爍：此次初始讀值為 blink=false；暫停時沈舟的起身閃爍則有明確狀態證據。完整逐次讀值見 `spawn-observation.json`。\n\n## 冷載入回歸\n\n先前公開冷載入發現 AMD 預設 7 秒逾時。在本地發布包用單一資料模組延遲 10 秒可重現，強制中止模組也會留下沒有重試按鈕的載入畫面。修復後兩個同樣情境均通過：延遲模組能進首頁，失敗模組會顯示可按的「重新集合」。紅、綠證據分別存於 `../public-loading-red/` 與 `../public-loading-green/`。\n"
+}

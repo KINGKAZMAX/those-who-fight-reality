@@ -1,0 +1,39 @@
+[
+  {
+    "cardId": "74:2",
+    "nodeId": "74:7",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v2/live-confirmed/docs/verification/public-live/home-1280x920.png",
+    "originalPath": "docs/verification/public-live/home-1280x920.png",
+    "id": "V2LIVE-005",
+    "createdNodeIds": [
+      "74:2",
+      "74:3",
+      "74:4",
+      "74:5",
+      "74:6",
+      "74:7",
+      "74:8"
+    ],
+    "targetNodeId": "74:7"
+  },
+  {
+    "id": "V2FINAL-003",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/battle-after-spawn.png",
+    "originalPath": "docs/verification/public-live/battle-after-spawn.png",
+    "cardId": "75:2",
+    "nodeId": "75:4",
+    "headerId": "75:3",
+    "textId": "75:5",
+    "targetNodeId": "75:4"
+  },
+  {
+    "id": "V2FINAL-004",
+    "path": "docs/figma-archive/2026-10-18-public-brand-v2/final-confirmed/docs/verification/public-live/battle-after-spawn-paused.png",
+    "originalPath": "docs/verification/public-live/battle-after-spawn-paused.png",
+    "cardId": "75:6",
+    "nodeId": "75:8",
+    "headerId": "75:7",
+    "textId": "75:9",
+    "targetNodeId": "75:8"
+  }
+]
