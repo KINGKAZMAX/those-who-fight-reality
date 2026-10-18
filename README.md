@@ -36,7 +36,7 @@
 需要 Python 3.10+；程式測試需要 Node.js 20+。
 
 ```sh
-python3 tools/serve_lf2.py --open
+python3 tools/serve_game.py --open
 ```
 
 製作公開版本：
@@ -53,6 +53,8 @@ python3 -m unittest discover -s tests -p 'test_static_release.py'
 ```
 
 瀏覽器驗收可使用 `npm install`、`npx playwright install chromium`，再執行 `GAME_TEST_URL="網址" node tools/verify_public_release.cjs`。
+
+目前公開版本的提交、實機畫面及測試範圍見 [公開上線驗收](docs/verification/公開上線驗收.md)。
 
 ## 專案內容
 

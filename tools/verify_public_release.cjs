@@ -58,7 +58,7 @@ const report = { passed: false, url, startedAt: new Date().toISOString(), checks
   }
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 })
-    await page.waitForFunction(() => window.realityGame?.skillsUI && !document.querySelector('#reality-loading'), null, { timeout: 90000 })
+    await page.waitForFunction(() => window.realityGame?.skillsUI && !document.querySelector('#reality-loading'), null, { timeout: 180000 })
     await page.evaluate(() => document.fonts.ready)
     assert.equal(await page.title(), title + ' | ' + english)
     assert.equal((await page.locator('.reality-wordmark').textContent()).replace(/\s/g, ''), title)
@@ -71,7 +71,8 @@ const report = { passed: false, url, startedAt: new Date().toISOString(), checks
     }))
     for (const name of ['Reality Display TC', 'Reality Fight']) assert(fonts.loaded.some(f => f.family === name && f.status === 'loaded'), 'bundled font must load: ' + name)
     assert.match(fonts.chinese, /Reality Display TC/); assert.match(fonts.english, /Reality Fight/)
-    check('bilingual title and both bundled display fonts load', { title: await page.title(), finalURL: page.url(), fonts })
+    const loader = await page.evaluate(() => ({ waitSeconds: requirejs.s.contexts._.config.waitSeconds, mainScript: document.querySelector('script[data-main]')?.getAttribute('data-main'), gameScripts: performance.getEntriesByType('resource').filter(r => /\/game\.js/.test(r.name)).map(r => r.name) }))
+    check('bilingual title and both bundled display fonts load', { title: await page.title(), finalURL: page.url(), fonts, loader })
     const metadata = await page.evaluate(() => ({ heroes: window.realityGame.heroes.map(h => ({ id: h.id, name: h.name, skills: window.realityGame.skills.getSkills(h.id).length })), stages: window.realityGame.stages.map(s => ({ id: s.id, name: s.name })), monsters: window.realityGame.monsters.map(m => ({ id: m.id, name: m.name })), animation: JSON.parse(window.render_game_to_text()).animation }))
     assert.deepEqual(metadata.heroes.map(h => h.id), [11, 2, 8, 4, 9, 10])
     assert.equal(metadata.stages.length, 5)

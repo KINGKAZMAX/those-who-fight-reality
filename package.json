@@ -4,7 +4,7 @@
   "private": true,
   "description": "與名為現實的怪物戰鬥的人們 — THOSE WHO FIGHT THE MONSTER CALLED REALITY",
   "scripts": {
-    "start": "python3 tools/serve_lf2.py --open",
+    "start": "python3 tools/serve_game.py --open",
     "build": "python3 tools/build_site.py --base-path /those-who-fight-reality/ --source-url https://github.com/KINGKAZMAX/those-who-fight-reality",
     "test": "node --test tests/*.test.cjs",
     "test:release": "node tools/verify_public_release.cjs"

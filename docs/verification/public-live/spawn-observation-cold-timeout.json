@@ -1,0 +1,9 @@
+{
+  "url": "https://kingkazmax.github.io/those-who-fight-reality/",
+  "errors": [
+    "Load timeout for modules: ../content/data/bandit,../content/data/deep,../content/data/john,../content/data/henry,../content/data/rudolf,../content/data/louis,../content/data/firen,../content/data/freeze,../content/data/dennis,../content/data/woody,../content/data/davis,../content/data/john_ball,../content/data/henry_arrow1,../content/data/rudolf_weapon,../content/data/deep_ball,../content/data/henry_louis_rudolf_wind,../content/data/dennis_ball,../content/data/woody_ball,../content/data/davis_ball,../content/data/henry_arrow2,../content/data/freeze_ball,../content/data/firen_ball,../content/data/firen_flame,../content/data/freeze_column,../content/data/john_biscuit,../content/data/dennis_chase,../content/bg/hkc/bg,../content/bg/sp/bg,../content/bg/cuhk/bg\nhttp://requirejs.org/docs/errors.html#timeout"
+  ],
+  "responses": [],
+  "samples": [],
+  "failure": "page.waitForFunction: Timeout 90000ms exceeded.\n    at /private/tmp/public-spawn-inspect.cjs:13:14"
+}
